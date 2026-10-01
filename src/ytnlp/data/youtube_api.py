@@ -6,7 +6,7 @@ Mejora el dataset de Kaggle en tres frentes:
 3. Fecha de extracción en cada fila, para construir series de tiempo y medir drift.
 
 Costo de cuota (unidades): videos.list = 1, channels.list = 1, commentThreads.list = 1 por página.
-Se evita search.list (100 unidades) partiendo de una lista conocida de Video IDs.
+Se evita search.list (limitado a 100 llamadas diarias) partiendo de una lista conocida de Video IDs.
 
 Uso:
     python -m ytnlp.data.youtube_api --from-kaggle

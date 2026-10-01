@@ -1,15 +1,15 @@
 # Taller Semana 7 – Proyecto Estadísticas de YouTube (etapa de datos)
 
-Guía de cómo cada pregunta del taller se resuelve en este repositorio. El documento completo del taller (objetivos, agenda y rúbrica) está en el Claude Doc compartido por el docente.
+Guía de cómo cada pregunta del taller se resuelve en este repositorio. El enunciado completo del taller (objetivos, agenda y rúbrica) es el documento entregado por el docente.
 
 ## Entorno de trabajo
 
-Todo el taller se hace en **Google Colab**, abriendo `notebooks/00_colab_inicio.ipynb` desde GitHub. El código vive en GitHub, los datos y reportes en Google Drive y las credenciales en los Secretos de Colab. El detalle está en la sección *Entorno de desarrollo* del README.
+Todo el taller se hace en **Google Colab**, abriendo `notebooks/00_colab_inicio.ipynb` desde GitHub. El código vive en GitHub, los datos y reportes en Google Drive y las credenciales en los Secretos de Colab. El paso a paso completo, con explicaciones y lecturas, está en [`guia_paso_a_paso.md`](guia_paso_a_paso.md).
 
 Checklist del equipo antes de la sesión:
 
-- [ ] Repositorio subido a GitHub y `<usuario>` reemplazado en los notebooks y en el README.
-- [ ] Cuenta de Kaggle con token de API (`KAGGLE_USERNAME`, `KAGGLE_KEY`).
+- [ ] Repositorio del equipo creado a partir de la plantilla del curso.
+- [ ] Cuenta de Kaggle con token de API (`KAGGLE_API_TOKEN`).
 - [ ] Proyecto en Google Cloud con la YouTube Data API v3 habilitada y una API key (`YOUTUBE_API_KEY`).
 - [ ] Secretos creados en Colab con *Acceso del notebook* activado.
 - [ ] Carpeta compartida en Google Drive para el equipo.

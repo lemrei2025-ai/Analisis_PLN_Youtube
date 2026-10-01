@@ -9,6 +9,6 @@ requests>=2.31
 python-dotenv>=1.0
 emoji>=2.10
 matplotlib>=3.8
-kaggle>=1.6
+kagglehub>=1.0
 pytest>=8
 ruff>=0.4

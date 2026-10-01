@@ -19,7 +19,7 @@ from pathlib import Path
 
 from ytnlp.config import ROOT
 
-SECRETS = ("YOUTUBE_API_KEY", "KAGGLE_USERNAME", "KAGGLE_KEY", "GITHUB_TOKEN")
+SECRETS = ("KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY", "YOUTUBE_API_KEY", "GITHUB_TOKEN")
 DEFAULT_DRIVE_FOLDER = "MyDrive/ytnlp-proyecto"
 
 
@@ -35,7 +35,7 @@ def in_colab() -> bool:
 def load_secrets(names: tuple[str, ...] = SECRETS) -> dict[str, bool]:
     """Carga credenciales en variables de entorno. Devuelve cuáles se encontraron (sin valores).
 
-    En Colab: panel izquierdo → 🔑 Secretos → agregar el nombre y el valor, y activar
+    En Colab: panel izquierdo → Secretos → agregar el nombre y el valor, y activar
     "Acceso del notebook". Localmente: archivo `.env` (ver `.env.example`).
     """
     found: dict[str, bool] = {}

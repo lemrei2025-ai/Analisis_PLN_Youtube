@@ -43,31 +43,33 @@ Proyecto 1 del curso de Procesamiento de Lenguaje Natural. El objetivo final es 
 ├── .github/workflows/
 │   ├── ci.yml                   # pruebas + pipeline sobre la muestra
 │   └── extract.yml              # extracción diaria programada con la API
-└── docs/taller_semana7.md
+└── docs/
+    ├── guia_paso_a_paso.md      # guía para estudiantes
+    └── taller_semana7.md        # preguntas del taller y matriz de mejoras
 ```
 
 ## Entorno de desarrollo: Google Colab + GitHub + Google Drive
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<usuario>/youtube-stats-nlp/blob/main/notebooks/00_colab_inicio.ipynb)
+**La guía completa para estudiantes, paso a paso y con lecturas de consulta, está en [`docs/guia_paso_a_paso.md`](docs/guia_paso_a_paso.md).**
 
-El proyecto se desarrolla en **Google Colab**: nadie necesita instalar nada en su computador. Como una sesión de Colab es temporal (el disco se borra al desconectarse), cada pieza vive donde no se pierde:
+El proyecto se desarrolla en **Google Colab**, sin instalaciones locales. Como una sesión de Colab es temporal (el disco se borra al desconectarse), cada pieza vive donde no se pierde:
 
 | Componente | Herramienta | Qué guarda o hace |
 | --- | --- | --- |
 | Cómputo y notebooks | Google Colab (CPU basta en esta etapa) | Ejecuta el pipeline, el EDA y los análisis |
 | Código | GitHub | Versiona `src/`, configuración y notebooks; corre la CI y la extracción diaria (GitHub Actions) |
 | Datos y reportes | Google Drive (`MyDrive/ytnlp-proyecto/`) | `data/raw`, `data/interim`, `data/processed`, `reports/` persisten entre sesiones |
-| Credenciales | Secretos de Colab (🔑) y GitHub Secrets | `KAGGLE_USERNAME`, `KAGGLE_KEY`, `YOUTUBE_API_KEY`, `GITHUB_TOKEN`; nunca en el código |
+| Credenciales | Secretos de Colab y GitHub Secrets | `KAGGLE_API_TOKEN`, `YOUTUBE_API_KEY`, `GITHUB_TOKEN`; nunca en el código |
 | Despliegue (etapas siguientes) | Nube (ej. Cloud Run, Hugging Face Spaces) | API o interfaz del modelo y su monitoreo |
 
 **Flujo de trabajo en Colab**
 
-1. Subir este repositorio a GitHub (una vez) y reemplazar `<usuario>` en los enlaces y en la celda 1 de los notebooks.
-2. Abrir `notebooks/00_colab_inicio.ipynb` con el botón *Abrir en Colab*.
-3. Crear los secretos en el panel 🔑 de Colab y activar *Acceso del notebook*.
-4. Ejecutar las celdas 1 y 2: clonan el repo en `/content`, instalan solo lo que falta (`requirements-colab.txt`), montan Drive y cargan los secretos.
+1. Crear el repositorio del equipo a partir de la plantilla del curso (*Use this template*).
+2. En Colab: *Archivo → Abrir notebook → GitHub* y elegir `notebooks/00_colab_inicio.ipynb` del repositorio del equipo.
+3. Crear los secretos en el panel *Secretos* de Colab y activar *Acceso del notebook*.
+4. Escribir la URL del repositorio en el campo `REPO_URL` de la celda 1 y ejecutar las celdas 1 y 2: clonan el repo en `/content`, instalan solo lo que falta (`requirements-colab.txt`), montan Drive y cargan los secretos.
 5. Ejecutar el pipeline con la muestra, luego con Kaggle y luego con la API. Los reportes quedan en Drive.
-6. Si cambió código, subirlo con la celda 7 (`git_push`) o con *Archivo → Guardar una copia en GitHub* para notebooks.
+6. Si se modificó código, subirlo con la celda 7 (`git_push`) o con *Archivo → Guardar una copia en GitHub* para notebooks.
 
 Al volver otro día solo se repiten las celdas 1 y 2. La variable de entorno `YTNLP_STORAGE` (la fija `ytnlp.colab.setup()`) indica dónde guardar datos y reportes; si no existe, se usan carpetas dentro del repositorio, por lo que todo también funciona en un computador local.
 
@@ -83,7 +85,7 @@ make sample
 make pipeline SOURCE=sample
 
 # 2) Con el dataset real de Kaggle
-#    Requiere ~/.kaggle/kaggle.json (https://www.kaggle.com/settings -> API)
+#    Requiere KAGGLE_API_TOKEN en .env (https://www.kaggle.com/settings/api)
 make pipeline SOURCE=kaggle
 
 # 3) Ampliar con la YouTube Data API v3
@@ -105,7 +107,7 @@ Los reportes quedan en `reports/`:
 
 **Kaggle – YouTube Statistics** (`advaypatil/youtube-statistics`): `videos-stats.csv` (título, Video ID, fecha, keyword, likes, comments, views) y `comments.csv` (Video ID, comentario, likes, sentimiento 0/1/2). Las columnas se normalizan a `snake_case` en `kaggle_source.py`.
 
-**YouTube Data API v3**: `videos.list` (estadísticas, duración, categoría, tags), `commentThreads.list` (hasta N comentarios por video) y `channels.list` (suscriptores). Cada llamada `list` cuesta 1 unidad de cuota; `search.list` cuesta 100, por eso el extractor parte de una lista de Video IDs y no de búsquedas. La cuota diaria por defecto es 10.000 unidades (verificar en Google Cloud Console).
+**YouTube Data API v3**: `videos.list` (estadísticas, duración, categoría, tags), `commentThreads.list` (hasta N comentarios por video) y `channels.list` (suscriptores). Cada una de estas llamadas cuesta 1 unidad de cuota y la cuota diaria por defecto es 10.000 unidades. `search.list` tiene además un límite propio de 100 llamadas diarias, por eso el extractor parte de una lista de Video IDs y no de búsquedas ([costos de cuota](https://developers.google.com/youtube/v3/determine_quota_cost)).
 
 Cada extracción se guarda en `data/raw/api/<YYYY-MM-DD>/` en Parquet con la fecha de extracción, lo que permite construir series de tiempo y medir *drift*.
 

@@ -80,3 +80,30 @@ def test_storage_env_redirects_data(tmp_path, monkeypatch):
     assert path("reports").is_relative_to(tmp_path)
     assert path("raw").is_relative_to(tmp_path)
     assert path("sample").is_relative_to(ROOT)
+
+
+def test_kaggle_download_copies_files(tmp_path, monkeypatch):
+    """La descarga usa kagglehub y copia los CSV aunque vengan en subcarpetas."""
+    import types
+
+    from ytnlp.data import kaggle_source
+
+    cache = tmp_path / "cache" / "versions" / "1"
+    cache.mkdir(parents=True)
+    (cache / "videos-stats.csv").write_text("a\n1\n")
+    (cache / "comments.csv").write_text("b\n2\n")
+    fake = types.SimpleNamespace(dataset_download=lambda handle: str(tmp_path / "cache"))
+    monkeypatch.setitem(sys.modules, "kagglehub", fake)
+    dest = kaggle_source.download(tmp_path / "raw")
+    assert (dest / "videos-stats.csv").exists() and (dest / "comments.csv").exists()
+
+
+def test_kaggle_credentials_detection(monkeypatch, tmp_path):
+    from ytnlp.data.kaggle_source import has_credentials
+
+    monkeypatch.setenv("HOME", str(tmp_path))
+    for v in ("KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY"):
+        monkeypatch.delenv(v, raising=False)
+    assert not has_credentials()
+    monkeypatch.setenv("KAGGLE_API_TOKEN", "x")
+    assert has_credentials()

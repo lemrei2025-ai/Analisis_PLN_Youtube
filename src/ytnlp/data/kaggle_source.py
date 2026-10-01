@@ -10,6 +10,8 @@ Todo el proyecto trabaja con el esquema canónico en snake_case definido aquí.
 from __future__ import annotations
 
 import logging
+import os
+import shutil
 from pathlib import Path
 
 import pandas as pd
@@ -35,19 +37,38 @@ COMMENT_COLUMNS = {
 }
 
 
+def has_credentials() -> bool:
+    """True si hay credenciales de Kaggle: token nuevo o par usuario/clave heredado."""
+    return bool(
+        os.getenv("KAGGLE_API_TOKEN")
+        or (os.getenv("KAGGLE_USERNAME") and os.getenv("KAGGLE_KEY"))
+        or (Path.home() / ".kaggle" / "kaggle.json").exists()
+        or (Path.home() / ".kaggle" / "access_token").exists()
+    )
+
+
 def download(dest: Path | None = None) -> Path:
-    """Descarga el dataset con la API de Kaggle (requiere ~/.kaggle/kaggle.json)."""
+    """Descarga el dataset con kagglehub y copia los CSV a data/raw/kaggle.
+
+    Credenciales aceptadas (en este orden): KAGGLE_API_TOKEN (token nuevo de
+    kaggle.com/settings/api), KAGGLE_USERNAME + KAGGLE_KEY o ~/.kaggle/kaggle.json (heredadas).
+    En Colab, kagglehub también las lee directamente de los Secretos.
+    """
     cfg = load_config()["kaggle"]
     dest = dest or path("raw") / "kaggle"
     dest.mkdir(parents=True, exist_ok=True)
-    if (dest / cfg["videos_file"]).exists() and (dest / cfg["comments_file"]).exists():
+    files = (cfg["videos_file"], cfg["comments_file"])
+    if all((dest / f).exists() for f in files):
         log.info("Dataset de Kaggle ya presente en %s", dest)
         return dest
-    from kaggle.api.kaggle_api_extended import KaggleApi  # import tardío: requiere credenciales
+    import kagglehub  # import tardío: solo se necesita al descargar
 
-    api = KaggleApi()
-    api.authenticate()
-    api.dataset_download_files(cfg["dataset"], path=str(dest), unzip=True)
+    cache = Path(kagglehub.dataset_download(cfg["dataset"]))
+    for f in files:
+        found = next(cache.rglob(f), None)
+        if found is None:
+            raise FileNotFoundError(f"{f} no está en la descarga de {cfg['dataset']}")
+        shutil.copy2(found, dest / f)
     log.info("Dataset descargado en %s", dest)
     return dest
 
