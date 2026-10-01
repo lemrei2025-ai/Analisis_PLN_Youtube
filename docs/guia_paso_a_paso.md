@@ -294,7 +294,7 @@ El dataset de Kaggle tiene pocos comentarios por video, es una foto única en el
 ### 5.2 Ejecutar la extracción
 
 1. En la **sección 7** del notebook, poner `LIMITE_VIDEOS = 50` para la primera prueba.
-2. Ejecutar la celda. El extractor toma los Video IDs del dataset de Kaggle y, por cada video, descarga estadísticas actualizadas, duración, categoría, tags, suscriptores del canal y comentarios (hasta el máximo configurado en la sección 4; 100 por defecto).
+2. Ejecutar la celda. El extractor elige Video IDs del dataset de Kaggle repartidos por igual entre todas las keywords (muestreo estratificado), conserva la keyword de cada uno y, por cada video, descarga estadísticas actualizadas, duración, categoría, tags, suscriptores del canal y comentarios (hasta el máximo configurado en la sección 4; 100 por defecto).
 3. La extracción se guarda en Drive en `data/raw/api/AAAA-MM-DD/` (`videos.parquet` y `comments.parquet`), con la fecha y hora en la columna `extracted_at`.
 4. A continuación se ejecuta el pipeline con esos datos (`run("api")`).
 
@@ -302,6 +302,7 @@ El dataset de Kaggle tiene pocos comentarios por video, es una foto única en el
 
 - Si un video tiene los comentarios desactivados o fue borrado, se omite sin detener el proceso.
 - Si la cuota se agota, se guardan los comentarios obtenidos hasta ese momento y se puede continuar al día siguiente.
+- Con pocos videos, algunos análisis no se pueden calcular (por ejemplo, la comparación entre keywords necesita al menos dos keywords con tres videos cada una, y los baselines necesitan al menos 30 videos). En ese caso el pipeline no se detiene: muestra un aviso `WARNING` y el reporte explica el motivo. Que falten datos para una prueba también es un hallazgo sobre la suficiencia de los datos.
 - Los datos de la API no traen etiqueta de sentimiento; el proyecto usa un léxico mínimo como respaldo. Reemplazarlo por un modelo preentrenado es uno de los ejercicios de la Parte 8.
 
 ### 5.3 Comparar fuentes
@@ -565,6 +566,7 @@ El modelo final debe quedar consumible por un usuario (API o interfaz) en una pl
 | Error 401 o 403 de Kaggle | El token es inválido, expiró o se copió con espacios | Generar un token nuevo en kaggle.com/settings/api y actualizar el secreto |
 | `accessNotConfigured` o `API key not valid` | La YouTube Data API v3 no está habilitada o la clave tiene otra restricción | Repetir el paso 1.2 |
 | `Cuota diaria agotada` | Se superaron 10.000 unidades | Esperar al reinicio diario o reducir `LIMITE_VIDEOS` |
+| `WARNING Análisis ... no calculado` o `baselines no calculados` | Hay pocos videos o una sola keyword para esa prueba | No es un error; el motivo queda en el reporte. Aumentar `LIMITE_VIDEOS` y repetir la sección 7 |
 | La sesión se desconectó | Inactividad o límite de horas | Reconectar y ejecutar las celdas 1 y 2; los datos siguen en Drive |
 | La configuración guardada no se aplica | La celda 2 apunta a otra carpeta de Drive | Revisar `CARPETA_DRIVE` en la celda 2 y volver a ejecutarla |
 

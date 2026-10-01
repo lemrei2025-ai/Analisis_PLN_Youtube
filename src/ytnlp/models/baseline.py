@@ -28,6 +28,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from ytnlp.analysis.stats import COMMENT_FEATS
 from ytnlp.config import load_config
 
+MIN_VIDEOS = 30  # por debajo, el conjunto de prueba es demasiado pequeño para comparar modelos
 CONTEXT_NUM = ["log_age_days", "pub_dow", "pub_hour", "title_len", "title_has_question",
                "title_upper_ratio", "log_duration", "log_subscribers"]
 
@@ -72,11 +73,18 @@ def run(features: pd.DataFrame, target: str | None = None) -> dict:
     y, clf = _target(df, target)
     mask = y.notna() & (np.isfinite(y) if not clf else True)
     df, y = df[mask].reset_index(drop=True), y[mask].reset_index(drop=True)
+    if len(df) < MIN_VIDEOS:
+        raise ValueError(
+            f"se necesitan al menos {MIN_VIDEOS} videos con la variable objetivo; hay {len(df)}"
+        )
+    if clf and y.nunique() < 2:
+        raise ValueError("la variable objetivo tiene una sola clase")
     ctx = [c for c in CONTEXT_NUM if c in df and df[c].notna().any()]
 
+    can_stratify = clf and y.value_counts().min() >= 2
     X_tr, X_te, y_tr, y_te = train_test_split(
         df, y, test_size=cfg["model"]["test_size"], random_state=cfg["model"]["random_state"],
-        stratify=y if clf else None,
+        stratify=y if can_stratify else None,
     )
     candidates = {
         "dummy": DummyClassifier(strategy="most_frequent") if clf else DummyRegressor(),
@@ -116,6 +124,24 @@ def run(features: pd.DataFrame, target: str | None = None) -> dict:
             "La curva se aplana: más filas ayudan poco; priorizar mejores features o etiquetas."
         ),
     }
+
+
+def write_skipped(reason: str, n_videos: int, out_dir: Path) -> Path:
+    """Reporte cuando no hay datos suficientes para entrenar y evaluar los baselines."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "baseline_report.json").write_text(
+        json.dumps({"no_aplica": reason, "videos": n_videos}, indent=2, ensure_ascii=False)
+    )
+    md = out_dir / "baseline_report.md"
+    md.write_text(
+        "# Baselines y suficiencia de datos\n\n"
+        f"No se calcularon con estos datos: {reason}.\n\n"
+        f"Videos disponibles: {n_videos}. Este resultado ya responde la pregunta de suficiencia: "
+        "con esta cantidad de videos no es posible entrenar y evaluar un modelo de forma confiable. "
+        "Se recomienda extraer más videos o usar el dataset de Kaggle completo.\n",
+        encoding="utf-8",
+    )
+    return md
 
 
 def write_report(res: dict, out_dir: Path) -> Path:

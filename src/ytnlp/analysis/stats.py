@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import itertools
 import json
+import logging
 from collections import Counter
 from pathlib import Path
 
@@ -18,6 +19,7 @@ from scipy import stats
 from ytnlp.config import load_config
 
 RNG = np.random.default_rng(42)
+log = logging.getLogger(__name__)
 
 
 def _r(x: float, n: int = 4) -> float:
@@ -95,6 +97,11 @@ def spearman_bootstrap(df: pd.DataFrame, x: str, y: str, n_boot: int) -> dict:
 def kruskal_dunn(df: pd.DataFrame, y: str, group: str) -> dict:
     d = df[[y, group]].dropna()
     groups = {k: v[y].to_numpy() for k, v in d.groupby(group) if len(v) >= 3}
+    if len(groups) < 2:
+        raise ValueError(
+            f"se necesitan al menos 2 valores de {group} con 3 o más videos cada uno; "
+            f"hay {len(groups)}. Extraer videos de varias keywords"
+        )
     H, p = stats.kruskal(*groups.values())
     n, k = sum(len(v) for v in groups.values()), len(groups)
     eps2 = (H - k + 1) / (n - k)  # tamaño de efecto épsilon² (Tomczak & Tomczak 2014)
@@ -113,7 +120,8 @@ def kruskal_dunn(df: pd.DataFrame, y: str, group: str) -> dict:
         z = (mean_rank[a] - mean_rank[b]) / se
         p_adj = min(1.0, 2 * stats.norm.sf(abs(z)) * m)
         pairs.append({"a": a, "b": b, "z": _r(z, 3), "p_bonferroni": _r(p_adj)})
-    sig_pairs = [p for p in pairs if p["p_bonferroni"] < load_config()["stats"]["alpha"]]
+    alpha = load_config()["stats"]["alpha"]
+    sig_pairs = [p for p in pairs if p["p_bonferroni"] is not None and p["p_bonferroni"] < alpha]
     medians = d.groupby(group)[y].median().sort_values(ascending=False)
     return {
         "pregunta": f"¿{y} difiere entre valores de {group}?",
@@ -146,6 +154,10 @@ def ols_fixed_effects(df: pd.DataFrame, y: str, xs: list[str], fe: str) -> dict:
     beta, *_ = np.linalg.lstsq(Xm, yv, rcond=None)
     resid = yv - Xm @ beta
     n, k = Xm.shape
+    if n <= k + 1:
+        raise ValueError(
+            f"la regresión necesita más videos que parámetros ({n} videos, {k} parámetros)"
+        )
     XtX_inv = np.linalg.pinv(Xm.T @ Xm)
     meat = Xm.T @ (Xm * resid[:, None] ** 2)
     cov = XtX_inv @ meat @ XtX_inv * n / (n - k)  # errores robustos HC1
@@ -158,7 +170,8 @@ def ols_fixed_effects(df: pd.DataFrame, y: str, xs: list[str], fe: str) -> dict:
         for c, b, s, pp in zip(X.columns, beta, se, p)
         if c in xs
     }
-    sig = [c for c, v in coefs.items() if v["p_valor"] < load_config()["stats"]["alpha"]]
+    alpha = load_config()["stats"]["alpha"]
+    sig = [c for c, v in coefs.items() if v["p_valor"] is not None and v["p_valor"] < alpha]
     return {
         "pregunta": f"¿Las features de comentarios explican {y} una vez se controla por {fe} y edad?",
         "prueba": f"OLS con efectos fijos por {fe}, coeficientes estandarizados, errores robustos HC1",
@@ -285,34 +298,69 @@ COMMENT_FEATS = [
 ]
 
 
+PREGUNTAS = {
+    "1_cola_pesada_views": "¿Las vistas siguen una distribución de cola pesada?",
+    "2_sentimiento_vs_engagement": "¿El sentimiento promedio se asocia con el engagement?",
+    "3_polarizacion_vs_engagement": "¿La polarización se asocia con el engagement?",
+    "4_engagement_por_keyword": "¿El engagement difiere entre keywords?",
+    "5_regresion_con_controles": "¿Los comentarios explican el engagement con controles?",
+    "6_zipf_heaps": "¿El vocabulario se comporta como lenguaje natural?",
+    "7_palabras_distintivas": "¿Qué palabras distinguen videos de desempeño alto y bajo?",
+    "8_comentario_top_vs_promedio": "¿El comentario más votado difiere del promedio?",
+    "9_informacion_mutua": "¿Cuánta información aporta cada feature de comentarios?",
+}
+
+
+def _safe(name: str, fn, *args, **kwargs) -> dict:
+    """Ejecuta un análisis; si los datos no alcanzan, lo reporta en lugar de detener el pipeline."""
+    try:
+        with np.errstate(all="ignore"):
+            return fn(*args, **kwargs)
+    except Exception as err:  # noqa: BLE001
+        log.warning("Análisis %s no calculado: %s", name, err)
+        return {
+            "pregunta": PREGUNTAS[name],
+            "prueba": "No aplica con estos datos",
+            "resultado": {"motivo": str(err)},
+            "conclusion": f"No se pudo calcular con los datos actuales: {err}.",
+            "no_aplica": True,
+        }
+
+
 def run_all(features: pd.DataFrame, videos: pd.DataFrame, comments: pd.DataFrame) -> dict:
     cfg = load_config()["stats"]
     f = features.copy()
-    f["log_engagement"] = np.log(f["target_engagement"])
-    out = {
-        "1_cola_pesada_views": heavy_tail(videos["views"]),
-        "2_sentimiento_vs_engagement": spearman_bootstrap(
-            f, "sent_mean", "target_engagement", cfg["bootstrap_iterations"]
+    with np.errstate(divide="ignore"):
+        f["log_engagement"] = np.log(f["target_engagement"])
+    perf = f.dropna(subset=["target_perf_class"])
+    return {
+        "1_cola_pesada_views": _safe("1_cola_pesada_views", heavy_tail, videos["views"]),
+        "2_sentimiento_vs_engagement": _safe(
+            "2_sentimiento_vs_engagement", spearman_bootstrap,
+            f, "sent_mean", "target_engagement", cfg["bootstrap_iterations"],
         ),
-        "3_polarizacion_vs_engagement": spearman_bootstrap(
-            f, "polarization", "target_engagement", cfg["bootstrap_iterations"]
+        "3_polarizacion_vs_engagement": _safe(
+            "3_polarizacion_vs_engagement", spearman_bootstrap,
+            f, "polarization", "target_engagement", cfg["bootstrap_iterations"],
         ),
-        "4_engagement_por_keyword": kruskal_dunn(f, "target_engagement", "keyword"),
-        "5_regresion_con_controles": ols_fixed_effects(
+        "4_engagement_por_keyword": _safe(
+            "4_engagement_por_keyword", kruskal_dunn, f, "target_engagement", "keyword"
+        ),
+        "5_regresion_con_controles": _safe(
+            "5_regresion_con_controles", ols_fixed_effects,
             f, "log_engagement", ["sent_mean", "polarization", "tokens_mean", "ttr", "log_age_days"],
             "keyword",
         ),
-        "6_zipf_heaps": zipf_heaps(comments["comment"]),
-        "7_palabras_distintivas": log_odds_dirichlet(
-            f.dropna(subset=["target_perf_class"]), "doc", "target_perf_class", "alto", "bajo",
-            cfg["top_k_words"],
+        "6_zipf_heaps": _safe("6_zipf_heaps", zipf_heaps, comments["comment"]),
+        "7_palabras_distintivas": _safe(
+            "7_palabras_distintivas", log_odds_dirichlet,
+            perf, "doc", "target_perf_class", "alto", "bajo", cfg["top_k_words"],
         ),
-        "8_comentario_top_vs_promedio": top_vs_mean(f),
-        "9_informacion_mutua": mutual_information(
-            f.dropna(subset=["target_perf_class"]), COMMENT_FEATS, "target_perf_class"
+        "8_comentario_top_vs_promedio": _safe("8_comentario_top_vs_promedio", top_vs_mean, f),
+        "9_informacion_mutua": _safe(
+            "9_informacion_mutua", mutual_information, perf, COMMENT_FEATS, "target_perf_class"
         ),
     }
-    return out
 
 
 def _figures(results: dict, videos: pd.DataFrame, out_dir: Path) -> list[str]:
@@ -338,7 +386,9 @@ def _figures(results: dict, videos: pd.DataFrame, out_dir: Path) -> list[str]:
     plt.close(fig)
     names.append("figures/ccdf_views.png")
 
-    freq = results["6_zipf_heaps"]["_freq"]
+    freq = results["6_zipf_heaps"].get("_freq")
+    if freq is None:
+        return names
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.loglog(np.arange(1, len(freq) + 1), freq, color="#2b6cb0")
     ax.set_xlabel("Rango")
@@ -355,7 +405,10 @@ def _figures(results: dict, videos: pd.DataFrame, out_dir: Path) -> list[str]:
 def write_report(results: dict, videos: pd.DataFrame, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     figs = _figures(results, videos, out_dir)
-    clean = {k: {kk: vv for kk, vv in v.items() if not kk.startswith("_")} for k, v in results.items()}
+    clean = {
+        k: {kk: vv for kk, vv in v.items() if not kk.startswith("_") and kk != "no_aplica"}
+        for k, v in results.items()
+    }
     (out_dir / "stats_report.json").write_text(
         json.dumps(clean, indent=2, ensure_ascii=False, default=str), encoding="utf-8"
     )

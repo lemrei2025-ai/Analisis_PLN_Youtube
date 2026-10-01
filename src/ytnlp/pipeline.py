@@ -32,8 +32,30 @@ def ingest(source: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     if source == "api":
         from ytnlp.data.youtube_api import load_latest
 
-        return load_latest()
+        videos, comments = load_latest()
+        return _add_keyword(videos), comments
     raise ValueError(f"Fuente desconocida: {source}")
+
+
+def _add_keyword(videos: pd.DataFrame) -> pd.DataFrame:
+    """Completa la keyword de los videos de la API.
+
+    Primero la toma del dataset de Kaggle (si ya se descargó); si falta, usa la categoría
+    de YouTube. Así las extracciones hechas antes de guardar la keyword también funcionan.
+    """
+    from ytnlp.config import load_config
+    from ytnlp.data.kaggle_source import keyword_map, normalize_videos
+
+    v = videos.copy()
+    if "keyword" not in v:
+        v["keyword"] = pd.NA
+    kaggle_csv = path("raw") / "kaggle" / load_config()["kaggle"]["videos_file"]
+    if v["keyword"].isna().any() and kaggle_csv.exists():
+        mapping = keyword_map(normalize_videos(pd.read_csv(kaggle_csv)))
+        v["keyword"] = v["keyword"].fillna(v["video_id"].map(mapping))
+    if v["keyword"].isna().any() and "category_id" in v:
+        v["keyword"] = v["keyword"].fillna("categoria_" + v["category_id"].astype(str))
+    return v
 
 
 def run(source: str, skip_model: bool = False) -> dict:
@@ -63,13 +85,22 @@ def run(source: str, skip_model: bool = False) -> dict:
     log.info("5/6 Análisis estadísticos")
     results = stats.run_all(feats, v, c)
     stats.write_report(results, v, reports)
+    skipped = [k for k, r in results.items() if r.get("no_aplica")]
+    if skipped:
+        log.warning("   análisis sin calcular con estos datos: %s (ver stats_report.md)", ", ".join(skipped))
 
     out = {"videos": len(v), "comentarios": len(c), "features": feats.shape}
     if not skip_model:
         log.info("6/6 Baselines y curva de aprendizaje")
-        b = baseline.run(feats)
-        baseline.write_report(b, reports)
-        out["baseline"] = {k: b["resultados"][k] for k in b["resultados"]}
+        try:
+            b = baseline.run(feats)
+        except ValueError as err:  # datos insuficientes para entrenar y evaluar
+            log.warning("   baselines no calculados: %s", err)
+            baseline.write_skipped(str(err), len(feats), reports)
+            out["baseline"] = {"no_aplica": str(err)}
+        else:
+            baseline.write_report(b, reports)
+            out["baseline"] = {k: b["resultados"][k] for k in b["resultados"]}
     log.info("Listo. Reportes en %s", reports)
     return out
 

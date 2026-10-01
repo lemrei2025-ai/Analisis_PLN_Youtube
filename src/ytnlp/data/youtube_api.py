@@ -166,7 +166,12 @@ class YouTubeClient:
         return out
 
 
-def extract(video_ids: list[str], out_dir: Path | None = None) -> Path:
+def extract(
+    video_ids: list[str],
+    out_dir: Path | None = None,
+    keywords: dict[str, str] | None = None,
+) -> Path:
+    """Extrae videos y comentarios. `keywords` (video_id -> tema) conserva la keyword de Kaggle."""
     cfg = load_config()["api"]
     stamp = datetime.now(timezone.utc)
     out_dir = out_dir or path("raw") / "api" / stamp.strftime("%Y-%m-%d")
@@ -179,6 +184,8 @@ def extract(video_ids: list[str], out_dir: Path | None = None) -> Path:
     channels = client.channels(videos["channel_id"].dropna().tolist())
     videos = videos.merge(channels, on="channel_id", how="left")
     videos["extracted_at"] = stamp
+    if keywords:
+        videos["keyword"] = videos["video_id"].map(keywords)
 
     rows: list[dict] = []
     try:
@@ -224,13 +231,16 @@ def main() -> None:
         ids = [x.strip() for x in args.ids.split(",") if x.strip()]
     elif args.ids_file:
         ids = [x.strip() for x in Path(args.ids_file).read_text().splitlines() if x.strip()]
-    else:
+    keywords = None
+    if args.from_kaggle:
         from ytnlp.data import kaggle_source
 
-        ids = kaggle_source.load()[0]["video_id"].dropna().unique().tolist()
+        kv = kaggle_source.load()[0]
+        keywords = kaggle_source.keyword_map(kv)
+        ids = kaggle_source.sample_ids(kv, args.limit or len(kv))
     if args.limit:
         ids = ids[: args.limit]
-    extract(ids)
+    extract(ids, keywords=keywords)
 
 
 if __name__ == "__main__":

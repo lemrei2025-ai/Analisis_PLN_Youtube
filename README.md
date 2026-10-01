@@ -153,7 +153,7 @@ Los reportes también se pueden abrir desde Google Drive, en `ytnlp-proyecto/rep
 ### Paso 11. Ampliar los datos con la YouTube Data API (sección 7)
 
 1. En el formulario de la sección 7, dejar `LIMITE_VIDEOS = 50` para la primera prueba.
-2. Ejecutar la celda. Por cada video descarga estadísticas actualizadas, duración, categoría, suscriptores del canal y comentarios, y vuelve a correr el pipeline con esos datos.
+2. Ejecutar la celda. Elige los videos repartidos entre todas las keywords de Kaggle (para poder comparar temas) y, por cada uno, descarga estadísticas actualizadas, duración, categoría, suscriptores del canal y comentarios, y vuelve a correr el pipeline con esos datos.
 3. La extracción queda guardada en Drive en `data/raw/api/AAAA-MM-DD/`.
 
 Comparar el reporte de calidad de Kaggle con el de la API es la evidencia para responder **¿cómo se pueden mejorar los datos?** Ejecutar esta sección en días distintos con los mismos videos construye una serie de tiempo y alimenta el historial de monitoreo (`reports/monitoring_history.csv`).
@@ -213,6 +213,8 @@ El código adicional se escribe en celdas nuevas de la copia del notebook, despu
 | Error 401 o 403 de Kaggle | El token es inválido o se copió con espacios: generar uno nuevo y actualizar el secreto |
 | `accessNotConfigured` o `API key not valid` | La YouTube Data API v3 no está habilitada en el proyecto o la clave tiene otra restricción (paso 2) |
 | `Cuota diaria agotada` | Esperar al reinicio diario de la cuota o reducir `LIMITE_VIDEOS` |
+| `WARNING Análisis ... no calculado` | No es un error: con pocos videos o con una sola keyword algunas pruebas no se pueden calcular. El motivo queda en `stats_report.md`; aumentar `LIMITE_VIDEOS` (100 o más) y repetir la sección 7 |
+| `baselines no calculados` | Hay menos de 30 videos con la variable objetivo. Aumentar `LIMITE_VIDEOS` o trabajar con el dataset de Kaggle completo (sección 5) |
 | `El repositorio del taller no está configurado` | Avisar al docente |
 | La sesión se desconectó | Reconectar y ejecutar las celdas 1 y 2; los datos siguen en Drive |
 

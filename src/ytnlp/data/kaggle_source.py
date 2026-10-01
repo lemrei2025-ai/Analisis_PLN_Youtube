@@ -98,3 +98,23 @@ def load(folder: Path | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
     videos = normalize_videos(pd.read_csv(folder / cfg["videos_file"]))
     comments = normalize_comments(pd.read_csv(folder / cfg["comments_file"]))
     return videos, comments
+
+
+def sample_ids(videos: pd.DataFrame, n: int, seed: int = 42) -> list[str]:
+    """Elige n Video IDs repartidos por igual entre las keywords (muestreo estratificado).
+
+    Si el CSV está agrupado por keyword, tomar los primeros n IDs dejaría casi todos los
+    videos en un solo tema y haría imposible comparar grupos.
+    """
+    v = videos.dropna(subset=["video_id"]).drop_duplicates("video_id")
+    v = v.sample(frac=1, random_state=seed)
+    if "keyword" in v and v["keyword"].nunique() > 1:
+        v = v.assign(_turno=v.groupby("keyword").cumcount()).sort_values("_turno", kind="stable")
+    return v["video_id"].head(n).tolist()
+
+
+def keyword_map(videos: pd.DataFrame) -> dict[str, str]:
+    """Diccionario video_id -> keyword, para conservar el tema en los datos de la API."""
+    v = videos.dropna(subset=["video_id", "keyword"]).drop_duplicates("video_id")
+    return dict(zip(v["video_id"], v["keyword"]))
+

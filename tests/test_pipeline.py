@@ -127,3 +127,71 @@ def test_team_overrides_live_in_storage(tmp_path, monkeypatch):
     assert config.load_config()["target"] == "engagement"
     monkeypatch.delenv("YTNLP_STORAGE")
     config.reload()
+
+
+def _fake_api_extraction(storage, ids, with_keyword=False):
+    """Escribe una extracción con el formato de la API (sin keyword ni sentimiento)."""
+    from ytnlp.config import path
+
+    v = normalize_videos(pd.read_csv(ROOT / "data/sample/videos-stats.csv")).drop_duplicates("video_id")
+    c = normalize_comments(pd.read_csv(ROOT / "data/sample/comments.csv"))
+    vv = v[v.video_id.isin(ids)].copy()
+    if not with_keyword:
+        vv = vv.drop(columns=["keyword"])
+    vv["category_id"] = "22"
+    vv["extracted_at"] = pd.Timestamp("2026-10-01", tz="UTC")
+    cc = c[c.video_id.isin(ids)].drop(columns=["sentiment"])
+    d = path("raw") / "api" / "2026-10-01"
+    d.mkdir(parents=True, exist_ok=True)
+    vv.to_parquet(d / "videos.parquet", index=False)
+    cc.to_parquet(d / "comments.parquet", index=False)
+
+
+def test_sample_ids_spread_across_keywords(sample):
+    from ytnlp.data.kaggle_source import sample_ids
+
+    v, _ = sample
+    ids = sample_ids(v, 16)
+    kws = v.drop_duplicates("video_id").set_index("video_id").loc[ids, "keyword"]
+    assert len(ids) == 16 and kws.nunique() == v["keyword"].nunique()
+    assert kws.value_counts().max() - kws.value_counts().min() <= 1
+
+
+def test_api_extraction_without_keyword_runs(tmp_path, monkeypatch):
+    """Caso reportado: extracción de la API sin columna keyword (Kruskal-Wallis fallaba)."""
+    import shutil
+
+    from ytnlp import config
+    from ytnlp.pipeline import run
+
+    monkeypatch.setenv("YTNLP_STORAGE", str(tmp_path))
+    config.reload()
+    raw = config.path("raw") / "kaggle"
+    raw.mkdir(parents=True, exist_ok=True)
+    for f in ("videos-stats.csv", "comments.csv"):
+        shutil.copy(ROOT / "data/sample" / f, raw / f)
+    ids = pd.read_csv(ROOT / "data/sample/videos-stats.csv")["Video ID"].unique()[:50]
+    _fake_api_extraction(tmp_path, ids)
+    out = run("api")
+    assert out["videos"] == 50
+    videos = pd.read_parquet(config.path("interim") / "videos.parquet")
+    assert videos["keyword"].notna().all() and videos["keyword"].nunique() > 1
+    monkeypatch.delenv("YTNLP_STORAGE")
+    config.reload()
+
+
+def test_small_or_single_keyword_extraction_does_not_crash(tmp_path, monkeypatch):
+    from ytnlp import config
+    from ytnlp.pipeline import run
+
+    monkeypatch.setenv("YTNLP_STORAGE", str(tmp_path))
+    config.reload()
+    v = pd.read_csv(ROOT / "data/sample/videos-stats.csv").drop_duplicates("Video ID")
+    ids = v[v.Keyword == v.Keyword.iloc[0]]["Video ID"].head(10)
+    _fake_api_extraction(tmp_path, ids, with_keyword=True)
+    out = run("api")
+    assert "no_aplica" in out["baseline"]
+    report = (config.path("reports") / "stats_report.md").read_text(encoding="utf-8")
+    assert "No se pudo calcular" in report
+    monkeypatch.delenv("YTNLP_STORAGE")
+    config.reload()
