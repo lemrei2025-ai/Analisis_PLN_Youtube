@@ -1,0 +1,14 @@
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pyarrow>=14
+pandera>=0.20
+pyyaml>=6
+requests>=2.31
+python-dotenv>=1.0
+emoji>=2.10
+matplotlib>=3.8
+kaggle>=1.6
+pytest>=8
+ruff>=0.4

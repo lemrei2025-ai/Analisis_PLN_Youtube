@@ -1,0 +1,3003 @@
+Unnamed: 0,Video ID,Comment,Likes,Sentiment
+0,vid00000,part 2?,32.0,1.0
+1,vid00000,fake,8.0,0.0
+2,vid00000,excelente explicación ❤️,4.0,2.0
+3,vid00000,who is here in 2024,1.0,1.0
+4,vid00000,no me gustó,59.0,0.0
+5,vid00000,amazing content,8.0,2.0
+6,vid00000,audio is terrible,4.0,0.0
+7,vid00000,part 2?,3.0,1.0
+8,vid00000,great video,0.0,2.0
+9,vid00000,great video,0.0,2.0
+10,vid00001,great video,38.0,2.0
+11,vid00001,great video,24.0,2.0
+12,vid00001,genial video,3.0,2.0
+13,vid00001,amazing content,2.0,2.0
+14,vid00001,love this,10.0,2.0
+15,vid00001,learned a lot today,0.0,2.0
+16,vid00001,best tutorial ever,3.0,2.0
+17,vid00001,excelente explicación ❤️,3.0,2.0
+18,vid00001,perfect timing,7.0,2.0
+19,vid00001,this is awesome 🔥,5.0,2.0
+20,vid00002,so helpful,0.0,2.0
+21,vid00002,watching from Colombia,1.0,1.0
+22,vid00002,subscribed!,0.0,2.0
+23,vid00002,subscribed!,52.0,2.0
+24,vid00002,watching from Colombia,7.0,1.0
+25,vid00002,learned a lot today,2.0,2.0
+26,vid00002,great video,3.0,2.0
+27,vid00002,ok,3.0,1.0
+28,vid00002,part 2?,16.0,1.0
+29,vid00002,too long 👎,0.0,0.0
+30,vid00003,fake,1.0,0.0
+31,vid00003,what camera do you use?,0.0,1.0
+32,vid00003,can you review the new model?,0.0,1.0
+33,vid00003,wrong information,10.0,0.0
+34,vid00003,thanks for sharing,3.0,2.0
+35,vid00003,waste of time,4.0,0.0
+36,vid00003,worst video,0.0,0.0
+37,vid00003,great video,0.0,2.0
+38,vid00003,wrong information,4.0,0.0
+39,vid00003,first time watching,4.0,1.0
+40,vid00004,amazing content,1.0,2.0
+41,vid00004,subscribed!,10.0,2.0
+42,vid00004,amazing content,0.0,2.0
+43,vid00004,so helpful,78.0,2.0
+44,vid00004,first time watching,7.0,1.0
+45,vid00004,minute 3:20,6.0,1.0
+46,vid00004,learned a lot today,17.0,2.0
+47,vid00004,waste of time,5.0,0.0
+48,vid00004,so helpful,2.0,2.0
+49,vid00004,first time watching,37.0,1.0
+50,vid00005,can you review the new model?,5.0,1.0
+51,vid00005,can you review the new model?,6.0,1.0
+52,vid00005,who is here in 2024,2.0,1.0
+53,vid00005,perfect timing,12.0,2.0
+54,vid00005,this is awesome 🔥,10.0,2.0
+55,vid00005,amazing content,13.0,2.0
+56,vid00005,this is awesome 🔥,11.0,2.0
+57,vid00005,watching from Colombia,7.0,1.0
+58,vid00005,so helpful,52.0,2.0
+59,vid00005,anyone else?,6.0,1.0
+60,vid00006,minute 3:20,5.0,1.0
+61,vid00006,clickbait,1.0,0.0
+62,vid00006,first time watching,4.0,1.0
+63,vid00006,who is here in 2024,6.0,1.0
+64,vid00006,minute 3:20,50.0,1.0
+65,vid00006,part 2?,52.0,1.0
+66,vid00006,part 2?,24.0,1.0
+67,vid00006,waste of time,10.0,0.0
+68,vid00006,learned a lot today,13.0,2.0
+69,vid00006,part 2?,3.0,1.0
+70,vid00007,what camera do you use?,8.0,1.0
+71,vid00007,thanks for sharing,0.0,2.0
+72,vid00007,excelente explicación ❤️,6.0,2.0
+73,vid00007,this is awesome 🔥,3.0,2.0
+74,vid00007,dislike,0.0,0.0
+75,vid00007,part 2?,3.0,1.0
+76,vid00007,who is here in 2024,8.0,1.0
+77,vid00007,genial video,1.0,2.0
+78,vid00007,watching from Colombia,4.0,1.0
+79,vid00007,part 2?,12.0,1.0
+80,vid00008,love this,4.0,2.0
+81,vid00008,amazing content,24.0,2.0
+82,vid00008,who is here in 2024,9.0,1.0
+83,vid00008,amazing content,4.0,2.0
+84,vid00008,amazing content,0.0,2.0
+85,vid00008,fake,0.0,0.0
+86,vid00008,minute 3:20,54.0,1.0
+87,vid00008,dislike,1.0,0.0
+88,vid00008,who is here in 2024,37.0,1.0
+89,vid00008,anyone else?,7.0,1.0
+90,vid00009,can you review the new model?,7.0,1.0
+91,vid00009,excelente explicación ❤️,2.0,2.0
+92,vid00009,who is here in 2024,1.0,1.0
+93,vid00009,interesting,1.0,1.0
+94,vid00009,so helpful,9.0,2.0
+95,vid00009,what camera do you use?,12.0,1.0
+96,vid00009,interesting,5.0,1.0
+97,vid00009,part 2?,1.0,1.0
+98,vid00009,first time watching,5.0,1.0
+99,vid00009,learned a lot today,5.0,2.0
+100,vid00010,interesting,11.0,1.0
+101,vid00010,perfect timing,6.0,2.0
+102,vid00010,genial video,4.0,2.0
+103,vid00010,fake,1.0,0.0
+104,vid00010,what camera do you use?,4.0,1.0
+105,vid00010,subscribed!,2.0,2.0
+106,vid00010,amazing content,1.0,2.0
+107,vid00010,clickbait,2.0,0.0
+108,vid00010,so helpful,2.0,2.0
+109,vid00010,excelente explicación ❤️,8.0,2.0
+110,vid00011,subscribed!,3.0,2.0
+111,vid00011,amazing content,33.0,2.0
+112,vid00011,anyone else?,4.0,1.0
+113,vid00011,perfect timing,2.0,2.0
+114,vid00011,learned a lot today,40.0,2.0
+115,vid00011,love this,20.0,2.0
+116,vid00011,first time watching,32.0,1.0
+117,vid00011,ok,13.0,1.0
+118,vid00011,this is awesome 🔥,1.0,2.0
+119,vid00011,ok,26.0,1.0
+120,vid00012,thanks for sharing,4.0,2.0
+121,vid00012,perfect timing,4.0,2.0
+122,vid00012,first time watching,7.0,1.0
+123,vid00012,audio is terrible,10.0,0.0
+124,vid00012,who is here in 2024,4.0,1.0
+125,vid00012,subscribed!,3.0,2.0
+126,vid00012,subscribed!,0.0,2.0
+127,vid00012,can you review the new model?,5.0,1.0
+128,vid00012,what camera do you use?,12.0,1.0
+129,vid00012,so helpful,15.0,2.0
+130,vid00013,audio is terrible,9.0,0.0
+131,vid00013,who is here in 2024,0.0,1.0
+132,vid00013,so helpful,12.0,2.0
+133,vid00013,subscribed!,3.0,2.0
+134,vid00013,this is boring,5.0,0.0
+135,vid00013,ok,1.0,1.0
+136,vid00013,wrong information,3.0,0.0
+137,vid00013,ok,5.0,1.0
+138,vid00013,genial video,6.0,2.0
+139,vid00013,learned a lot today,8.0,2.0
+140,vid00014,thanks for sharing,3.0,2.0
+141,vid00014,subscribed!,18.0,2.0
+142,vid00014,subscribed!,8.0,2.0
+143,vid00014,interesting,7.0,1.0
+144,vid00014,what camera do you use?,3.0,1.0
+145,vid00014,subscribed!,2.0,2.0
+146,vid00014,worst video,9.0,0.0
+147,vid00014,minute 3:20,7.0,1.0
+148,vid00014,amazing content,11.0,2.0
+149,vid00014,amazing content,8.0,2.0
+150,vid00015,what camera do you use?,0.0,1.0
+151,vid00015,thanks for sharing,53.0,2.0
+152,vid00015,who is here in 2024,5.0,1.0
+153,vid00015,part 2?,13.0,1.0
+154,vid00015,what camera do you use?,16.0,1.0
+155,vid00015,so helpful,1.0,2.0
+156,vid00015,dislike,6.0,0.0
+157,vid00015,anyone else?,0.0,1.0
+158,vid00015,can you review the new model?,5.0,1.0
+159,vid00015,too long 👎,39.0,0.0
+160,vid00016,this is awesome 🔥,89.0,2.0
+161,vid00016,this is boring,0.0,0.0
+162,vid00016,so helpful,19.0,2.0
+163,vid00016,perfect timing,3.0,2.0
+164,vid00016,dislike,6.0,0.0
+165,vid00016,best tutorial ever,3.0,2.0
+166,vid00016,anyone else?,3.0,1.0
+167,vid00016,thanks for sharing,7.0,2.0
+168,vid00016,best tutorial ever,3.0,2.0
+169,vid00016,audio is terrible,1.0,0.0
+170,vid00017,learned a lot today,2.0,2.0
+171,vid00017,love this,8.0,2.0
+172,vid00017,so helpful,9.0,2.0
+173,vid00017,interesting,4.0,1.0
+174,vid00017,waste of time,4.0,0.0
+175,vid00017,ok,14.0,1.0
+176,vid00017,waste of time,1.0,0.0
+177,vid00017,who is here in 2024,0.0,1.0
+178,vid00017,amazing content,13.0,2.0
+179,vid00017,great video,20.0,2.0
+180,vid00018,genial video,7.0,2.0
+181,vid00018,ok,2.0,1.0
+182,vid00018,clickbait,8.0,0.0
+183,vid00018,subscribed!,3.0,2.0
+184,vid00018,thanks for sharing,5.0,2.0
+185,vid00018,genial video,1.0,2.0
+186,vid00018,what camera do you use?,9.0,1.0
+187,vid00018,part 2?,6.0,1.0
+188,vid00018,so helpful,23.0,2.0
+189,vid00018,who is here in 2024,16.0,1.0
+190,vid00019,best tutorial ever,1.0,2.0
+191,vid00019,too long 👎,2.0,0.0
+192,vid00019,amazing content,24.0,2.0
+193,vid00019,amazing content,1.0,2.0
+194,vid00019,learned a lot today,4.0,2.0
+195,vid00019,great video,0.0,2.0
+196,vid00019,fake,3.0,0.0
+197,vid00019,excelente explicación ❤️,4.0,2.0
+198,vid00019,subscribed!,1.0,2.0
+199,vid00019,perfect timing,10.0,2.0
+200,vid00020,excelente explicación ❤️,1.0,2.0
+201,vid00020,love this,29.0,2.0
+202,vid00020,who is here in 2024,6.0,1.0
+203,vid00020,learned a lot today,2.0,2.0
+204,vid00020,minute 3:20,15.0,1.0
+205,vid00020,great video,0.0,2.0
+206,vid00020,this is awesome 🔥,5.0,2.0
+207,vid00020,interesting,3.0,1.0
+208,vid00020,anyone else?,12.0,1.0
+209,vid00020,watching from Colombia,4.0,1.0
+210,vid00021,interesting,3.0,1.0
+211,vid00021,minute 3:20,2.0,1.0
+212,vid00021,genial video,11.0,2.0
+213,vid00021,subscribed!,1.0,2.0
+214,vid00021,worst video,18.0,0.0
+215,vid00021,excelente explicación ❤️,7.0,2.0
+216,vid00021,minute 3:20,3.0,1.0
+217,vid00021,so helpful,10.0,2.0
+218,vid00021,part 2?,0.0,1.0
+219,vid00021,genial video,4.0,2.0
+220,vid00022,amazing content,1.0,2.0
+221,vid00022,best tutorial ever,7.0,2.0
+222,vid00022,first time watching,9.0,1.0
+223,vid00022,excelente explicación ❤️,2.0,2.0
+224,vid00022,can you review the new model?,11.0,1.0
+225,vid00022,so helpful,1.0,2.0
+226,vid00022,love this,5.0,2.0
+227,vid00022,watching from Colombia,6.0,1.0
+228,vid00022,subscribed!,1.0,2.0
+229,vid00022,anyone else?,6.0,1.0
+230,vid00023,great video,5.0,2.0
+231,vid00023,genial video,1.0,2.0
+232,vid00023,minute 3:20,2.0,1.0
+233,vid00023,can you review the new model?,4.0,1.0
+234,vid00023,love this,1.0,2.0
+235,vid00023,so helpful,20.0,2.0
+236,vid00023,anyone else?,14.0,1.0
+237,vid00023,genial video,4.0,2.0
+238,vid00023,subscribed!,8.0,2.0
+239,vid00023,anyone else?,3.0,1.0
+240,vid00024,perfect timing,0.0,2.0
+241,vid00024,learned a lot today,6.0,2.0
+242,vid00024,no me gustó,1.0,0.0
+243,vid00024,genial video,2.0,2.0
+244,vid00024,what camera do you use?,13.0,1.0
+245,vid00024,perfect timing,3.0,2.0
+246,vid00024,who is here in 2024,5.0,1.0
+247,vid00024,ok,6.0,1.0
+248,vid00024,watching from Colombia,1.0,1.0
+249,vid00024,minute 3:20,4.0,1.0
+250,vid00025,learned a lot today,8.0,2.0
+251,vid00025,part 2?,10.0,1.0
+252,vid00025,this is awesome 🔥,11.0,2.0
+253,vid00025,best tutorial ever,7.0,2.0
+254,vid00025,interesting,4.0,1.0
+255,vid00025,learned a lot today,20.0,2.0
+256,vid00025,who is here in 2024,4.0,1.0
+257,vid00025,wrong information,0.0,0.0
+258,vid00025,great video,6.0,2.0
+259,vid00025,this is awesome 🔥,16.0,2.0
+260,vid00026,minute 3:20,2.0,1.0
+261,vid00026,watching from Colombia,4.0,1.0
+262,vid00026,watching from Colombia,3.0,1.0
+263,vid00026,part 2?,2.0,1.0
+264,vid00026,who is here in 2024,27.0,1.0
+265,vid00026,perfect timing,30.0,2.0
+266,vid00026,love this,7.0,2.0
+267,vid00026,wrong information,1.0,0.0
+268,vid00026,ok,8.0,1.0
+269,vid00026,part 2?,17.0,1.0
+270,vid00027,love this,4.0,2.0
+271,vid00027,best tutorial ever,7.0,2.0
+272,vid00027,watching from Colombia,37.0,1.0
+273,vid00027,perfect timing,70.0,2.0
+274,vid00027,excelente explicación ❤️,3.0,2.0
+275,vid00027,first time watching,8.0,1.0
+276,vid00027,part 2?,6.0,1.0
+277,vid00027,genial video,3.0,2.0
+278,vid00027,thanks for sharing,6.0,2.0
+279,vid00027,excelente explicación ❤️,13.0,2.0
+280,vid00028,can you review the new model?,4.0,1.0
+281,vid00028,can you review the new model?,1.0,1.0
+282,vid00028,what camera do you use?,5.0,1.0
+283,vid00028,who is here in 2024,4.0,1.0
+284,vid00028,subscribed!,23.0,2.0
+285,vid00028,perfect timing,6.0,2.0
+286,vid00028,first time watching,1.0,1.0
+287,vid00028,no me gustó,0.0,0.0
+288,vid00028,thanks for sharing,3.0,2.0
+289,vid00028,anyone else?,3.0,1.0
+290,vid00029,subscribed!,1.0,2.0
+291,vid00029,this is awesome 🔥,1.0,2.0
+292,vid00029,interesting,0.0,1.0
+293,vid00029,love this,9.0,2.0
+294,vid00029,excelente explicación ❤️,5.0,2.0
+295,vid00029,too long 👎,1.0,0.0
+296,vid00029,excelente explicación ❤️,0.0,2.0
+297,vid00029,thanks for sharing,11.0,2.0
+298,vid00029,what camera do you use?,1.0,1.0
+299,vid00029,perfect timing,1.0,2.0
+300,vid00030,best tutorial ever,1.0,2.0
+301,vid00030,learned a lot today,0.0,2.0
+302,vid00030,minute 3:20,11.0,1.0
+303,vid00030,so helpful,9.0,2.0
+304,vid00030,first time watching,16.0,1.0
+305,vid00030,this is awesome 🔥,6.0,2.0
+306,vid00030,this is boring,6.0,0.0
+307,vid00030,thanks for sharing,5.0,2.0
+308,vid00030,ok,0.0,1.0
+309,vid00030,amazing content,3.0,2.0
+310,vid00031,great video,5.0,2.0
+311,vid00031,so helpful,8.0,2.0
+312,vid00031,perfect timing,2.0,2.0
+313,vid00031,learned a lot today,2.0,2.0
+314,vid00031,who is here in 2024,0.0,1.0
+315,vid00031,this is awesome 🔥,15.0,2.0
+316,vid00031,waste of time,1.0,0.0
+317,vid00031,love this,2.0,2.0
+318,vid00031,this is awesome 🔥,4.0,2.0
+319,vid00031,best tutorial ever,1.0,2.0
+320,vid00032,watching from Colombia,1.0,1.0
+321,vid00032,fake,5.0,0.0
+322,vid00032,ok,0.0,1.0
+323,vid00032,so helpful,57.0,2.0
+324,vid00032,who is here in 2024,1.0,1.0
+325,vid00032,anyone else?,6.0,1.0
+326,vid00032,best tutorial ever,17.0,2.0
+327,vid00032,genial video,2.0,2.0
+328,vid00032,love this,8.0,2.0
+329,vid00032,this is awesome 🔥,1.0,2.0
+330,vid00033,watching from Colombia,16.0,1.0
+331,vid00033,this is awesome 🔥,0.0,2.0
+332,vid00033,subscribed!,10.0,2.0
+333,vid00033,can you review the new model?,4.0,1.0
+334,vid00033,anyone else?,6.0,1.0
+335,vid00033,excelente explicación ❤️,1.0,2.0
+336,vid00033,anyone else?,1.0,1.0
+337,vid00033,clickbait,1.0,0.0
+338,vid00033,great video,1.0,2.0
+339,vid00033,worst video,4.0,0.0
+340,vid00034,subscribed!,5.0,2.0
+341,vid00034,best tutorial ever,20.0,2.0
+342,vid00034,love this,2.0,2.0
+343,vid00034,thanks for sharing,21.0,2.0
+344,vid00034,this is awesome 🔥,5.0,2.0
+345,vid00034,this is awesome 🔥,2.0,2.0
+346,vid00034,first time watching,0.0,1.0
+347,vid00034,great video,4.0,2.0
+348,vid00034,genial video,18.0,2.0
+349,vid00034,so helpful,2.0,2.0
+350,vid00035,excelente explicación ❤️,2.0,2.0
+351,vid00035,perfect timing,6.0,2.0
+352,vid00035,genial video,3.0,2.0
+353,vid00035,amazing content,9.0,2.0
+354,vid00035,excelente explicación ❤️,1.0,2.0
+355,vid00035,ok,12.0,1.0
+356,vid00035,this is awesome 🔥,31.0,2.0
+357,vid00035,learned a lot today,2.0,2.0
+358,vid00035,thanks for sharing,0.0,2.0
+359,vid00035,love this,6.0,2.0
+360,vid00036,best tutorial ever,0.0,2.0
+361,vid00036,thanks for sharing,1.0,2.0
+362,vid00036,genial video,2.0,2.0
+363,vid00036,thanks for sharing,2.0,2.0
+364,vid00036,perfect timing,0.0,2.0
+365,vid00036,subscribed!,8.0,2.0
+366,vid00036,subscribed!,15.0,2.0
+367,vid00036,what camera do you use?,25.0,1.0
+368,vid00036,perfect timing,11.0,2.0
+369,vid00036,waste of time,10.0,0.0
+370,vid00037,excelente explicación ❤️,5.0,2.0
+371,vid00037,learned a lot today,0.0,2.0
+372,vid00037,thanks for sharing,15.0,2.0
+373,vid00037,excelente explicación ❤️,9.0,2.0
+374,vid00037,no me gustó,3.0,0.0
+375,vid00037,amazing content,2.0,2.0
+376,vid00037,perfect timing,0.0,2.0
+377,vid00037,best tutorial ever,1.0,2.0
+378,vid00037,so helpful,2.0,2.0
+379,vid00037,excelente explicación ❤️,0.0,2.0
+380,vid00038,subscribed!,1.0,2.0
+381,vid00038,excelente explicación ❤️,8.0,2.0
+382,vid00038,this is boring,0.0,0.0
+383,vid00038,thanks for sharing,5.0,2.0
+384,vid00038,this is awesome 🔥,9.0,2.0
+385,vid00038,best tutorial ever,42.0,2.0
+386,vid00038,love this,15.0,2.0
+387,vid00038,part 2?,17.0,1.0
+388,vid00038,best tutorial ever,8.0,2.0
+389,vid00038,genial video,2.0,2.0
+390,vid00039,learned a lot today,5.0,2.0
+391,vid00039,amazing content,6.0,2.0
+392,vid00039,what camera do you use?,10.0,1.0
+393,vid00039,so helpful,2.0,2.0
+394,vid00039,learned a lot today,0.0,2.0
+395,vid00039,best tutorial ever,7.0,2.0
+396,vid00039,minute 3:20,7.0,1.0
+397,vid00039,first time watching,1.0,1.0
+398,vid00039,genial video,2.0,2.0
+399,vid00039,genial video,15.0,2.0
+400,vid00040,amazing content,0.0,2.0
+401,vid00040,so helpful,6.0,2.0
+402,vid00040,learned a lot today,2.0,2.0
+403,vid00040,minute 3:20,59.0,1.0
+404,vid00040,this is awesome 🔥,1.0,2.0
+405,vid00040,thanks for sharing,1.0,2.0
+406,vid00040,minute 3:20,1.0,1.0
+407,vid00040,amazing content,15.0,2.0
+408,vid00040,wrong information,2.0,0.0
+409,vid00040,thanks for sharing,2.0,2.0
+410,vid00041,what camera do you use?,3.0,1.0
+411,vid00041,amazing content,0.0,2.0
+412,vid00041,part 2?,0.0,1.0
+413,vid00041,no me gustó,3.0,0.0
+414,vid00041,ok,7.0,1.0
+415,vid00041,who is here in 2024,2.0,1.0
+416,vid00041,excelente explicación ❤️,13.0,2.0
+417,vid00041,can you review the new model?,7.0,1.0
+418,vid00041,thanks for sharing,3.0,2.0
+419,vid00041,interesting,4.0,1.0
+420,vid00042,subscribed!,0.0,2.0
+421,vid00042,part 2?,8.0,1.0
+422,vid00042,love this,1.0,2.0
+423,vid00042,best tutorial ever,4.0,2.0
+424,vid00042,best tutorial ever,2.0,2.0
+425,vid00042,love this,5.0,2.0
+426,vid00042,learned a lot today,4.0,2.0
+427,vid00042,great video,3.0,2.0
+428,vid00042,learned a lot today,3.0,2.0
+429,vid00042,so helpful,2.0,2.0
+430,vid00043,love this,5.0,2.0
+431,vid00043,ok,0.0,1.0
+432,vid00043,best tutorial ever,1.0,2.0
+433,vid00043,first time watching,0.0,1.0
+434,vid00043,anyone else?,15.0,1.0
+435,vid00043,audio is terrible,1.0,0.0
+436,vid00043,can you review the new model?,15.0,1.0
+437,vid00043,excelente explicación ❤️,6.0,2.0
+438,vid00043,great video,0.0,2.0
+439,vid00043,amazing content,3.0,2.0
+440,vid00044,amazing content,21.0,2.0
+441,vid00044,this is awesome 🔥,20.0,2.0
+442,vid00044,wrong information,7.0,0.0
+443,vid00044,amazing content,23.0,2.0
+444,vid00044,best tutorial ever,5.0,2.0
+445,vid00044,best tutorial ever,1.0,2.0
+446,vid00044,this is awesome 🔥,3.0,2.0
+447,vid00044,this is awesome 🔥,1.0,2.0
+448,vid00044,learned a lot today,1.0,2.0
+449,vid00044,excelente explicación ❤️,8.0,2.0
+450,vid00045,learned a lot today,3.0,2.0
+451,vid00045,waste of time,7.0,0.0
+452,vid00045,first time watching,0.0,1.0
+453,vid00045,anyone else?,2.0,1.0
+454,vid00045,who is here in 2024,2.0,1.0
+455,vid00045,this is awesome 🔥,10.0,2.0
+456,vid00045,excelente explicación ❤️,16.0,2.0
+457,vid00045,fake,3.0,0.0
+458,vid00045,best tutorial ever,43.0,2.0
+459,vid00045,interesting,2.0,1.0
+460,vid00046,who is here in 2024,5.0,1.0
+461,vid00046,learned a lot today,2.0,2.0
+462,vid00046,learned a lot today,9.0,2.0
+463,vid00046,learned a lot today,6.0,2.0
+464,vid00046,genial video,3.0,2.0
+465,vid00046,great video,7.0,2.0
+466,vid00046,best tutorial ever,0.0,2.0
+467,vid00046,subscribed!,7.0,2.0
+468,vid00046,excelente explicación ❤️,62.0,2.0
+469,vid00046,this is awesome 🔥,1.0,2.0
+470,vid00047,what camera do you use?,31.0,1.0
+471,vid00047,so helpful,1.0,2.0
+472,vid00047,love this,4.0,2.0
+473,vid00047,perfect timing,8.0,2.0
+474,vid00047,great video,0.0,2.0
+475,vid00047,subscribed!,7.0,2.0
+476,vid00047,this is awesome 🔥,1.0,2.0
+477,vid00047,interesting,5.0,1.0
+478,vid00047,genial video,0.0,2.0
+479,vid00047,great video,0.0,2.0
+480,vid00048,love this,2.0,2.0
+481,vid00048,amazing content,2.0,2.0
+482,vid00048,best tutorial ever,1.0,2.0
+483,vid00048,part 2?,2.0,1.0
+484,vid00048,so helpful,5.0,2.0
+485,vid00048,great video,14.0,2.0
+486,vid00048,watching from Colombia,28.0,1.0
+487,vid00048,subscribed!,3.0,2.0
+488,vid00048,best tutorial ever,6.0,2.0
+489,vid00048,subscribed!,25.0,2.0
+490,vid00049,too long 👎,14.0,0.0
+491,vid00049,learned a lot today,81.0,2.0
+492,vid00049,first time watching,11.0,1.0
+493,vid00049,part 2?,9.0,1.0
+494,vid00049,who is here in 2024,1.0,1.0
+495,vid00049,subscribed!,1.0,2.0
+496,vid00049,watching from Colombia,2.0,1.0
+497,vid00049,first time watching,1.0,1.0
+498,vid00049,can you review the new model?,2.0,1.0
+499,vid00049,too long 👎,4.0,0.0
+500,vid00050,watching from Colombia,9.0,1.0
+501,vid00050,ok,2.0,1.0
+502,vid00050,what camera do you use?,1.0,1.0
+503,vid00050,fake,64.0,0.0
+504,vid00050,learned a lot today,4.0,2.0
+505,vid00050,amazing content,34.0,2.0
+506,vid00050,fake,5.0,0.0
+507,vid00050,who is here in 2024,1.0,1.0
+508,vid00050,dislike,21.0,0.0
+509,vid00050,excelente explicación ❤️,3.0,2.0
+510,vid00051,who is here in 2024,45.0,1.0
+511,vid00051,love this,10.0,2.0
+512,vid00051,learned a lot today,12.0,2.0
+513,vid00051,what camera do you use?,2.0,1.0
+514,vid00051,great video,5.0,2.0
+515,vid00051,perfect timing,2.0,2.0
+516,vid00051,amazing content,18.0,2.0
+517,vid00051,great video,3.0,2.0
+518,vid00051,subscribed!,1.0,2.0
+519,vid00051,perfect timing,40.0,2.0
+520,vid00052,interesting,5.0,1.0
+521,vid00052,ok,0.0,1.0
+522,vid00052,perfect timing,147.0,2.0
+523,vid00052,first time watching,10.0,1.0
+524,vid00052,first time watching,9.0,1.0
+525,vid00052,subscribed!,6.0,2.0
+526,vid00052,audio is terrible,7.0,0.0
+527,vid00052,ok,1.0,1.0
+528,vid00052,anyone else?,10.0,1.0
+529,vid00052,subscribed!,1.0,2.0
+530,vid00053,this is boring,6.0,0.0
+531,vid00053,this is boring,2.0,0.0
+532,vid00053,so helpful,2.0,2.0
+533,vid00053,thanks for sharing,3.0,2.0
+534,vid00053,waste of time,1.0,0.0
+535,vid00053,what camera do you use?,3.0,1.0
+536,vid00053,part 2?,16.0,1.0
+537,vid00053,clickbait,1.0,0.0
+538,vid00053,ok,7.0,1.0
+539,vid00053,this is boring,2.0,0.0
+540,vid00054,love this,5.0,2.0
+541,vid00054,learned a lot today,6.0,2.0
+542,vid00054,subscribed!,5.0,2.0
+543,vid00054,thanks for sharing,6.0,2.0
+544,vid00054,what camera do you use?,38.0,1.0
+545,vid00054,learned a lot today,30.0,2.0
+546,vid00054,perfect timing,36.0,2.0
+547,vid00054,great video,1.0,2.0
+548,vid00054,love this,18.0,2.0
+549,vid00054,genial video,22.0,2.0
+550,vid00055,waste of time,9.0,0.0
+551,vid00055,who is here in 2024,1.0,1.0
+552,vid00055,this is awesome 🔥,0.0,2.0
+553,vid00055,best tutorial ever,7.0,2.0
+554,vid00055,interesting,30.0,1.0
+555,vid00055,who is here in 2024,3.0,1.0
+556,vid00055,dislike,0.0,0.0
+557,vid00055,anyone else?,4.0,1.0
+558,vid00055,can you review the new model?,5.0,1.0
+559,vid00055,first time watching,3.0,1.0
+560,vid00056,thanks for sharing,8.0,2.0
+561,vid00056,first time watching,1.0,1.0
+562,vid00056,what camera do you use?,45.0,1.0
+563,vid00056,waste of time,10.0,0.0
+564,vid00056,this is boring,2.0,0.0
+565,vid00056,minute 3:20,6.0,1.0
+566,vid00056,part 2?,3.0,1.0
+567,vid00056,anyone else?,66.0,1.0
+568,vid00056,ok,25.0,1.0
+569,vid00056,love this,8.0,2.0
+570,vid00057,great video,13.0,2.0
+571,vid00057,thanks for sharing,1.0,2.0
+572,vid00057,interesting,13.0,1.0
+573,vid00057,ok,22.0,1.0
+574,vid00057,genial video,8.0,2.0
+575,vid00057,excelente explicación ❤️,10.0,2.0
+576,vid00057,amazing content,8.0,2.0
+577,vid00057,thanks for sharing,6.0,2.0
+578,vid00057,perfect timing,53.0,2.0
+579,vid00057,thanks for sharing,0.0,2.0
+580,vid00058,learned a lot today,6.0,2.0
+581,vid00058,who is here in 2024,2.0,1.0
+582,vid00058,best tutorial ever,5.0,2.0
+583,vid00058,this is awesome 🔥,30.0,2.0
+584,vid00058,part 2?,37.0,1.0
+585,vid00058,so helpful,6.0,2.0
+586,vid00058,perfect timing,1.0,2.0
+587,vid00058,love this,1.0,2.0
+588,vid00058,watching from Colombia,25.0,1.0
+589,vid00058,genial video,0.0,2.0
+590,vid00059,excelente explicación ❤️,1.0,2.0
+591,vid00059,can you review the new model?,4.0,1.0
+592,vid00059,ok,1.0,1.0
+593,vid00059,anyone else?,1.0,1.0
+594,vid00059,learned a lot today,11.0,2.0
+595,vid00059,subscribed!,0.0,2.0
+596,vid00059,this is awesome 🔥,11.0,2.0
+597,vid00059,learned a lot today,0.0,2.0
+598,vid00059,can you review the new model?,7.0,1.0
+599,vid00059,ok,0.0,1.0
+600,vid00060,love this,3.0,2.0
+601,vid00060,thanks for sharing,1.0,2.0
+602,vid00060,love this,3.0,2.0
+603,vid00060,excelente explicación ❤️,2.0,2.0
+604,vid00060,first time watching,20.0,1.0
+605,vid00060,learned a lot today,4.0,2.0
+606,vid00060,this is awesome 🔥,9.0,2.0
+607,vid00060,thanks for sharing,13.0,2.0
+608,vid00060,thanks for sharing,9.0,2.0
+609,vid00060,love this,0.0,2.0
+610,vid00061,fake,8.0,0.0
+611,vid00061,interesting,2.0,1.0
+612,vid00061,can you review the new model?,6.0,1.0
+613,vid00061,subscribed!,3.0,2.0
+614,vid00061,first time watching,3.0,1.0
+615,vid00061,ok,1.0,1.0
+616,vid00061,love this,1.0,2.0
+617,vid00061,genial video,2.0,2.0
+618,vid00061,learned a lot today,11.0,2.0
+619,vid00061,interesting,27.0,1.0
+620,vid00062,amazing content,3.0,2.0
+621,vid00062,audio is terrible,3.0,0.0
+622,vid00062,part 2?,5.0,1.0
+623,vid00062,first time watching,1.0,1.0
+624,vid00062,part 2?,13.0,1.0
+625,vid00062,best tutorial ever,2.0,2.0
+626,vid00062,first time watching,11.0,1.0
+627,vid00062,interesting,1.0,1.0
+628,vid00062,who is here in 2024,8.0,1.0
+629,vid00062,minute 3:20,14.0,1.0
+630,vid00063,who is here in 2024,10.0,1.0
+631,vid00063,perfect timing,9.0,2.0
+632,vid00063,thanks for sharing,7.0,2.0
+633,vid00063,clickbait,4.0,0.0
+634,vid00063,this is awesome 🔥,19.0,2.0
+635,vid00063,excelente explicación ❤️,6.0,2.0
+636,vid00063,perfect timing,0.0,2.0
+637,vid00063,who is here in 2024,5.0,1.0
+638,vid00063,so helpful,1.0,2.0
+639,vid00063,subscribed!,1.0,2.0
+640,vid00064,interesting,4.0,1.0
+641,vid00064,love this,10.0,2.0
+642,vid00064,no me gustó,6.0,0.0
+643,vid00064,what camera do you use?,5.0,1.0
+644,vid00064,perfect timing,7.0,2.0
+645,vid00064,perfect timing,19.0,2.0
+646,vid00064,first time watching,1.0,1.0
+647,vid00064,great video,4.0,2.0
+648,vid00064,love this,6.0,2.0
+649,vid00064,excelente explicación ❤️,1.0,2.0
+650,vid00065,dislike,7.0,0.0
+651,vid00065,part 2?,3.0,1.0
+652,vid00065,thanks for sharing,17.0,2.0
+653,vid00065,clickbait,5.0,0.0
+654,vid00065,part 2?,6.0,1.0
+655,vid00065,perfect timing,4.0,2.0
+656,vid00065,part 2?,3.0,1.0
+657,vid00065,perfect timing,0.0,2.0
+658,vid00065,wrong information,1.0,0.0
+659,vid00065,dislike,52.0,0.0
+660,vid00066,so helpful,3.0,2.0
+661,vid00066,so helpful,16.0,2.0
+662,vid00066,this is awesome 🔥,22.0,2.0
+663,vid00066,this is awesome 🔥,2.0,2.0
+664,vid00066,amazing content,0.0,2.0
+665,vid00066,part 2?,15.0,1.0
+666,vid00066,great video,4.0,2.0
+667,vid00066,subscribed!,3.0,2.0
+668,vid00066,love this,22.0,2.0
+669,vid00066,learned a lot today,2.0,2.0
+670,vid00067,minute 3:20,4.0,1.0
+671,vid00067,can you review the new model?,4.0,1.0
+672,vid00067,thanks for sharing,1.0,2.0
+673,vid00067,excelente explicación ❤️,2.0,2.0
+674,vid00067,ok,0.0,1.0
+675,vid00067,best tutorial ever,61.0,2.0
+676,vid00067,part 2?,3.0,1.0
+677,vid00067,genial video,0.0,2.0
+678,vid00067,thanks for sharing,1.0,2.0
+679,vid00067,learned a lot today,8.0,2.0
+680,vid00068,minute 3:20,7.0,1.0
+681,vid00068,can you review the new model?,11.0,1.0
+682,vid00068,interesting,17.0,1.0
+683,vid00068,dislike,3.0,0.0
+684,vid00068,so helpful,4.0,2.0
+685,vid00068,thanks for sharing,6.0,2.0
+686,vid00068,learned a lot today,1.0,2.0
+687,vid00068,part 2?,2.0,1.0
+688,vid00068,great video,1.0,2.0
+689,vid00068,part 2?,29.0,1.0
+690,vid00069,part 2?,0.0,1.0
+691,vid00069,perfect timing,1.0,2.0
+692,vid00069,minute 3:20,0.0,1.0
+693,vid00069,subscribed!,1.0,2.0
+694,vid00069,best tutorial ever,7.0,2.0
+695,vid00069,who is here in 2024,1.0,1.0
+696,vid00069,ok,19.0,1.0
+697,vid00069,genial video,22.0,2.0
+698,vid00069,first time watching,8.0,1.0
+699,vid00069,part 2?,3.0,1.0
+700,vid00070,minute 3:20,13.0,1.0
+701,vid00070,clickbait,13.0,0.0
+702,vid00070,anyone else?,4.0,1.0
+703,vid00070,genial video,5.0,2.0
+704,vid00070,great video,4.0,2.0
+705,vid00070,dislike,1.0,0.0
+706,vid00070,minute 3:20,48.0,1.0
+707,vid00070,part 2?,23.0,1.0
+708,vid00070,subscribed!,87.0,2.0
+709,vid00070,perfect timing,1.0,2.0
+710,vid00071,this is boring,5.0,0.0
+711,vid00071,perfect timing,18.0,2.0
+712,vid00071,this is awesome 🔥,3.0,2.0
+713,vid00071,waste of time,3.0,0.0
+714,vid00071,great video,6.0,2.0
+715,vid00071,can you review the new model?,0.0,1.0
+716,vid00071,best tutorial ever,6.0,2.0
+717,vid00071,anyone else?,122.0,1.0
+718,vid00071,minute 3:20,0.0,1.0
+719,vid00071,interesting,9.0,1.0
+720,vid00072,first time watching,3.0,1.0
+721,vid00072,can you review the new model?,3.0,1.0
+722,vid00072,first time watching,1.0,1.0
+723,vid00072,genial video,7.0,2.0
+724,vid00072,this is boring,7.0,0.0
+725,vid00072,ok,2.0,1.0
+726,vid00072,interesting,1.0,1.0
+727,vid00072,interesting,6.0,1.0
+728,vid00072,anyone else?,0.0,1.0
+729,vid00072,genial video,3.0,2.0
+730,vid00073,can you review the new model?,6.0,1.0
+731,vid00073,watching from Colombia,25.0,1.0
+732,vid00073,love this,16.0,2.0
+733,vid00073,worst video,2.0,0.0
+734,vid00073,love this,0.0,2.0
+735,vid00073,wrong information,8.0,0.0
+736,vid00073,thanks for sharing,2.0,2.0
+737,vid00073,thanks for sharing,2.0,2.0
+738,vid00073,amazing content,8.0,2.0
+739,vid00073,learned a lot today,13.0,2.0
+740,vid00074,watching from Colombia,1.0,1.0
+741,vid00074,so helpful,23.0,2.0
+742,vid00074,clickbait,0.0,0.0
+743,vid00074,minute 3:20,21.0,1.0
+744,vid00074,genial video,12.0,2.0
+745,vid00074,so helpful,1.0,2.0
+746,vid00074,no me gustó,66.0,0.0
+747,vid00074,excelente explicación ❤️,1.0,2.0
+748,vid00074,first time watching,4.0,1.0
+749,vid00074,so helpful,4.0,2.0
+750,vid00075,audio is terrible,0.0,0.0
+751,vid00075,amazing content,10.0,2.0
+752,vid00075,fake,5.0,0.0
+753,vid00075,who is here in 2024,4.0,1.0
+754,vid00075,too long 👎,2.0,0.0
+755,vid00075,so helpful,12.0,2.0
+756,vid00075,,1.0,2.0
+757,vid00075,minute 3:20,13.0,1.0
+758,vid00075,this is awesome 🔥,3.0,2.0
+759,vid00075,part 2?,2.0,1.0
+760,vid00076,best tutorial ever,3.0,2.0
+761,vid00076,part 2?,7.0,1.0
+762,vid00076,perfect timing,13.0,2.0
+763,vid00076,thanks for sharing,13.0,2.0
+764,vid00076,amazing content,12.0,2.0
+765,vid00076,minute 3:20,6.0,1.0
+766,vid00076,clickbait,7.0,0.0
+767,vid00076,love this,5.0,2.0
+768,vid00076,can you review the new model?,3.0,1.0
+769,vid00076,anyone else?,15.0,1.0
+770,vid00077,great video,6.0,2.0
+771,vid00077,so helpful,3.0,2.0
+772,vid00077,amazing content,6.0,2.0
+773,vid00077,no me gustó,0.0,0.0
+774,vid00077,so helpful,11.0,2.0
+775,vid00077,subscribed!,1.0,2.0
+776,vid00077,perfect timing,0.0,2.0
+777,vid00077,what camera do you use?,33.0,1.0
+778,vid00077,great video,7.0,2.0
+779,vid00077,thanks for sharing,1.0,2.0
+780,vid00078,can you review the new model?,14.0,1.0
+781,vid00078,who is here in 2024,6.0,1.0
+782,vid00078,anyone else?,24.0,1.0
+783,vid00078,this is boring,12.0,0.0
+784,vid00078,part 2?,4.0,1.0
+785,vid00078,what camera do you use?,7.0,1.0
+786,vid00078,what camera do you use?,4.0,1.0
+787,vid00078,can you review the new model?,10.0,1.0
+788,vid00078,anyone else?,1.0,1.0
+789,vid00078,ok,2.0,1.0
+790,vid00079,too long 👎,10.0,0.0
+791,vid00079,amazing content,19.0,2.0
+792,vid00079,love this,5.0,2.0
+793,vid00079,great video,5.0,2.0
+794,vid00079,great video,4.0,2.0
+795,vid00079,great video,4.0,2.0
+796,vid00079,first time watching,0.0,1.0
+797,vid00079,ok,2.0,1.0
+798,vid00079,so helpful,12.0,2.0
+799,vid00079,amazing content,1.0,2.0
+800,vid00080,so helpful,5.0,2.0
+801,vid00080,ok,1.0,1.0
+802,vid00080,amazing content,57.0,2.0
+803,vid00080,audio is terrible,12.0,0.0
+804,vid00080,genial video,4.0,2.0
+805,vid00080,amazing content,6.0,2.0
+806,vid00080,subscribed!,5.0,2.0
+807,vid00080,perfect timing,2.0,2.0
+808,vid00080,no me gustó,30.0,0.0
+809,vid00080,interesting,4.0,1.0
+810,vid00081,minute 3:20,10.0,1.0
+811,vid00081,learned a lot today,2.0,2.0
+812,vid00081,best tutorial ever,2.0,2.0
+813,vid00081,this is awesome 🔥,1.0,2.0
+814,vid00081,minute 3:20,1.0,1.0
+815,vid00081,excelente explicación ❤️,7.0,2.0
+816,vid00081,thanks for sharing,8.0,2.0
+817,vid00081,first time watching,18.0,1.0
+818,vid00081,amazing content,3.0,2.0
+819,vid00081,waste of time,3.0,0.0
+820,vid00082,anyone else?,29.0,1.0
+821,vid00082,so helpful,23.0,2.0
+822,vid00082,interesting,4.0,1.0
+823,vid00082,learned a lot today,1.0,2.0
+824,vid00082,no me gustó,18.0,0.0
+825,vid00082,part 2?,0.0,1.0
+826,vid00082,perfect timing,27.0,2.0
+827,vid00082,part 2?,3.0,1.0
+828,vid00082,learned a lot today,6.0,2.0
+829,vid00082,learned a lot today,2.0,2.0
+830,vid00083,perfect timing,10.0,2.0
+831,vid00083,ok,3.0,1.0
+832,vid00083,perfect timing,2.0,2.0
+833,vid00083,excelente explicación ❤️,1.0,2.0
+834,vid00083,great video,1.0,2.0
+835,vid00083,can you review the new model?,6.0,1.0
+836,vid00083,watching from Colombia,3.0,1.0
+837,vid00083,love this,9.0,2.0
+838,vid00083,minute 3:20,5.0,1.0
+839,vid00083,anyone else?,2.0,1.0
+840,vid00084,this is awesome 🔥,9.0,2.0
+841,vid00084,thanks for sharing,0.0,2.0
+842,vid00084,can you review the new model?,17.0,1.0
+843,vid00084,great video,0.0,2.0
+844,vid00084,anyone else?,20.0,1.0
+845,vid00084,amazing content,3.0,2.0
+846,vid00084,amazing content,49.0,2.0
+847,vid00084,perfect timing,1.0,2.0
+848,vid00084,watching from Colombia,7.0,1.0
+849,vid00084,this is awesome 🔥,14.0,2.0
+850,vid00085,who is here in 2024,6.0,1.0
+851,vid00085,who is here in 2024,0.0,1.0
+852,vid00085,learned a lot today,6.0,2.0
+853,vid00085,clickbait,8.0,0.0
+854,vid00085,thanks for sharing,12.0,2.0
+855,vid00085,perfect timing,10.0,2.0
+856,vid00085,no me gustó,0.0,0.0
+857,vid00085,first time watching,19.0,1.0
+858,vid00085,dislike,3.0,0.0
+859,vid00085,excelente explicación ❤️,6.0,2.0
+860,vid00086,ok,14.0,1.0
+861,vid00086,part 2?,2.0,1.0
+862,vid00086,who is here in 2024,3.0,1.0
+863,vid00086,love this,0.0,2.0
+864,vid00086,can you review the new model?,2.0,1.0
+865,vid00086,great video,11.0,2.0
+866,vid00086,subscribed!,12.0,2.0
+867,vid00086,anyone else?,1.0,1.0
+868,vid00086,subscribed!,7.0,2.0
+869,vid00086,great video,1.0,2.0
+870,vid00087,genial video,7.0,2.0
+871,vid00087,this is awesome 🔥,0.0,2.0
+872,vid00087,who is here in 2024,1.0,1.0
+873,vid00087,perfect timing,0.0,2.0
+874,vid00087,this is awesome 🔥,0.0,2.0
+875,vid00087,so helpful,1.0,2.0
+876,vid00087,minute 3:20,12.0,1.0
+877,vid00087,watching from Colombia,0.0,1.0
+878,vid00087,audio is terrible,4.0,0.0
+879,vid00087,ok,1.0,1.0
+880,vid00088,best tutorial ever,1.0,2.0
+881,vid00088,love this,1.0,2.0
+882,vid00088,this is awesome 🔥,18.0,2.0
+883,vid00088,great video,2.0,2.0
+884,vid00088,excelente explicación ❤️,3.0,2.0
+885,vid00088,amazing content,7.0,2.0
+886,vid00088,ok,25.0,1.0
+887,vid00088,best tutorial ever,3.0,2.0
+888,vid00088,genial video,43.0,2.0
+889,vid00088,clickbait,2.0,0.0
+890,vid00089,part 2?,13.0,1.0
+891,vid00089,subscribed!,3.0,2.0
+892,vid00089,this is awesome 🔥,93.0,2.0
+893,vid00089,love this,6.0,2.0
+894,vid00089,this is awesome 🔥,4.0,2.0
+895,vid00089,perfect timing,6.0,2.0
+896,vid00089,too long 👎,17.0,0.0
+897,vid00089,part 2?,0.0,1.0
+898,vid00089,love this,3.0,2.0
+899,vid00089,this is awesome 🔥,3.0,2.0
+900,vid00090,interesting,9.0,1.0
+901,vid00090,can you review the new model?,0.0,1.0
+902,vid00090,fake,12.0,0.0
+903,vid00090,interesting,6.0,1.0
+904,vid00090,first time watching,29.0,1.0
+905,vid00090,interesting,2.0,1.0
+906,vid00090,amazing content,13.0,2.0
+907,vid00090,part 2?,3.0,1.0
+908,vid00090,best tutorial ever,4.0,2.0
+909,vid00090,fake,142.0,0.0
+910,vid00091,first time watching,2.0,1.0
+911,vid00091,wrong information,12.0,0.0
+912,vid00091,this is boring,2.0,0.0
+913,vid00091,great video,0.0,2.0
+914,vid00091,love this,5.0,2.0
+915,vid00091,who is here in 2024,11.0,1.0
+916,vid00091,minute 3:20,11.0,1.0
+917,vid00091,perfect timing,6.0,2.0
+918,vid00091,watching from Colombia,2.0,1.0
+919,vid00091,anyone else?,2.0,1.0
+920,vid00092,can you review the new model?,0.0,1.0
+921,vid00092,great video,7.0,2.0
+922,vid00092,first time watching,4.0,1.0
+923,vid00092,what camera do you use?,0.0,1.0
+924,vid00092,can you review the new model?,1.0,1.0
+925,vid00092,this is boring,3.0,0.0
+926,vid00092,this is boring,2.0,0.0
+927,vid00092,minute 3:20,4.0,1.0
+928,vid00092,what camera do you use?,7.0,1.0
+929,vid00092,great video,1.0,2.0
+930,vid00093,part 2?,0.0,1.0
+931,vid00093,anyone else?,0.0,1.0
+932,vid00093,wrong information,38.0,0.0
+933,vid00093,anyone else?,9.0,1.0
+934,vid00093,great video,5.0,2.0
+935,vid00093,first time watching,5.0,1.0
+936,vid00093,what camera do you use?,29.0,1.0
+937,vid00093,minute 3:20,2.0,1.0
+938,vid00093,minute 3:20,1.0,1.0
+939,vid00093,wrong information,8.0,0.0
+940,vid00094,great video,4.0,2.0
+941,vid00094,this is awesome 🔥,7.0,2.0
+942,vid00094,perfect timing,1.0,2.0
+943,vid00094,so helpful,22.0,2.0
+944,vid00094,excelente explicación ❤️,8.0,2.0
+945,vid00094,anyone else?,26.0,1.0
+946,vid00094,first time watching,1.0,1.0
+947,vid00094,subscribed!,15.0,2.0
+948,vid00094,watching from Colombia,15.0,1.0
+949,vid00094,anyone else?,1.0,1.0
+950,vid00095,great video,3.0,2.0
+951,vid00095,ok,5.0,1.0
+952,vid00095,audio is terrible,8.0,0.0
+953,vid00095,subscribed!,7.0,2.0
+954,vid00095,learned a lot today,8.0,2.0
+955,vid00095,this is awesome 🔥,8.0,2.0
+956,vid00095,thanks for sharing,16.0,2.0
+957,vid00095,so helpful,5.0,2.0
+958,vid00095,interesting,3.0,1.0
+959,vid00095,genial video,2.0,2.0
+960,vid00096,genial video,0.0,2.0
+961,vid00096,great video,3.0,2.0
+962,vid00096,thanks for sharing,6.0,2.0
+963,vid00096,ok,24.0,1.0
+964,vid00096,this is boring,51.0,0.0
+965,vid00096,dislike,25.0,0.0
+966,vid00096,perfect timing,2.0,2.0
+967,vid00096,best tutorial ever,16.0,2.0
+968,vid00096,excelente explicación ❤️,2.0,2.0
+969,vid00096,can you review the new model?,0.0,1.0
+970,vid00097,ok,9.0,1.0
+971,vid00097,first time watching,1.0,1.0
+972,vid00097,part 2?,15.0,1.0
+973,vid00097,watching from Colombia,1.0,1.0
+974,vid00097,minute 3:20,22.0,1.0
+975,vid00097,first time watching,2.0,1.0
+976,vid00097,first time watching,0.0,1.0
+977,vid00097,can you review the new model?,3.0,1.0
+978,vid00097,this is awesome 🔥,45.0,2.0
+979,vid00097,too long 👎,15.0,0.0
+980,vid00098,too long 👎,25.0,0.0
+981,vid00098,anyone else?,16.0,1.0
+982,vid00098,what camera do you use?,2.0,1.0
+983,vid00098,genial video,0.0,2.0
+984,vid00098,best tutorial ever,1.0,2.0
+985,vid00098,what camera do you use?,22.0,1.0
+986,vid00098,first time watching,24.0,1.0
+987,vid00098,minute 3:20,5.0,1.0
+988,vid00098,ok,17.0,1.0
+989,vid00098,thanks for sharing,1.0,2.0
+990,vid00099,this is awesome 🔥,4.0,2.0
+991,vid00099,perfect timing,7.0,2.0
+992,vid00099,what camera do you use?,8.0,1.0
+993,vid00099,this is awesome 🔥,1.0,2.0
+994,vid00099,perfect timing,4.0,2.0
+995,vid00099,love this,18.0,2.0
+996,vid00099,thanks for sharing,33.0,2.0
+997,vid00099,genial video,0.0,2.0
+998,vid00099,watching from Colombia,5.0,1.0
+999,vid00099,first time watching,61.0,1.0
+1000,vid00100,anyone else?,4.0,1.0
+1001,vid00100,excelente explicación ❤️,1.0,2.0
+1002,vid00100,first time watching,5.0,1.0
+1003,vid00100,dislike,22.0,0.0
+1004,vid00100,clickbait,0.0,0.0
+1005,vid00100,waste of time,5.0,0.0
+1006,vid00100,best tutorial ever,78.0,2.0
+1007,vid00100,subscribed!,1.0,2.0
+1008,vid00100,anyone else?,4.0,1.0
+1009,vid00100,ok,3.0,1.0
+1010,vid00101,can you review the new model?,2.0,1.0
+1011,vid00101,great video,16.0,2.0
+1012,vid00101,ok,3.0,1.0
+1013,vid00101,subscribed!,9.0,2.0
+1014,vid00101,great video,22.0,2.0
+1015,vid00101,this is awesome 🔥,4.0,2.0
+1016,vid00101,interesting,7.0,1.0
+1017,vid00101,part 2?,3.0,1.0
+1018,vid00101,waste of time,0.0,0.0
+1019,vid00101,minute 3:20,1.0,1.0
+1020,vid00102,interesting,9.0,1.0
+1021,vid00102,fake,6.0,0.0
+1022,vid00102,this is awesome 🔥,1.0,2.0
+1023,vid00102,amazing content,1.0,2.0
+1024,vid00102,ok,5.0,1.0
+1025,vid00102,ok,19.0,1.0
+1026,vid00102,perfect timing,4.0,2.0
+1027,vid00102,learned a lot today,6.0,2.0
+1028,vid00102,interesting,5.0,1.0
+1029,vid00102,first time watching,8.0,1.0
+1030,vid00103,thanks for sharing,8.0,2.0
+1031,vid00103,great video,36.0,2.0
+1032,vid00103,what camera do you use?,9.0,1.0
+1033,vid00103,excelente explicación ❤️,4.0,2.0
+1034,vid00103,first time watching,3.0,1.0
+1035,vid00103,can you review the new model?,7.0,1.0
+1036,vid00103,thanks for sharing,7.0,2.0
+1037,vid00103,love this,10.0,2.0
+1038,vid00103,watching from Colombia,6.0,1.0
+1039,vid00103,who is here in 2024,1.0,1.0
+1040,vid00104,wrong information,0.0,0.0
+1041,vid00104,what camera do you use?,1.0,1.0
+1042,vid00104,best tutorial ever,3.0,2.0
+1043,vid00104,so helpful,2.0,2.0
+1044,vid00104,great video,9.0,2.0
+1045,vid00104,ok,0.0,1.0
+1046,vid00104,too long 👎,1.0,0.0
+1047,vid00104,so helpful,9.0,2.0
+1048,vid00104,what camera do you use?,4.0,1.0
+1049,vid00104,love this,9.0,2.0
+1050,vid00105,amazing content,4.0,2.0
+1051,vid00105,amazing content,91.0,2.0
+1052,vid00105,this is awesome 🔥,2.0,2.0
+1053,vid00105,amazing content,2.0,2.0
+1054,vid00105,perfect timing,3.0,2.0
+1055,vid00105,so helpful,10.0,2.0
+1056,vid00105,great video,10.0,2.0
+1057,vid00105,excelente explicación ❤️,45.0,2.0
+1058,vid00105,excelente explicación ❤️,5.0,2.0
+1059,vid00105,subscribed!,3.0,2.0
+1060,vid00106,ok,6.0,1.0
+1061,vid00106,part 2?,13.0,1.0
+1062,vid00106,part 2?,1.0,1.0
+1063,vid00106,learned a lot today,2.0,2.0
+1064,vid00106,love this,11.0,2.0
+1065,vid00106,subscribed!,12.0,2.0
+1066,vid00106,learned a lot today,3.0,2.0
+1067,vid00106,too long 👎,6.0,0.0
+1068,vid00106,part 2?,3.0,1.0
+1069,vid00106,ok,1.0,1.0
+1070,vid00107,what camera do you use?,3.0,1.0
+1071,vid00107,audio is terrible,10.0,0.0
+1072,vid00107,interesting,3.0,1.0
+1073,vid00107,thanks for sharing,1.0,2.0
+1074,vid00107,part 2?,1.0,1.0
+1075,vid00107,part 2?,8.0,1.0
+1076,vid00107,genial video,33.0,2.0
+1077,vid00107,this is awesome 🔥,4.0,2.0
+1078,vid00107,what camera do you use?,12.0,1.0
+1079,vid00107,what camera do you use?,65.0,1.0
+1080,vid00108,learned a lot today,4.0,2.0
+1081,vid00108,great video,0.0,2.0
+1082,vid00108,waste of time,4.0,0.0
+1083,vid00108,dislike,6.0,0.0
+1084,vid00108,perfect timing,6.0,2.0
+1085,vid00108,waste of time,6.0,0.0
+1086,vid00108,great video,20.0,2.0
+1087,vid00108,great video,6.0,2.0
+1088,vid00108,subscribed!,6.0,2.0
+1089,vid00108,wrong information,12.0,0.0
+1090,vid00109,first time watching,1.0,1.0
+1091,vid00109,this is awesome 🔥,0.0,2.0
+1092,vid00109,subscribed!,1.0,2.0
+1093,vid00109,so helpful,9.0,2.0
+1094,vid00109,no me gustó,5.0,0.0
+1095,vid00109,watching from Colombia,14.0,1.0
+1096,vid00109,waste of time,13.0,0.0
+1097,vid00109,interesting,4.0,1.0
+1098,vid00109,love this,11.0,2.0
+1099,vid00109,first time watching,32.0,1.0
+1100,vid00110,ok,4.0,1.0
+1101,vid00110,amazing content,1.0,2.0
+1102,vid00110,excelente explicación ❤️,4.0,2.0
+1103,vid00110,subscribed!,12.0,2.0
+1104,vid00110,amazing content,4.0,2.0
+1105,vid00110,thanks for sharing,2.0,2.0
+1106,vid00110,best tutorial ever,5.0,2.0
+1107,vid00110,excelente explicación ❤️,0.0,2.0
+1108,vid00110,first time watching,3.0,1.0
+1109,vid00110,part 2?,7.0,1.0
+1110,vid00111,anyone else?,0.0,1.0
+1111,vid00111,waste of time,10.0,0.0
+1112,vid00111,anyone else?,4.0,1.0
+1113,vid00111,genial video,22.0,2.0
+1114,vid00111,part 2?,10.0,1.0
+1115,vid00111,thanks for sharing,1.0,2.0
+1116,vid00111,what camera do you use?,4.0,1.0
+1117,vid00111,interesting,0.0,1.0
+1118,vid00111,minute 3:20,8.0,1.0
+1119,vid00111,anyone else?,7.0,1.0
+1120,vid00112,so helpful,3.0,2.0
+1121,vid00112,minute 3:20,1.0,1.0
+1122,vid00112,minute 3:20,2.0,1.0
+1123,vid00112,excelente explicación ❤️,2.0,2.0
+1124,vid00112,subscribed!,3.0,2.0
+1125,vid00112,so helpful,7.0,2.0
+1126,vid00112,perfect timing,0.0,2.0
+1127,vid00112,perfect timing,6.0,2.0
+1128,vid00112,too long 👎,10.0,0.0
+1129,vid00112,interesting,63.0,1.0
+1130,vid00113,learned a lot today,6.0,2.0
+1131,vid00113,what camera do you use?,1.0,1.0
+1132,vid00113,can you review the new model?,6.0,1.0
+1133,vid00113,excelente explicación ❤️,2.0,2.0
+1134,vid00113,so helpful,4.0,2.0
+1135,vid00113,so helpful,14.0,2.0
+1136,vid00113,minute 3:20,3.0,1.0
+1137,vid00113,subscribed!,3.0,2.0
+1138,vid00113,this is awesome 🔥,1.0,2.0
+1139,vid00113,subscribed!,6.0,2.0
+1140,vid00114,fake,13.0,0.0
+1141,vid00114,thanks for sharing,16.0,2.0
+1142,vid00114,perfect timing,6.0,2.0
+1143,vid00114,interesting,1.0,1.0
+1144,vid00114,ok,1.0,1.0
+1145,vid00114,this is awesome 🔥,2.0,2.0
+1146,vid00114,what camera do you use?,4.0,1.0
+1147,vid00114,part 2?,7.0,1.0
+1148,vid00114,who is here in 2024,2.0,1.0
+1149,vid00114,fake,0.0,0.0
+1150,vid00115,excelente explicación ❤️,5.0,2.0
+1151,vid00115,subscribed!,9.0,2.0
+1152,vid00115,fake,1.0,0.0
+1153,vid00115,genial video,1.0,2.0
+1154,vid00115,genial video,2.0,2.0
+1155,vid00115,best tutorial ever,4.0,2.0
+1156,vid00115,subscribed!,21.0,2.0
+1157,vid00115,best tutorial ever,2.0,2.0
+1158,vid00115,subscribed!,2.0,2.0
+1159,vid00115,this is awesome 🔥,2.0,2.0
+1160,vid00116,learned a lot today,6.0,2.0
+1161,vid00116,perfect timing,8.0,2.0
+1162,vid00116,genial video,3.0,2.0
+1163,vid00116,great video,3.0,2.0
+1164,vid00116,love this,26.0,2.0
+1165,vid00116,subscribed!,4.0,2.0
+1166,vid00116,excelente explicación ❤️,6.0,2.0
+1167,vid00116,learned a lot today,13.0,2.0
+1168,vid00116,learned a lot today,3.0,2.0
+1169,vid00116,amazing content,6.0,2.0
+1170,vid00117,great video,32.0,2.0
+1171,vid00117,this is awesome 🔥,0.0,2.0
+1172,vid00117,can you review the new model?,1.0,1.0
+1173,vid00117,amazing content,3.0,2.0
+1174,vid00117,subscribed!,4.0,2.0
+1175,vid00117,amazing content,13.0,2.0
+1176,vid00117,anyone else?,11.0,1.0
+1177,vid00117,anyone else?,2.0,1.0
+1178,vid00117,excelente explicación ❤️,1.0,2.0
+1179,vid00117,excelente explicación ❤️,0.0,2.0
+1180,vid00118,watching from Colombia,5.0,1.0
+1181,vid00118,thanks for sharing,11.0,2.0
+1182,vid00118,this is boring,2.0,0.0
+1183,vid00118,perfect timing,31.0,2.0
+1184,vid00118,thanks for sharing,4.0,2.0
+1185,vid00118,part 2?,1.0,1.0
+1186,vid00118,interesting,8.0,1.0
+1187,vid00118,learned a lot today,7.0,2.0
+1188,vid00118,love this,18.0,2.0
+1189,vid00118,this is awesome 🔥,7.0,2.0
+1190,vid00119,part 2?,5.0,1.0
+1191,vid00119,so helpful,12.0,2.0
+1192,vid00119,first time watching,21.0,1.0
+1193,vid00119,love this,19.0,2.0
+1194,vid00119,interesting,10.0,1.0
+1195,vid00119,can you review the new model?,1.0,1.0
+1196,vid00119,what camera do you use?,4.0,1.0
+1197,vid00119,genial video,9.0,2.0
+1198,vid00119,this is awesome 🔥,2.0,2.0
+1199,vid00119,this is boring,2.0,0.0
+1200,vid00120,ok,0.0,1.0
+1201,vid00120,anyone else?,1.0,1.0
+1202,vid00120,ok,7.0,1.0
+1203,vid00120,this is boring,8.0,0.0
+1204,vid00120,watching from Colombia,9.0,1.0
+1205,vid00120,interesting,37.0,1.0
+1206,vid00120,first time watching,4.0,1.0
+1207,vid00120,worst video,1.0,0.0
+1208,vid00120,interesting,1.0,1.0
+1209,vid00120,worst video,2.0,0.0
+1210,vid00121,this is awesome 🔥,12.0,2.0
+1211,vid00121,this is awesome 🔥,33.0,2.0
+1212,vid00121,this is awesome 🔥,7.0,2.0
+1213,vid00121,love this,4.0,2.0
+1214,vid00121,learned a lot today,23.0,2.0
+1215,vid00121,best tutorial ever,2.0,2.0
+1216,vid00121,great video,9.0,2.0
+1217,vid00121,who is here in 2024,50.0,1.0
+1218,vid00121,minute 3:20,7.0,1.0
+1219,vid00121,waste of time,7.0,0.0
+1220,vid00122,worst video,6.0,0.0
+1221,vid00122,subscribed!,6.0,2.0
+1222,vid00122,learned a lot today,3.0,2.0
+1223,vid00122,learned a lot today,1.0,2.0
+1224,vid00122,perfect timing,1.0,2.0
+1225,vid00122,interesting,0.0,1.0
+1226,vid00122,genial video,19.0,2.0
+1227,vid00122,this is awesome 🔥,4.0,2.0
+1228,vid00122,dislike,2.0,0.0
+1229,vid00122,this is awesome 🔥,3.0,2.0
+1230,vid00123,can you review the new model?,11.0,1.0
+1231,vid00123,great video,15.0,2.0
+1232,vid00123,great video,32.0,2.0
+1233,vid00123,anyone else?,8.0,1.0
+1234,vid00123,who is here in 2024,23.0,1.0
+1235,vid00123,love this,5.0,2.0
+1236,vid00123,great video,3.0,2.0
+1237,vid00123,too long 👎,1.0,0.0
+1238,vid00123,genial video,1.0,2.0
+1239,vid00123,minute 3:20,5.0,1.0
+1240,vid00124,interesting,0.0,1.0
+1241,vid00124,this is awesome 🔥,1.0,2.0
+1242,vid00124,genial video,6.0,2.0
+1243,vid00124,too long 👎,3.0,0.0
+1244,vid00124,can you review the new model?,6.0,1.0
+1245,vid00124,love this,2.0,2.0
+1246,vid00124,interesting,5.0,1.0
+1247,vid00124,minute 3:20,19.0,1.0
+1248,vid00124,part 2?,1.0,1.0
+1249,vid00124,what camera do you use?,0.0,1.0
+1250,vid00125,learned a lot today,0.0,2.0
+1251,vid00125,great video,9.0,2.0
+1252,vid00125,who is here in 2024,20.0,1.0
+1253,vid00125,fake,1.0,0.0
+1254,vid00125,anyone else?,12.0,1.0
+1255,vid00125,part 2?,4.0,1.0
+1256,vid00125,genial video,29.0,2.0
+1257,vid00125,minute 3:20,1.0,1.0
+1258,vid00125,love this,1.0,2.0
+1259,vid00125,part 2?,11.0,1.0
+1260,vid00126,watching from Colombia,1.0,1.0
+1261,vid00126,learned a lot today,7.0,2.0
+1262,vid00126,perfect timing,15.0,2.0
+1263,vid00126,ok,4.0,1.0
+1264,vid00126,subscribed!,1.0,2.0
+1265,vid00126,genial video,1.0,2.0
+1266,vid00126,best tutorial ever,4.0,2.0
+1267,vid00126,fake,9.0,0.0
+1268,vid00126,what camera do you use?,0.0,1.0
+1269,vid00126,best tutorial ever,11.0,2.0
+1270,vid00127,perfect timing,19.0,2.0
+1271,vid00127,no me gustó,13.0,0.0
+1272,vid00127,genial video,5.0,2.0
+1273,vid00127,excelente explicación ❤️,10.0,2.0
+1274,vid00127,genial video,5.0,2.0
+1275,vid00127,subscribed!,17.0,2.0
+1276,vid00127,best tutorial ever,1.0,2.0
+1277,vid00127,love this,5.0,2.0
+1278,vid00127,learned a lot today,2.0,2.0
+1279,vid00127,can you review the new model?,16.0,1.0
+1280,vid00128,too long 👎,51.0,0.0
+1281,vid00128,interesting,3.0,1.0
+1282,vid00128,subscribed!,1.0,2.0
+1283,vid00128,this is awesome 🔥,0.0,2.0
+1284,vid00128,subscribed!,0.0,2.0
+1285,vid00128,excelente explicación ❤️,0.0,2.0
+1286,vid00128,best tutorial ever,7.0,2.0
+1287,vid00128,learned a lot today,7.0,2.0
+1288,vid00128,minute 3:20,14.0,1.0
+1289,vid00128,learned a lot today,7.0,2.0
+1290,vid00129,no me gustó,0.0,0.0
+1291,vid00129,best tutorial ever,17.0,2.0
+1292,vid00129,interesting,7.0,1.0
+1293,vid00129,can you review the new model?,13.0,1.0
+1294,vid00129,this is boring,0.0,0.0
+1295,vid00129,excelente explicación ❤️,12.0,2.0
+1296,vid00129,genial video,16.0,2.0
+1297,vid00129,great video,14.0,2.0
+1298,vid00129,love this,14.0,2.0
+1299,vid00129,first time watching,1.0,1.0
+1300,vid00130,first time watching,9.0,1.0
+1301,vid00130,ok,1.0,1.0
+1302,vid00130,this is awesome 🔥,0.0,2.0
+1303,vid00130,subscribed!,2.0,2.0
+1304,vid00130,genial video,7.0,2.0
+1305,vid00130,learned a lot today,13.0,2.0
+1306,vid00130,part 2?,5.0,1.0
+1307,vid00130,thanks for sharing,0.0,2.0
+1308,vid00130,this is awesome 🔥,4.0,2.0
+1309,vid00130,minute 3:20,12.0,1.0
+1310,vid00131,ok,4.0,1.0
+1311,vid00131,can you review the new model?,51.0,1.0
+1312,vid00131,so helpful,3.0,2.0
+1313,vid00131,thanks for sharing,8.0,2.0
+1314,vid00131,amazing content,5.0,2.0
+1315,vid00131,learned a lot today,2.0,2.0
+1316,vid00131,who is here in 2024,7.0,1.0
+1317,vid00131,so helpful,5.0,2.0
+1318,vid00131,can you review the new model?,3.0,1.0
+1319,vid00131,anyone else?,1.0,1.0
+1320,vid00132,subscribed!,19.0,2.0
+1321,vid00132,subscribed!,3.0,2.0
+1322,vid00132,fake,6.0,0.0
+1323,vid00132,this is boring,10.0,0.0
+1324,vid00132,amazing content,34.0,2.0
+1325,vid00132,audio is terrible,5.0,0.0
+1326,vid00132,can you review the new model?,3.0,1.0
+1327,vid00132,what camera do you use?,0.0,1.0
+1328,vid00132,love this,5.0,2.0
+1329,vid00132,genial video,25.0,2.0
+1330,vid00133,amazing content,3.0,2.0
+1331,vid00133,first time watching,1.0,1.0
+1332,vid00133,dislike,3.0,0.0
+1333,vid00133,dislike,14.0,0.0
+1334,vid00133,what camera do you use?,0.0,1.0
+1335,vid00133,perfect timing,0.0,2.0
+1336,vid00133,first time watching,25.0,1.0
+1337,vid00133,worst video,8.0,0.0
+1338,vid00133,watching from Colombia,2.0,1.0
+1339,vid00133,ok,1.0,1.0
+1340,vid00134,subscribed!,13.0,2.0
+1341,vid00134,love this,8.0,2.0
+1342,vid00134,wrong information,1.0,0.0
+1343,vid00134,perfect timing,17.0,2.0
+1344,vid00134,great video,3.0,2.0
+1345,vid00134,perfect timing,2.0,2.0
+1346,vid00134,worst video,26.0,0.0
+1347,vid00134,excelente explicación ❤️,1.0,2.0
+1348,vid00134,so helpful,20.0,2.0
+1349,vid00134,part 2?,20.0,1.0
+1350,vid00135,excelente explicación ❤️,34.0,2.0
+1351,vid00135,subscribed!,1.0,2.0
+1352,vid00135,excelente explicación ❤️,9.0,2.0
+1353,vid00135,thanks for sharing,55.0,2.0
+1354,vid00135,first time watching,5.0,1.0
+1355,vid00135,so helpful,2.0,2.0
+1356,vid00135,learned a lot today,3.0,2.0
+1357,vid00135,love this,5.0,2.0
+1358,vid00135,great video,25.0,2.0
+1359,vid00135,learned a lot today,8.0,2.0
+1360,vid00136,amazing content,26.0,2.0
+1361,vid00136,who is here in 2024,4.0,1.0
+1362,vid00136,excelente explicación ❤️,0.0,2.0
+1363,vid00136,great video,19.0,2.0
+1364,vid00136,great video,0.0,2.0
+1365,vid00136,amazing content,0.0,2.0
+1366,vid00136,this is boring,27.0,0.0
+1367,vid00136,learned a lot today,12.0,2.0
+1368,vid00136,genial video,8.0,2.0
+1369,vid00136,ok,1.0,1.0
+1370,vid00137,can you review the new model?,6.0,1.0
+1371,vid00137,great video,9.0,2.0
+1372,vid00137,part 2?,2.0,1.0
+1373,vid00137,part 2?,0.0,1.0
+1374,vid00137,great video,105.0,2.0
+1375,vid00137,so helpful,3.0,2.0
+1376,vid00137,amazing content,2.0,2.0
+1377,vid00137,love this,12.0,2.0
+1378,vid00137,so helpful,4.0,2.0
+1379,vid00137,thanks for sharing,0.0,2.0
+1380,vid00138,watching from Colombia,2.0,1.0
+1381,vid00138,so helpful,35.0,2.0
+1382,vid00138,best tutorial ever,1.0,2.0
+1383,vid00138,perfect timing,6.0,2.0
+1384,vid00138,this is awesome 🔥,7.0,2.0
+1385,vid00138,genial video,17.0,2.0
+1386,vid00138,thanks for sharing,20.0,2.0
+1387,vid00138,part 2?,5.0,1.0
+1388,vid00138,excelente explicación ❤️,24.0,2.0
+1389,vid00138,interesting,0.0,1.0
+1390,vid00139,thanks for sharing,5.0,2.0
+1391,vid00139,thanks for sharing,1.0,2.0
+1392,vid00139,best tutorial ever,18.0,2.0
+1393,vid00139,subscribed!,1.0,2.0
+1394,vid00139,waste of time,15.0,0.0
+1395,vid00139,this is awesome 🔥,3.0,2.0
+1396,vid00139,so helpful,11.0,2.0
+1397,vid00139,learned a lot today,60.0,2.0
+1398,vid00139,part 2?,1.0,1.0
+1399,vid00139,subscribed!,0.0,2.0
+1400,vid00140,watching from Colombia,13.0,1.0
+1401,vid00140,this is awesome 🔥,4.0,2.0
+1402,vid00140,worst video,7.0,0.0
+1403,vid00140,learned a lot today,6.0,2.0
+1404,vid00140,thanks for sharing,13.0,2.0
+1405,vid00140,watching from Colombia,12.0,1.0
+1406,vid00140,great video,2.0,2.0
+1407,vid00140,genial video,4.0,2.0
+1408,vid00140,learned a lot today,10.0,2.0
+1409,vid00140,ok,1.0,1.0
+1410,vid00141,subscribed!,5.0,2.0
+1411,vid00141,excelente explicación ❤️,5.0,2.0
+1412,vid00141,thanks for sharing,23.0,2.0
+1413,vid00141,love this,0.0,2.0
+1414,vid00141,genial video,1.0,2.0
+1415,vid00141,first time watching,2.0,1.0
+1416,vid00141,excelente explicación ❤️,2.0,2.0
+1417,vid00141,this is awesome 🔥,21.0,2.0
+1418,vid00141,anyone else?,9.0,1.0
+1419,vid00141,great video,1.0,2.0
+1420,vid00142,fake,2.0,0.0
+1421,vid00142,this is awesome 🔥,1.0,2.0
+1422,vid00142,amazing content,0.0,2.0
+1423,vid00142,this is awesome 🔥,0.0,2.0
+1424,vid00142,excelente explicación ❤️,0.0,2.0
+1425,vid00142,anyone else?,1.0,1.0
+1426,vid00142,ok,2.0,1.0
+1427,vid00142,love this,27.0,2.0
+1428,vid00142,genial video,0.0,2.0
+1429,vid00142,worst video,4.0,0.0
+1430,vid00143,amazing content,5.0,2.0
+1431,vid00143,subscribed!,16.0,2.0
+1432,vid00143,genial video,1.0,2.0
+1433,vid00143,subscribed!,41.0,2.0
+1434,vid00143,amazing content,0.0,2.0
+1435,vid00143,thanks for sharing,1.0,2.0
+1436,vid00143,love this,1.0,2.0
+1437,vid00143,perfect timing,3.0,2.0
+1438,vid00143,so helpful,3.0,2.0
+1439,vid00143,learned a lot today,3.0,2.0
+1440,vid00144,great video,0.0,2.0
+1441,vid00144,best tutorial ever,8.0,2.0
+1442,vid00144,genial video,6.0,2.0
+1443,vid00144,genial video,1.0,2.0
+1444,vid00144,ok,1.0,1.0
+1445,vid00144,ok,6.0,1.0
+1446,vid00144,subscribed!,8.0,2.0
+1447,vid00144,great video,8.0,2.0
+1448,vid00144,perfect timing,9.0,2.0
+1449,vid00144,watching from Colombia,45.0,1.0
+1450,vid00145,first time watching,2.0,1.0
+1451,vid00145,subscribed!,28.0,2.0
+1452,vid00145,interesting,7.0,1.0
+1453,vid00145,this is awesome 🔥,3.0,2.0
+1454,vid00145,thanks for sharing,0.0,2.0
+1455,vid00145,best tutorial ever,2.0,2.0
+1456,vid00145,dislike,2.0,0.0
+1457,vid00145,amazing content,48.0,2.0
+1458,vid00145,interesting,2.0,1.0
+1459,vid00145,subscribed!,3.0,2.0
+1460,vid00146,anyone else?,9.0,1.0
+1461,vid00146,great video,1.0,2.0
+1462,vid00146,minute 3:20,11.0,1.0
+1463,vid00146,watching from Colombia,1.0,1.0
+1464,vid00146,can you review the new model?,0.0,1.0
+1465,vid00146,perfect timing,3.0,2.0
+1466,vid00146,ok,32.0,1.0
+1467,vid00146,ok,10.0,1.0
+1468,vid00146,love this,3.0,2.0
+1469,vid00146,love this,8.0,2.0
+1470,vid00147,part 2?,1.0,1.0
+1471,vid00147,waste of time,0.0,0.0
+1472,vid00147,can you review the new model?,0.0,1.0
+1473,vid00147,interesting,24.0,1.0
+1474,vid00147,part 2?,2.0,1.0
+1475,vid00147,learned a lot today,6.0,2.0
+1476,vid00147,minute 3:20,0.0,1.0
+1477,vid00147,this is boring,9.0,0.0
+1478,vid00147,audio is terrible,3.0,0.0
+1479,vid00147,great video,20.0,2.0
+1480,vid00148,thanks for sharing,1.0,2.0
+1481,vid00148,great video,5.0,2.0
+1482,vid00148,who is here in 2024,1.0,1.0
+1483,vid00148,learned a lot today,7.0,2.0
+1484,vid00148,best tutorial ever,1.0,2.0
+1485,vid00148,great video,13.0,2.0
+1486,vid00148,best tutorial ever,0.0,2.0
+1487,vid00148,love this,0.0,2.0
+1488,vid00148,best tutorial ever,63.0,2.0
+1489,vid00148,this is awesome 🔥,3.0,2.0
+1490,vid00149,so helpful,12.0,2.0
+1491,vid00149,what camera do you use?,5.0,1.0
+1492,vid00149,so helpful,2.0,2.0
+1493,vid00149,subscribed!,3.0,2.0
+1494,vid00149,perfect timing,2.0,2.0
+1495,vid00149,genial video,16.0,2.0
+1496,vid00149,love this,4.0,2.0
+1497,vid00149,best tutorial ever,3.0,2.0
+1498,vid00149,subscribed!,0.0,2.0
+1499,vid00149,genial video,3.0,2.0
+1500,vid00150,genial video,54.0,2.0
+1501,vid00150,wrong information,0.0,0.0
+1502,vid00150,amazing content,25.0,2.0
+1503,vid00150,minute 3:20,8.0,1.0
+1504,vid00150,dislike,13.0,0.0
+1505,vid00150,clickbait,41.0,0.0
+1506,vid00150,this is awesome 🔥,0.0,2.0
+1507,vid00150,who is here in 2024,3.0,1.0
+1508,vid00150,perfect timing,1.0,2.0
+1509,vid00150,amazing content,9.0,2.0
+1510,vid00151,great video,2.0,2.0
+1511,vid00151,best tutorial ever,0.0,2.0
+1512,vid00151,perfect timing,2.0,2.0
+1513,vid00151,best tutorial ever,5.0,2.0
+1514,vid00151,watching from Colombia,6.0,1.0
+1515,vid00151,genial video,4.0,2.0
+1516,vid00151,subscribed!,16.0,2.0
+1517,vid00151,great video,4.0,2.0
+1518,vid00151,thanks for sharing,3.0,2.0
+1519,vid00151,who is here in 2024,24.0,1.0
+1520,vid00152,subscribed!,10.0,2.0
+1521,vid00152,part 2?,6.0,1.0
+1522,vid00152,watching from Colombia,6.0,1.0
+1523,vid00152,audio is terrible,3.0,0.0
+1524,vid00152,what camera do you use?,12.0,1.0
+1525,vid00152,fake,4.0,0.0
+1526,vid00152,can you review the new model?,10.0,1.0
+1527,vid00152,this is boring,6.0,0.0
+1528,vid00152,best tutorial ever,2.0,2.0
+1529,vid00152,clickbait,4.0,0.0
+1530,vid00153,great video,12.0,2.0
+1531,vid00153,great video,9.0,2.0
+1532,vid00153,who is here in 2024,124.0,1.0
+1533,vid00153,ok,10.0,1.0
+1534,vid00153,anyone else?,2.0,1.0
+1535,vid00153,thanks for sharing,2.0,2.0
+1536,vid00153,part 2?,3.0,1.0
+1537,vid00153,wrong information,0.0,0.0
+1538,vid00153,what camera do you use?,2.0,1.0
+1539,vid00153,amazing content,5.0,2.0
+1540,vid00154,thanks for sharing,3.0,2.0
+1541,vid00154,learned a lot today,0.0,2.0
+1542,vid00154,amazing content,3.0,2.0
+1543,vid00154,perfect timing,5.0,2.0
+1544,vid00154,interesting,26.0,1.0
+1545,vid00154,so helpful,4.0,2.0
+1546,vid00154,perfect timing,4.0,2.0
+1547,vid00154,dislike,5.0,0.0
+1548,vid00154,amazing content,2.0,2.0
+1549,vid00154,genial video,10.0,2.0
+1550,vid00155,best tutorial ever,12.0,2.0
+1551,vid00155,so helpful,26.0,2.0
+1552,vid00155,watching from Colombia,5.0,1.0
+1553,vid00155,amazing content,26.0,2.0
+1554,vid00155,amazing content,0.0,2.0
+1555,vid00155,best tutorial ever,3.0,2.0
+1556,vid00155,this is awesome 🔥,12.0,2.0
+1557,vid00155,excelente explicación ❤️,3.0,2.0
+1558,vid00155,perfect timing,2.0,2.0
+1559,vid00155,anyone else?,30.0,1.0
+1560,vid00156,best tutorial ever,0.0,2.0
+1561,vid00156,what camera do you use?,13.0,1.0
+1562,vid00156,perfect timing,4.0,2.0
+1563,vid00156,subscribed!,7.0,2.0
+1564,vid00156,subscribed!,9.0,2.0
+1565,vid00156,genial video,6.0,2.0
+1566,vid00156,learned a lot today,4.0,2.0
+1567,vid00156,what camera do you use?,2.0,1.0
+1568,vid00156,what camera do you use?,5.0,1.0
+1569,vid00156,first time watching,5.0,1.0
+1570,vid00157,wrong information,2.0,0.0
+1571,vid00157,love this,0.0,2.0
+1572,vid00157,ok,18.0,1.0
+1573,vid00157,minute 3:20,2.0,1.0
+1574,vid00157,amazing content,13.0,2.0
+1575,vid00157,excelente explicación ❤️,6.0,2.0
+1576,vid00157,first time watching,3.0,1.0
+1577,vid00157,worst video,4.0,0.0
+1578,vid00157,dislike,2.0,0.0
+1579,vid00157,interesting,16.0,1.0
+1580,vid00158,ok,0.0,1.0
+1581,vid00158,watching from Colombia,3.0,1.0
+1582,vid00158,who is here in 2024,5.0,1.0
+1583,vid00158,first time watching,3.0,1.0
+1584,vid00158,ok,15.0,1.0
+1585,vid00158,genial video,2.0,2.0
+1586,vid00158,what camera do you use?,2.0,1.0
+1587,vid00158,great video,43.0,2.0
+1588,vid00158,anyone else?,1.0,1.0
+1589,vid00158,this is awesome 🔥,2.0,2.0
+1590,vid00159,what camera do you use?,3.0,1.0
+1591,vid00159,watching from Colombia,2.0,1.0
+1592,vid00159,first time watching,9.0,1.0
+1593,vid00159,best tutorial ever,5.0,2.0
+1594,vid00159,watching from Colombia,0.0,1.0
+1595,vid00159,minute 3:20,0.0,1.0
+1596,vid00159,part 2?,8.0,1.0
+1597,vid00159,clickbait,0.0,0.0
+1598,vid00159,perfect timing,1.0,2.0
+1599,vid00159,first time watching,15.0,1.0
+1600,vid00160,love this,5.0,2.0
+1601,vid00160,genial video,53.0,2.0
+1602,vid00160,who is here in 2024,4.0,1.0
+1603,vid00160,anyone else?,1.0,1.0
+1604,vid00160,dislike,49.0,0.0
+1605,vid00160,subscribed!,10.0,2.0
+1606,vid00160,excelente explicación ❤️,2.0,2.0
+1607,vid00160,love this,1.0,2.0
+1608,vid00160,best tutorial ever,38.0,2.0
+1609,vid00160,this is boring,2.0,0.0
+1610,vid00161,great video,6.0,2.0
+1611,vid00161,amazing content,4.0,2.0
+1612,vid00161,can you review the new model?,5.0,1.0
+1613,vid00161,anyone else?,13.0,1.0
+1614,vid00161,clickbait,9.0,0.0
+1615,vid00161,perfect timing,13.0,2.0
+1616,vid00161,best tutorial ever,2.0,2.0
+1617,vid00161,first time watching,3.0,1.0
+1618,vid00161,ok,5.0,1.0
+1619,vid00161,first time watching,9.0,1.0
+1620,vid00162,perfect timing,15.0,2.0
+1621,vid00162,love this,15.0,2.0
+1622,vid00162,perfect timing,3.0,2.0
+1623,vid00162,so helpful,5.0,2.0
+1624,vid00162,thanks for sharing,0.0,2.0
+1625,vid00162,watching from Colombia,2.0,1.0
+1626,vid00162,dislike,6.0,0.0
+1627,vid00162,this is awesome 🔥,1.0,2.0
+1628,vid00162,thanks for sharing,10.0,2.0
+1629,vid00162,wrong information,1.0,0.0
+1630,vid00163,waste of time,1.0,0.0
+1631,vid00163,audio is terrible,13.0,0.0
+1632,vid00163,great video,17.0,2.0
+1633,vid00163,ok,4.0,1.0
+1634,vid00163,best tutorial ever,2.0,2.0
+1635,vid00163,clickbait,10.0,0.0
+1636,vid00163,first time watching,3.0,1.0
+1637,vid00163,love this,35.0,2.0
+1638,vid00163,can you review the new model?,16.0,1.0
+1639,vid00163,best tutorial ever,113.0,2.0
+1640,vid00164,excelente explicación ❤️,3.0,2.0
+1641,vid00164,can you review the new model?,23.0,1.0
+1642,vid00164,love this,41.0,2.0
+1643,vid00164,anyone else?,8.0,1.0
+1644,vid00164,interesting,15.0,1.0
+1645,vid00164,learned a lot today,9.0,2.0
+1646,vid00164,learned a lot today,0.0,2.0
+1647,vid00164,subscribed!,1.0,2.0
+1648,vid00164,anyone else?,66.0,1.0
+1649,vid00164,genial video,3.0,2.0
+1650,vid00165,so helpful,49.0,2.0
+1651,vid00165,first time watching,2.0,1.0
+1652,vid00165,genial video,3.0,2.0
+1653,vid00165,subscribed!,8.0,2.0
+1654,vid00165,genial video,2.0,2.0
+1655,vid00165,can you review the new model?,8.0,1.0
+1656,vid00165,perfect timing,48.0,2.0
+1657,vid00165,genial video,4.0,2.0
+1658,vid00165,learned a lot today,5.0,2.0
+1659,vid00165,excelente explicación ❤️,4.0,2.0
+1660,vid00166,amazing content,23.0,2.0
+1661,vid00166,worst video,5.0,0.0
+1662,vid00166,part 2?,2.0,1.0
+1663,vid00166,ok,2.0,1.0
+1664,vid00166,perfect timing,11.0,2.0
+1665,vid00166,minute 3:20,12.0,1.0
+1666,vid00166,this is boring,1.0,0.0
+1667,vid00166,wrong information,40.0,0.0
+1668,vid00166,subscribed!,86.0,2.0
+1669,vid00166,genial video,5.0,2.0
+1670,vid00167,excelente explicación ❤️,4.0,2.0
+1671,vid00167,so helpful,5.0,2.0
+1672,vid00167,learned a lot today,2.0,2.0
+1673,vid00167,this is boring,2.0,0.0
+1674,vid00167,who is here in 2024,11.0,1.0
+1675,vid00167,excelente explicación ❤️,2.0,2.0
+1676,vid00167,great video,2.0,2.0
+1677,vid00167,excelente explicación ❤️,18.0,2.0
+1678,vid00167,learned a lot today,4.0,2.0
+1679,vid00167,minute 3:20,1.0,1.0
+1680,vid00168,great video,0.0,2.0
+1681,vid00168,worst video,9.0,0.0
+1682,vid00168,this is awesome 🔥,0.0,2.0
+1683,vid00168,this is awesome 🔥,20.0,2.0
+1684,vid00168,wrong information,8.0,0.0
+1685,vid00168,dislike,1.0,0.0
+1686,vid00168,excelente explicación ❤️,1.0,2.0
+1687,vid00168,watching from Colombia,4.0,1.0
+1688,vid00168,so helpful,9.0,2.0
+1689,vid00168,amazing content,10.0,2.0
+1690,vid00169,too long 👎,19.0,0.0
+1691,vid00169,anyone else?,0.0,1.0
+1692,vid00169,waste of time,6.0,0.0
+1693,vid00169,audio is terrible,7.0,0.0
+1694,vid00169,learned a lot today,5.0,2.0
+1695,vid00169,love this,15.0,2.0
+1696,vid00169,what camera do you use?,6.0,1.0
+1697,vid00169,genial video,7.0,2.0
+1698,vid00169,perfect timing,14.0,2.0
+1699,vid00169,great video,3.0,2.0
+1700,vid00170,excelente explicación ❤️,4.0,2.0
+1701,vid00170,too long 👎,10.0,0.0
+1702,vid00170,can you review the new model?,4.0,1.0
+1703,vid00170,part 2?,9.0,1.0
+1704,vid00170,wrong information,100.0,0.0
+1705,vid00170,thanks for sharing,57.0,2.0
+1706,vid00170,great video,1.0,2.0
+1707,vid00170,learned a lot today,2.0,2.0
+1708,vid00170,waste of time,22.0,0.0
+1709,vid00170,worst video,4.0,0.0
+1710,vid00171,interesting,9.0,1.0
+1711,vid00171,subscribed!,2.0,2.0
+1712,vid00171,learned a lot today,1.0,2.0
+1713,vid00171,waste of time,2.0,0.0
+1714,vid00171,part 2?,6.0,1.0
+1715,vid00171,too long 👎,13.0,0.0
+1716,vid00171,perfect timing,12.0,2.0
+1717,vid00171,genial video,53.0,2.0
+1718,vid00171,excelente explicación ❤️,0.0,2.0
+1719,vid00171,excelente explicación ❤️,17.0,2.0
+1720,vid00172,so helpful,5.0,2.0
+1721,vid00172,learned a lot today,6.0,2.0
+1722,vid00172,excelente explicación ❤️,3.0,2.0
+1723,vid00172,learned a lot today,12.0,2.0
+1724,vid00172,subscribed!,3.0,2.0
+1725,vid00172,best tutorial ever,1.0,2.0
+1726,vid00172,amazing content,8.0,2.0
+1727,vid00172,perfect timing,7.0,2.0
+1728,vid00172,great video,6.0,2.0
+1729,vid00172,thanks for sharing,6.0,2.0
+1730,vid00173,anyone else?,2.0,1.0
+1731,vid00173,amazing content,3.0,2.0
+1732,vid00173,interesting,9.0,1.0
+1733,vid00173,best tutorial ever,1.0,2.0
+1734,vid00173,anyone else?,10.0,1.0
+1735,vid00173,worst video,5.0,0.0
+1736,vid00173,watching from Colombia,7.0,1.0
+1737,vid00173,subscribed!,2.0,2.0
+1738,vid00173,first time watching,2.0,1.0
+1739,vid00173,excelente explicación ❤️,2.0,2.0
+1740,vid00174,perfect timing,22.0,2.0
+1741,vid00174,first time watching,3.0,1.0
+1742,vid00174,excelente explicación ❤️,19.0,2.0
+1743,vid00174,first time watching,2.0,1.0
+1744,vid00174,love this,9.0,2.0
+1745,vid00174,excelente explicación ❤️,0.0,2.0
+1746,vid00174,watching from Colombia,3.0,1.0
+1747,vid00174,great video,9.0,2.0
+1748,vid00174,subscribed!,27.0,2.0
+1749,vid00174,excelente explicación ❤️,1.0,2.0
+1750,vid00175,amazing content,3.0,2.0
+1751,vid00175,this is awesome 🔥,1.0,2.0
+1752,vid00175,first time watching,18.0,1.0
+1753,vid00175,genial video,0.0,2.0
+1754,vid00175,fake,2.0,0.0
+1755,vid00175,what camera do you use?,3.0,1.0
+1756,vid00175,excelente explicación ❤️,3.0,2.0
+1757,vid00175,can you review the new model?,17.0,1.0
+1758,vid00175,subscribed!,27.0,2.0
+1759,vid00175,interesting,10.0,1.0
+1760,vid00176,great video,2.0,2.0
+1761,vid00176,genial video,7.0,2.0
+1762,vid00176,genial video,3.0,2.0
+1763,vid00176,minute 3:20,0.0,1.0
+1764,vid00176,excelente explicación ❤️,1.0,2.0
+1765,vid00176,anyone else?,9.0,1.0
+1766,vid00176,minute 3:20,4.0,1.0
+1767,vid00176,so helpful,4.0,2.0
+1768,vid00176,too long 👎,4.0,0.0
+1769,vid00176,learned a lot today,11.0,2.0
+1770,vid00177,great video,0.0,2.0
+1771,vid00177,watching from Colombia,2.0,1.0
+1772,vid00177,worst video,7.0,0.0
+1773,vid00177,thanks for sharing,2.0,2.0
+1774,vid00177,genial video,5.0,2.0
+1775,vid00177,love this,8.0,2.0
+1776,vid00177,first time watching,7.0,1.0
+1777,vid00177,fake,17.0,0.0
+1778,vid00177,who is here in 2024,5.0,1.0
+1779,vid00177,anyone else?,2.0,1.0
+1780,vid00178,anyone else?,5.0,1.0
+1781,vid00178,can you review the new model?,4.0,1.0
+1782,vid00178,part 2?,4.0,1.0
+1783,vid00178,what camera do you use?,10.0,1.0
+1784,vid00178,anyone else?,0.0,1.0
+1785,vid00178,perfect timing,3.0,2.0
+1786,vid00178,great video,4.0,2.0
+1787,vid00178,love this,1.0,2.0
+1788,vid00178,excelente explicación ❤️,1.0,2.0
+1789,vid00178,who is here in 2024,12.0,1.0
+1790,vid00179,subscribed!,10.0,2.0
+1791,vid00179,subscribed!,5.0,2.0
+1792,vid00179,ok,2.0,1.0
+1793,vid00179,perfect timing,48.0,2.0
+1794,vid00179,perfect timing,2.0,2.0
+1795,vid00179,excelente explicación ❤️,16.0,2.0
+1796,vid00179,excelente explicación ❤️,11.0,2.0
+1797,vid00179,learned a lot today,40.0,2.0
+1798,vid00179,love this,7.0,2.0
+1799,vid00179,best tutorial ever,13.0,2.0
+1800,vid00180,thanks for sharing,10.0,2.0
+1801,vid00180,thanks for sharing,8.0,2.0
+1802,vid00180,ok,0.0,1.0
+1803,vid00180,this is awesome 🔥,6.0,2.0
+1804,vid00180,amazing content,51.0,2.0
+1805,vid00180,so helpful,8.0,2.0
+1806,vid00180,this is awesome 🔥,11.0,2.0
+1807,vid00180,first time watching,6.0,1.0
+1808,vid00180,fake,8.0,0.0
+1809,vid00180,thanks for sharing,3.0,2.0
+1810,vid00181,can you review the new model?,9.0,1.0
+1811,vid00181,thanks for sharing,2.0,2.0
+1812,vid00181,love this,3.0,2.0
+1813,vid00181,interesting,2.0,1.0
+1814,vid00181,best tutorial ever,26.0,2.0
+1815,vid00181,best tutorial ever,8.0,2.0
+1816,vid00181,love this,7.0,2.0
+1817,vid00181,perfect timing,22.0,2.0
+1818,vid00181,this is awesome 🔥,20.0,2.0
+1819,vid00181,learned a lot today,5.0,2.0
+1820,vid00182,subscribed!,0.0,2.0
+1821,vid00182,can you review the new model?,1.0,1.0
+1822,vid00182,part 2?,30.0,1.0
+1823,vid00182,great video,6.0,2.0
+1824,vid00182,watching from Colombia,6.0,1.0
+1825,vid00182,best tutorial ever,4.0,2.0
+1826,vid00182,genial video,1.0,2.0
+1827,vid00182,amazing content,1.0,2.0
+1828,vid00182,this is awesome 🔥,2.0,2.0
+1829,vid00182,excelente explicación ❤️,1.0,2.0
+1830,vid00183,part 2?,21.0,1.0
+1831,vid00183,perfect timing,5.0,2.0
+1832,vid00183,first time watching,3.0,1.0
+1833,vid00183,great video,6.0,2.0
+1834,vid00183,thanks for sharing,45.0,2.0
+1835,vid00183,so helpful,2.0,2.0
+1836,vid00183,learned a lot today,19.0,2.0
+1837,vid00183,what camera do you use?,1.0,1.0
+1838,vid00183,ok,7.0,1.0
+1839,vid00183,,0.0,1.0
+1840,vid00184,genial video,19.0,2.0
+1841,vid00184,ok,0.0,1.0
+1842,vid00184,genial video,4.0,2.0
+1843,vid00184,audio is terrible,9.0,0.0
+1844,vid00184,learned a lot today,11.0,2.0
+1845,vid00184,subscribed!,5.0,2.0
+1846,vid00184,can you review the new model?,1.0,1.0
+1847,vid00184,genial video,8.0,2.0
+1848,vid00184,thanks for sharing,14.0,2.0
+1849,vid00184,watching from Colombia,0.0,1.0
+1850,vid00185,subscribed!,1.0,2.0
+1851,vid00185,this is awesome 🔥,1.0,2.0
+1852,vid00185,this is awesome 🔥,2.0,2.0
+1853,vid00185,genial video,6.0,2.0
+1854,vid00185,perfect timing,9.0,2.0
+1855,vid00185,excelente explicación ❤️,23.0,2.0
+1856,vid00185,best tutorial ever,4.0,2.0
+1857,vid00185,amazing content,36.0,2.0
+1858,vid00185,genial video,14.0,2.0
+1859,vid00185,thanks for sharing,1.0,2.0
+1860,vid00186,genial video,3.0,2.0
+1861,vid00186,fake,5.0,0.0
+1862,vid00186,ok,1.0,1.0
+1863,vid00186,anyone else?,26.0,1.0
+1864,vid00186,learned a lot today,0.0,2.0
+1865,vid00186,audio is terrible,1.0,0.0
+1866,vid00186,so helpful,6.0,2.0
+1867,vid00186,watching from Colombia,1.0,1.0
+1868,vid00186,no me gustó,26.0,0.0
+1869,vid00186,fake,16.0,0.0
+1870,vid00187,so helpful,2.0,2.0
+1871,vid00187,ok,6.0,1.0
+1872,vid00187,first time watching,8.0,1.0
+1873,vid00187,watching from Colombia,5.0,1.0
+1874,vid00187,no me gustó,5.0,0.0
+1875,vid00187,waste of time,6.0,0.0
+1876,vid00187,can you review the new model?,16.0,1.0
+1877,vid00187,wrong information,4.0,0.0
+1878,vid00187,watching from Colombia,14.0,1.0
+1879,vid00187,what camera do you use?,2.0,1.0
+1880,vid00188,watching from Colombia,1.0,1.0
+1881,vid00188,first time watching,1.0,1.0
+1882,vid00188,best tutorial ever,3.0,2.0
+1883,vid00188,watching from Colombia,2.0,1.0
+1884,vid00188,excelente explicación ❤️,5.0,2.0
+1885,vid00188,interesting,4.0,1.0
+1886,vid00188,love this,1.0,2.0
+1887,vid00188,amazing content,4.0,2.0
+1888,vid00188,perfect timing,7.0,2.0
+1889,vid00188,anyone else?,3.0,1.0
+1890,vid00189,no me gustó,4.0,0.0
+1891,vid00189,anyone else?,15.0,1.0
+1892,vid00189,best tutorial ever,3.0,2.0
+1893,vid00189,great video,1.0,2.0
+1894,vid00189,ok,17.0,1.0
+1895,vid00189,subscribed!,19.0,2.0
+1896,vid00189,excelente explicación ❤️,2.0,2.0
+1897,vid00189,anyone else?,16.0,1.0
+1898,vid00189,clickbait,8.0,0.0
+1899,vid00189,anyone else?,15.0,1.0
+1900,vid00190,perfect timing,3.0,2.0
+1901,vid00190,who is here in 2024,7.0,1.0
+1902,vid00190,genial video,40.0,2.0
+1903,vid00190,learned a lot today,8.0,2.0
+1904,vid00190,love this,8.0,2.0
+1905,vid00190,love this,6.0,2.0
+1906,vid00190,best tutorial ever,4.0,2.0
+1907,vid00190,subscribed!,2.0,2.0
+1908,vid00190,watching from Colombia,2.0,1.0
+1909,vid00190,best tutorial ever,10.0,2.0
+1910,vid00191,learned a lot today,4.0,2.0
+1911,vid00191,so helpful,49.0,2.0
+1912,vid00191,ok,15.0,1.0
+1913,vid00191,interesting,9.0,1.0
+1914,vid00191,learned a lot today,14.0,2.0
+1915,vid00191,subscribed!,4.0,2.0
+1916,vid00191,thanks for sharing,11.0,2.0
+1917,vid00191,perfect timing,1.0,2.0
+1918,vid00191,love this,1.0,2.0
+1919,vid00191,great video,9.0,2.0
+1920,vid00192,who is here in 2024,16.0,1.0
+1921,vid00192,so helpful,10.0,2.0
+1922,vid00192,can you review the new model?,4.0,1.0
+1923,vid00192,ok,1.0,1.0
+1924,vid00192,best tutorial ever,3.0,2.0
+1925,vid00192,anyone else?,4.0,1.0
+1926,vid00192,perfect timing,6.0,2.0
+1927,vid00192,subscribed!,10.0,2.0
+1928,vid00192,audio is terrible,5.0,0.0
+1929,vid00192,excelente explicación ❤️,23.0,2.0
+1930,vid00193,ok,0.0,1.0
+1931,vid00193,thanks for sharing,2.0,2.0
+1932,vid00193,fake,7.0,0.0
+1933,vid00193,love this,11.0,2.0
+1934,vid00193,too long 👎,13.0,0.0
+1935,vid00193,genial video,5.0,2.0
+1936,vid00193,what camera do you use?,9.0,1.0
+1937,vid00193,excelente explicación ❤️,7.0,2.0
+1938,vid00193,who is here in 2024,5.0,1.0
+1939,vid00193,ok,18.0,1.0
+1940,vid00194,this is awesome 🔥,6.0,2.0
+1941,vid00194,subscribed!,3.0,2.0
+1942,vid00194,anyone else?,3.0,1.0
+1943,vid00194,what camera do you use?,28.0,1.0
+1944,vid00194,who is here in 2024,1.0,1.0
+1945,vid00194,first time watching,0.0,1.0
+1946,vid00194,so helpful,1.0,2.0
+1947,vid00194,subscribed!,4.0,2.0
+1948,vid00194,worst video,3.0,0.0
+1949,vid00194,anyone else?,0.0,1.0
+1950,vid00195,this is awesome 🔥,0.0,2.0
+1951,vid00195,best tutorial ever,4.0,2.0
+1952,vid00195,ok,0.0,1.0
+1953,vid00195,interesting,15.0,1.0
+1954,vid00195,best tutorial ever,2.0,2.0
+1955,vid00195,can you review the new model?,9.0,1.0
+1956,vid00195,can you review the new model?,3.0,1.0
+1957,vid00195,genial video,5.0,2.0
+1958,vid00195,first time watching,1.0,1.0
+1959,vid00195,learned a lot today,42.0,2.0
+1960,vid00196,love this,2.0,2.0
+1961,vid00196,so helpful,4.0,2.0
+1962,vid00196,watching from Colombia,3.0,1.0
+1963,vid00196,interesting,6.0,1.0
+1964,vid00196,who is here in 2024,2.0,1.0
+1965,vid00196,fake,0.0,0.0
+1966,vid00196,so helpful,6.0,2.0
+1967,vid00196,interesting,19.0,1.0
+1968,vid00196,this is boring,3.0,0.0
+1969,vid00196,perfect timing,2.0,2.0
+1970,vid00197,this is boring,3.0,0.0
+1971,vid00197,thanks for sharing,28.0,2.0
+1972,vid00197,wrong information,10.0,0.0
+1973,vid00197,interesting,21.0,1.0
+1974,vid00197,first time watching,0.0,1.0
+1975,vid00197,can you review the new model?,15.0,1.0
+1976,vid00197,part 2?,2.0,1.0
+1977,vid00197,great video,5.0,2.0
+1978,vid00197,,0.0,1.0
+1979,vid00197,first time watching,1.0,1.0
+1980,vid00198,best tutorial ever,4.0,2.0
+1981,vid00198,learned a lot today,0.0,2.0
+1982,vid00198,first time watching,0.0,1.0
+1983,vid00198,minute 3:20,6.0,1.0
+1984,vid00198,best tutorial ever,7.0,2.0
+1985,vid00198,so helpful,5.0,2.0
+1986,vid00198,part 2?,2.0,1.0
+1987,vid00198,part 2?,11.0,1.0
+1988,vid00198,so helpful,1.0,2.0
+1989,vid00198,excelente explicación ❤️,6.0,2.0
+1990,vid00199,who is here in 2024,0.0,1.0
+1991,vid00199,learned a lot today,4.0,2.0
+1992,vid00199,fake,8.0,0.0
+1993,vid00199,watching from Colombia,1.0,1.0
+1994,vid00199,so helpful,2.0,2.0
+1995,vid00199,love this,1.0,2.0
+1996,vid00199,excelente explicación ❤️,0.0,2.0
+1997,vid00199,learned a lot today,0.0,2.0
+1998,vid00199,part 2?,1.0,1.0
+1999,vid00199,ok,17.0,1.0
+2000,vid00200,ok,12.0,1.0
+2001,vid00200,best tutorial ever,3.0,2.0
+2002,vid00200,thanks for sharing,11.0,2.0
+2003,vid00200,worst video,6.0,0.0
+2004,vid00200,anyone else?,50.0,1.0
+2005,vid00200,subscribed!,5.0,2.0
+2006,vid00200,subscribed!,2.0,2.0
+2007,vid00200,who is here in 2024,5.0,1.0
+2008,vid00200,love this,1.0,2.0
+2009,vid00200,thanks for sharing,17.0,2.0
+2010,vid00201,part 2?,3.0,1.0
+2011,vid00201,watching from Colombia,0.0,1.0
+2012,vid00201,love this,17.0,2.0
+2013,vid00201,great video,21.0,2.0
+2014,vid00201,genial video,1.0,2.0
+2015,vid00201,part 2?,3.0,1.0
+2016,vid00201,excelente explicación ❤️,14.0,2.0
+2017,vid00201,interesting,7.0,1.0
+2018,vid00201,best tutorial ever,1.0,2.0
+2019,vid00201,excelente explicación ❤️,2.0,2.0
+2020,vid00202,waste of time,3.0,0.0
+2021,vid00202,learned a lot today,0.0,2.0
+2022,vid00202,anyone else?,11.0,1.0
+2023,vid00202,clickbait,2.0,0.0
+2024,vid00202,part 2?,2.0,1.0
+2025,vid00202,best tutorial ever,5.0,2.0
+2026,vid00202,wrong information,0.0,0.0
+2027,vid00202,thanks for sharing,0.0,2.0
+2028,vid00202,best tutorial ever,2.0,2.0
+2029,vid00202,part 2?,8.0,1.0
+2030,vid00203,ok,14.0,1.0
+2031,vid00203,this is awesome 🔥,1.0,2.0
+2032,vid00203,thanks for sharing,7.0,2.0
+2033,vid00203,love this,7.0,2.0
+2034,vid00203,audio is terrible,1.0,0.0
+2035,vid00203,excelente explicación ❤️,13.0,2.0
+2036,vid00203,genial video,6.0,2.0
+2037,vid00203,ok,3.0,1.0
+2038,vid00203,learned a lot today,5.0,2.0
+2039,vid00203,genial video,17.0,2.0
+2040,vid00204,genial video,4.0,2.0
+2041,vid00204,subscribed!,2.0,2.0
+2042,vid00204,great video,17.0,2.0
+2043,vid00204,subscribed!,8.0,2.0
+2044,vid00204,learned a lot today,5.0,2.0
+2045,vid00204,subscribed!,20.0,2.0
+2046,vid00204,excelente explicación ❤️,9.0,2.0
+2047,vid00204,excelente explicación ❤️,8.0,2.0
+2048,vid00204,subscribed!,5.0,2.0
+2049,vid00204,perfect timing,14.0,2.0
+2050,vid00205,who is here in 2024,3.0,1.0
+2051,vid00205,interesting,12.0,1.0
+2052,vid00205,learned a lot today,7.0,2.0
+2053,vid00205,learned a lot today,3.0,2.0
+2054,vid00205,anyone else?,2.0,1.0
+2055,vid00205,amazing content,27.0,2.0
+2056,vid00205,great video,0.0,2.0
+2057,vid00205,interesting,12.0,1.0
+2058,vid00205,genial video,4.0,2.0
+2059,vid00205,subscribed!,38.0,2.0
+2060,vid00206,so helpful,1.0,2.0
+2061,vid00206,so helpful,7.0,2.0
+2062,vid00206,wrong information,3.0,0.0
+2063,vid00206,so helpful,0.0,2.0
+2064,vid00206,can you review the new model?,0.0,1.0
+2065,vid00206,ok,11.0,1.0
+2066,vid00206,interesting,3.0,1.0
+2067,vid00206,great video,17.0,2.0
+2068,vid00206,ok,1.0,1.0
+2069,vid00206,genial video,3.0,2.0
+2070,vid00207,this is boring,10.0,0.0
+2071,vid00207,anyone else?,7.0,1.0
+2072,vid00207,great video,11.0,2.0
+2073,vid00207,this is awesome 🔥,14.0,2.0
+2074,vid00207,this is awesome 🔥,1.0,2.0
+2075,vid00207,this is awesome 🔥,22.0,2.0
+2076,vid00207,clickbait,16.0,0.0
+2077,vid00207,subscribed!,2.0,2.0
+2078,vid00207,part 2?,9.0,1.0
+2079,vid00207,interesting,4.0,1.0
+2080,vid00208,best tutorial ever,4.0,2.0
+2081,vid00208,excelente explicación ❤️,4.0,2.0
+2082,vid00208,love this,19.0,2.0
+2083,vid00208,worst video,5.0,0.0
+2084,vid00208,this is awesome 🔥,5.0,2.0
+2085,vid00208,excelente explicación ❤️,4.0,2.0
+2086,vid00208,amazing content,7.0,2.0
+2087,vid00208,minute 3:20,9.0,1.0
+2088,vid00208,what camera do you use?,0.0,1.0
+2089,vid00208,subscribed!,94.0,2.0
+2090,vid00209,ok,9.0,1.0
+2091,vid00209,anyone else?,24.0,1.0
+2092,vid00209,who is here in 2024,42.0,1.0
+2093,vid00209,part 2?,12.0,1.0
+2094,vid00209,watching from Colombia,11.0,1.0
+2095,vid00209,interesting,3.0,1.0
+2096,vid00209,minute 3:20,31.0,1.0
+2097,vid00209,ok,1.0,1.0
+2098,vid00209,worst video,3.0,0.0
+2099,vid00209,first time watching,1.0,1.0
+2100,vid00210,fake,11.0,0.0
+2101,vid00210,what camera do you use?,11.0,1.0
+2102,vid00210,learned a lot today,3.0,2.0
+2103,vid00210,dislike,4.0,0.0
+2104,vid00210,first time watching,0.0,1.0
+2105,vid00210,this is boring,8.0,0.0
+2106,vid00210,great video,11.0,2.0
+2107,vid00210,first time watching,6.0,1.0
+2108,vid00210,dislike,3.0,0.0
+2109,vid00210,learned a lot today,1.0,2.0
+2110,vid00211,audio is terrible,5.0,0.0
+2111,vid00211,best tutorial ever,6.0,2.0
+2112,vid00211,excelente explicación ❤️,8.0,2.0
+2113,vid00211,amazing content,3.0,2.0
+2114,vid00211,amazing content,5.0,2.0
+2115,vid00211,ok,1.0,1.0
+2116,vid00211,ok,1.0,1.0
+2117,vid00211,part 2?,19.0,1.0
+2118,vid00211,can you review the new model?,5.0,1.0
+2119,vid00211,great video,8.0,2.0
+2120,vid00212,this is awesome 🔥,0.0,2.0
+2121,vid00212,thanks for sharing,0.0,2.0
+2122,vid00212,love this,4.0,2.0
+2123,vid00212,great video,8.0,2.0
+2124,vid00212,watching from Colombia,6.0,1.0
+2125,vid00212,genial video,32.0,2.0
+2126,vid00212,thanks for sharing,1.0,2.0
+2127,vid00212,best tutorial ever,2.0,2.0
+2128,vid00212,thanks for sharing,0.0,2.0
+2129,vid00212,love this,3.0,2.0
+2130,vid00213,minute 3:20,23.0,1.0
+2131,vid00213,excelente explicación ❤️,1.0,2.0
+2132,vid00213,learned a lot today,1.0,2.0
+2133,vid00213,learned a lot today,3.0,2.0
+2134,vid00213,what camera do you use?,10.0,1.0
+2135,vid00213,so helpful,8.0,2.0
+2136,vid00213,minute 3:20,0.0,1.0
+2137,vid00213,subscribed!,5.0,2.0
+2138,vid00213,learned a lot today,16.0,2.0
+2139,vid00213,so helpful,8.0,2.0
+2140,vid00214,can you review the new model?,17.0,1.0
+2141,vid00214,part 2?,2.0,1.0
+2142,vid00214,audio is terrible,5.0,0.0
+2143,vid00214,watching from Colombia,12.0,1.0
+2144,vid00214,watching from Colombia,9.0,1.0
+2145,vid00214,waste of time,1.0,0.0
+2146,vid00214,worst video,8.0,0.0
+2147,vid00214,so helpful,143.0,2.0
+2148,vid00214,watching from Colombia,25.0,1.0
+2149,vid00214,first time watching,6.0,1.0
+2150,vid00215,so helpful,0.0,2.0
+2151,vid00215,anyone else?,3.0,1.0
+2152,vid00215,great video,4.0,2.0
+2153,vid00215,excelente explicación ❤️,29.0,2.0
+2154,vid00215,part 2?,7.0,1.0
+2155,vid00215,this is awesome 🔥,4.0,2.0
+2156,vid00215,thanks for sharing,0.0,2.0
+2157,vid00215,great video,0.0,2.0
+2158,vid00215,who is here in 2024,0.0,1.0
+2159,vid00215,this is awesome 🔥,2.0,2.0
+2160,vid00216,great video,0.0,2.0
+2161,vid00216,anyone else?,3.0,1.0
+2162,vid00216,can you review the new model?,11.0,1.0
+2163,vid00216,amazing content,4.0,2.0
+2164,vid00216,interesting,26.0,1.0
+2165,vid00216,so helpful,5.0,2.0
+2166,vid00216,subscribed!,7.0,2.0
+2167,vid00216,excelente explicación ❤️,0.0,2.0
+2168,vid00216,part 2?,90.0,1.0
+2169,vid00216,part 2?,2.0,1.0
+2170,vid00217,amazing content,11.0,2.0
+2171,vid00217,can you review the new model?,17.0,1.0
+2172,vid00217,learned a lot today,1.0,2.0
+2173,vid00217,part 2?,3.0,1.0
+2174,vid00217,love this,10.0,2.0
+2175,vid00217,thanks for sharing,1.0,2.0
+2176,vid00217,excelente explicación ❤️,10.0,2.0
+2177,vid00217,excelente explicación ❤️,4.0,2.0
+2178,vid00217,genial video,10.0,2.0
+2179,vid00217,this is awesome 🔥,1.0,2.0
+2180,vid00218,thanks for sharing,19.0,2.0
+2181,vid00218,thanks for sharing,22.0,2.0
+2182,vid00218,so helpful,4.0,2.0
+2183,vid00218,perfect timing,1.0,2.0
+2184,vid00218,subscribed!,3.0,2.0
+2185,vid00218,subscribed!,15.0,2.0
+2186,vid00218,this is awesome 🔥,9.0,2.0
+2187,vid00218,amazing content,7.0,2.0
+2188,vid00218,amazing content,3.0,2.0
+2189,vid00218,subscribed!,5.0,2.0
+2190,vid00219,interesting,10.0,1.0
+2191,vid00219,so helpful,12.0,2.0
+2192,vid00219,what camera do you use?,31.0,1.0
+2193,vid00219,learned a lot today,1.0,2.0
+2194,vid00219,thanks for sharing,20.0,2.0
+2195,vid00219,excelente explicación ❤️,3.0,2.0
+2196,vid00219,best tutorial ever,3.0,2.0
+2197,vid00219,clickbait,4.0,0.0
+2198,vid00219,so helpful,1.0,2.0
+2199,vid00219,who is here in 2024,0.0,1.0
+2200,vid00220,learned a lot today,1.0,2.0
+2201,vid00220,love this,7.0,2.0
+2202,vid00220,audio is terrible,1.0,0.0
+2203,vid00220,minute 3:20,7.0,1.0
+2204,vid00220,best tutorial ever,2.0,2.0
+2205,vid00220,learned a lot today,30.0,2.0
+2206,vid00220,genial video,8.0,2.0
+2207,vid00220,thanks for sharing,12.0,2.0
+2208,vid00220,part 2?,0.0,1.0
+2209,vid00220,this is awesome 🔥,12.0,2.0
+2210,vid00221,excelente explicación ❤️,6.0,2.0
+2211,vid00221,excelente explicación ❤️,19.0,2.0
+2212,vid00221,what camera do you use?,1.0,1.0
+2213,vid00221,worst video,3.0,0.0
+2214,vid00221,love this,2.0,2.0
+2215,vid00221,what camera do you use?,5.0,1.0
+2216,vid00221,this is awesome 🔥,1.0,2.0
+2217,vid00221,can you review the new model?,0.0,1.0
+2218,vid00221,who is here in 2024,2.0,1.0
+2219,vid00221,interesting,3.0,1.0
+2220,vid00222,best tutorial ever,4.0,2.0
+2221,vid00222,excelente explicación ❤️,11.0,2.0
+2222,vid00222,amazing content,1.0,2.0
+2223,vid00222,wrong information,6.0,0.0
+2224,vid00222,this is awesome 🔥,2.0,2.0
+2225,vid00222,no me gustó,14.0,0.0
+2226,vid00222,first time watching,4.0,1.0
+2227,vid00222,excelente explicación ❤️,20.0,2.0
+2228,vid00222,subscribed!,0.0,2.0
+2229,vid00222,minute 3:20,13.0,1.0
+2230,vid00223,this is awesome 🔥,22.0,2.0
+2231,vid00223,perfect timing,11.0,2.0
+2232,vid00223,ok,0.0,1.0
+2233,vid00223,watching from Colombia,9.0,1.0
+2234,vid00223,amazing content,4.0,2.0
+2235,vid00223,watching from Colombia,3.0,1.0
+2236,vid00223,best tutorial ever,1.0,2.0
+2237,vid00223,great video,5.0,2.0
+2238,vid00223,love this,22.0,2.0
+2239,vid00223,interesting,34.0,1.0
+2240,vid00224,what camera do you use?,0.0,1.0
+2241,vid00224,ok,1.0,1.0
+2242,vid00224,amazing content,5.0,2.0
+2243,vid00224,minute 3:20,5.0,1.0
+2244,vid00224,who is here in 2024,8.0,1.0
+2245,vid00224,interesting,20.0,1.0
+2246,vid00224,interesting,5.0,1.0
+2247,vid00224,perfect timing,4.0,2.0
+2248,vid00224,great video,0.0,2.0
+2249,vid00224,this is awesome 🔥,5.0,2.0
+2250,vid00225,interesting,21.0,1.0
+2251,vid00225,this is awesome 🔥,8.0,2.0
+2252,vid00225,what camera do you use?,2.0,1.0
+2253,vid00225,learned a lot today,0.0,2.0
+2254,vid00225,this is awesome 🔥,2.0,2.0
+2255,vid00225,learned a lot today,34.0,2.0
+2256,vid00225,thanks for sharing,16.0,2.0
+2257,vid00225,excelente explicación ❤️,1.0,2.0
+2258,vid00225,best tutorial ever,5.0,2.0
+2259,vid00225,excelente explicación ❤️,0.0,2.0
+2260,vid00226,anyone else?,7.0,1.0
+2261,vid00226,great video,3.0,2.0
+2262,vid00226,part 2?,1.0,1.0
+2263,vid00226,interesting,1.0,1.0
+2264,vid00226,can you review the new model?,1.0,1.0
+2265,vid00226,ok,0.0,1.0
+2266,vid00226,love this,3.0,2.0
+2267,vid00226,watching from Colombia,9.0,1.0
+2268,vid00226,amazing content,29.0,2.0
+2269,vid00226,interesting,3.0,1.0
+2270,vid00227,great video,3.0,2.0
+2271,vid00227,amazing content,45.0,2.0
+2272,vid00227,anyone else?,37.0,1.0
+2273,vid00227,best tutorial ever,15.0,2.0
+2274,vid00227,thanks for sharing,0.0,2.0
+2275,vid00227,amazing content,16.0,2.0
+2276,vid00227,,0.0,2.0
+2277,vid00227,ok,15.0,1.0
+2278,vid00227,subscribed!,5.0,2.0
+2279,vid00227,watching from Colombia,15.0,1.0
+2280,vid00228,amazing content,6.0,2.0
+2281,vid00228,amazing content,2.0,2.0
+2282,vid00228,ok,1.0,1.0
+2283,vid00228,so helpful,4.0,2.0
+2284,vid00228,perfect timing,12.0,2.0
+2285,vid00228,ok,9.0,1.0
+2286,vid00228,interesting,8.0,1.0
+2287,vid00228,subscribed!,1.0,2.0
+2288,vid00228,amazing content,22.0,2.0
+2289,vid00228,excelente explicación ❤️,0.0,2.0
+2290,vid00229,anyone else?,0.0,1.0
+2291,vid00229,genial video,0.0,2.0
+2292,vid00229,thanks for sharing,2.0,2.0
+2293,vid00229,amazing content,0.0,2.0
+2294,vid00229,great video,3.0,2.0
+2295,vid00229,thanks for sharing,2.0,2.0
+2296,vid00229,what camera do you use?,36.0,1.0
+2297,vid00229,this is awesome 🔥,1.0,2.0
+2298,vid00229,amazing content,3.0,2.0
+2299,vid00229,excelente explicación ❤️,6.0,2.0
+2300,vid00230,perfect timing,7.0,2.0
+2301,vid00230,love this,2.0,2.0
+2302,vid00230,worst video,24.0,0.0
+2303,vid00230,perfect timing,29.0,2.0
+2304,vid00230,waste of time,7.0,0.0
+2305,vid00230,love this,5.0,2.0
+2306,vid00230,first time watching,2.0,1.0
+2307,vid00230,subscribed!,0.0,2.0
+2308,vid00230,thanks for sharing,2.0,2.0
+2309,vid00230,minute 3:20,3.0,1.0
+2310,vid00231,so helpful,1.0,2.0
+2311,vid00231,excelente explicación ❤️,12.0,2.0
+2312,vid00231,genial video,12.0,2.0
+2313,vid00231,thanks for sharing,2.0,2.0
+2314,vid00231,first time watching,11.0,1.0
+2315,vid00231,minute 3:20,10.0,1.0
+2316,vid00231,perfect timing,27.0,2.0
+2317,vid00231,great video,3.0,2.0
+2318,vid00231,genial video,5.0,2.0
+2319,vid00231,who is here in 2024,6.0,1.0
+2320,vid00232,perfect timing,8.0,2.0
+2321,vid00232,best tutorial ever,26.0,2.0
+2322,vid00232,ok,1.0,1.0
+2323,vid00232,subscribed!,4.0,2.0
+2324,vid00232,what camera do you use?,2.0,1.0
+2325,vid00232,what camera do you use?,2.0,1.0
+2326,vid00232,perfect timing,26.0,2.0
+2327,vid00232,genial video,1.0,2.0
+2328,vid00232,can you review the new model?,27.0,1.0
+2329,vid00232,thanks for sharing,2.0,2.0
+2330,vid00233,genial video,0.0,2.0
+2331,vid00233,amazing content,0.0,2.0
+2332,vid00233,great video,0.0,2.0
+2333,vid00233,too long 👎,9.0,0.0
+2334,vid00233,so helpful,5.0,2.0
+2335,vid00233,anyone else?,23.0,1.0
+2336,vid00233,perfect timing,3.0,2.0
+2337,vid00233,part 2?,16.0,1.0
+2338,vid00233,first time watching,7.0,1.0
+2339,vid00233,genial video,1.0,2.0
+2340,vid00234,what camera do you use?,69.0,1.0
+2341,vid00234,amazing content,19.0,2.0
+2342,vid00234,thanks for sharing,3.0,2.0
+2343,vid00234,this is awesome 🔥,1.0,2.0
+2344,vid00234,can you review the new model?,3.0,1.0
+2345,vid00234,genial video,1.0,2.0
+2346,vid00234,thanks for sharing,3.0,2.0
+2347,vid00234,who is here in 2024,7.0,1.0
+2348,vid00234,excelente explicación ❤️,4.0,2.0
+2349,vid00234,who is here in 2024,0.0,1.0
+2350,vid00235,wrong information,5.0,0.0
+2351,vid00235,anyone else?,6.0,1.0
+2352,vid00235,too long 👎,44.0,0.0
+2353,vid00235,minute 3:20,23.0,1.0
+2354,vid00235,perfect timing,0.0,2.0
+2355,vid00235,watching from Colombia,2.0,1.0
+2356,vid00235,minute 3:20,2.0,1.0
+2357,vid00235,great video,5.0,2.0
+2358,vid00235,anyone else?,31.0,1.0
+2359,vid00235,learned a lot today,1.0,2.0
+2360,vid00236,perfect timing,15.0,2.0
+2361,vid00236,interesting,3.0,1.0
+2362,vid00236,fake,9.0,0.0
+2363,vid00236,this is boring,3.0,0.0
+2364,vid00236,can you review the new model?,10.0,1.0
+2365,vid00236,best tutorial ever,0.0,2.0
+2366,vid00236,anyone else?,8.0,1.0
+2367,vid00236,waste of time,4.0,0.0
+2368,vid00236,too long 👎,15.0,0.0
+2369,vid00236,minute 3:20,14.0,1.0
+2370,vid00237,subscribed!,2.0,2.0
+2371,vid00237,excelente explicación ❤️,2.0,2.0
+2372,vid00237,this is awesome 🔥,2.0,2.0
+2373,vid00237,genial video,3.0,2.0
+2374,vid00237,what camera do you use?,18.0,1.0
+2375,vid00237,genial video,8.0,2.0
+2376,vid00237,subscribed!,1.0,2.0
+2377,vid00237,perfect timing,6.0,2.0
+2378,vid00237,audio is terrible,1.0,0.0
+2379,vid00237,no me gustó,4.0,0.0
+2380,vid00238,minute 3:20,4.0,1.0
+2381,vid00238,part 2?,0.0,1.0
+2382,vid00238,thanks for sharing,24.0,2.0
+2383,vid00238,can you review the new model?,14.0,1.0
+2384,vid00238,perfect timing,2.0,2.0
+2385,vid00238,subscribed!,4.0,2.0
+2386,vid00238,first time watching,0.0,1.0
+2387,vid00238,interesting,2.0,1.0
+2388,vid00238,perfect timing,14.0,2.0
+2389,vid00238,love this,14.0,2.0
+2390,vid00239,this is awesome 🔥,1.0,2.0
+2391,vid00239,so helpful,2.0,2.0
+2392,vid00239,watching from Colombia,31.0,1.0
+2393,vid00239,first time watching,9.0,1.0
+2394,vid00239,amazing content,2.0,2.0
+2395,vid00239,excelente explicación ❤️,13.0,2.0
+2396,vid00239,thanks for sharing,4.0,2.0
+2397,vid00239,thanks for sharing,2.0,2.0
+2398,vid00239,who is here in 2024,4.0,1.0
+2399,vid00239,amazing content,3.0,2.0
+2400,vid00240,excelente explicación ❤️,16.0,2.0
+2401,vid00240,great video,1.0,2.0
+2402,vid00240,minute 3:20,9.0,1.0
+2403,vid00240,genial video,21.0,2.0
+2404,vid00240,first time watching,5.0,1.0
+2405,vid00240,so helpful,0.0,2.0
+2406,vid00240,perfect timing,0.0,2.0
+2407,vid00240,perfect timing,8.0,2.0
+2408,vid00240,part 2?,4.0,1.0
+2409,vid00240,subscribed!,0.0,2.0
+2410,vid00241,learned a lot today,14.0,2.0
+2411,vid00241,part 2?,17.0,1.0
+2412,vid00241,anyone else?,0.0,1.0
+2413,vid00241,interesting,9.0,1.0
+2414,vid00241,this is awesome 🔥,3.0,2.0
+2415,vid00241,interesting,3.0,1.0
+2416,vid00241,this is awesome 🔥,10.0,2.0
+2417,vid00241,interesting,1.0,1.0
+2418,vid00241,thanks for sharing,6.0,2.0
+2419,vid00241,genial video,1.0,2.0
+2420,vid00242,part 2?,20.0,1.0
+2421,vid00242,part 2?,0.0,1.0
+2422,vid00242,part 2?,0.0,1.0
+2423,vid00242,this is boring,0.0,0.0
+2424,vid00242,part 2?,0.0,1.0
+2425,vid00242,subscribed!,2.0,2.0
+2426,vid00242,amazing content,7.0,2.0
+2427,vid00242,great video,8.0,2.0
+2428,vid00242,what camera do you use?,4.0,1.0
+2429,vid00242,can you review the new model?,5.0,1.0
+2430,vid00243,excelente explicación ❤️,14.0,2.0
+2431,vid00243,thanks for sharing,22.0,2.0
+2432,vid00243,excelente explicación ❤️,3.0,2.0
+2433,vid00243,subscribed!,9.0,2.0
+2434,vid00243,subscribed!,7.0,2.0
+2435,vid00243,part 2?,5.0,1.0
+2436,vid00243,learned a lot today,2.0,2.0
+2437,vid00243,so helpful,11.0,2.0
+2438,vid00243,what camera do you use?,4.0,1.0
+2439,vid00243,perfect timing,7.0,2.0
+2440,vid00244,so helpful,2.0,2.0
+2441,vid00244,genial video,4.0,2.0
+2442,vid00244,anyone else?,36.0,1.0
+2443,vid00244,anyone else?,47.0,1.0
+2444,vid00244,,0.0,0.0
+2445,vid00244,part 2?,1.0,1.0
+2446,vid00244,love this,2.0,2.0
+2447,vid00244,great video,27.0,2.0
+2448,vid00244,perfect timing,69.0,2.0
+2449,vid00244,learned a lot today,24.0,2.0
+2450,vid00245,subscribed!,5.0,2.0
+2451,vid00245,thanks for sharing,6.0,2.0
+2452,vid00245,watching from Colombia,0.0,1.0
+2453,vid00245,who is here in 2024,10.0,1.0
+2454,vid00245,this is awesome 🔥,26.0,2.0
+2455,vid00245,love this,3.0,2.0
+2456,vid00245,amazing content,12.0,2.0
+2457,vid00245,learned a lot today,21.0,2.0
+2458,vid00245,amazing content,7.0,2.0
+2459,vid00245,thanks for sharing,30.0,2.0
+2460,vid00246,genial video,1.0,2.0
+2461,vid00246,this is boring,2.0,0.0
+2462,vid00246,watching from Colombia,1.0,1.0
+2463,vid00246,perfect timing,5.0,2.0
+2464,vid00246,minute 3:20,1.0,1.0
+2465,vid00246,thanks for sharing,0.0,2.0
+2466,vid00246,excelente explicación ❤️,0.0,2.0
+2467,vid00246,learned a lot today,12.0,2.0
+2468,vid00246,so helpful,3.0,2.0
+2469,vid00246,this is awesome 🔥,1.0,2.0
+2470,vid00247,so helpful,3.0,2.0
+2471,vid00247,genial video,1.0,2.0
+2472,vid00247,excelente explicación ❤️,5.0,2.0
+2473,vid00247,excelente explicación ❤️,5.0,2.0
+2474,vid00247,excelente explicación ❤️,2.0,2.0
+2475,vid00247,excelente explicación ❤️,6.0,2.0
+2476,vid00247,amazing content,16.0,2.0
+2477,vid00247,part 2?,1.0,1.0
+2478,vid00247,dislike,0.0,0.0
+2479,vid00247,best tutorial ever,2.0,2.0
+2480,vid00248,best tutorial ever,2.0,2.0
+2481,vid00248,first time watching,2.0,1.0
+2482,vid00248,so helpful,18.0,2.0
+2483,vid00248,can you review the new model?,13.0,1.0
+2484,vid00248,ok,1.0,1.0
+2485,vid00248,thanks for sharing,9.0,2.0
+2486,vid00248,who is here in 2024,6.0,1.0
+2487,vid00248,part 2?,7.0,1.0
+2488,vid00248,first time watching,0.0,1.0
+2489,vid00248,watching from Colombia,1.0,1.0
+2490,vid00249,best tutorial ever,3.0,2.0
+2491,vid00249,waste of time,5.0,0.0
+2492,vid00249,interesting,3.0,1.0
+2493,vid00249,clickbait,5.0,0.0
+2494,vid00249,ok,23.0,1.0
+2495,vid00249,this is awesome 🔥,13.0,2.0
+2496,vid00249,waste of time,12.0,0.0
+2497,vid00249,watching from Colombia,19.0,1.0
+2498,vid00249,amazing content,13.0,2.0
+2499,vid00249,learned a lot today,1.0,2.0
+2500,vid00250,so helpful,0.0,2.0
+2501,vid00250,who is here in 2024,2.0,1.0
+2502,vid00250,great video,15.0,2.0
+2503,vid00250,learned a lot today,2.0,2.0
+2504,vid00250,who is here in 2024,3.0,1.0
+2505,vid00250,minute 3:20,56.0,1.0
+2506,vid00250,so helpful,5.0,2.0
+2507,vid00250,thanks for sharing,25.0,2.0
+2508,vid00250,love this,1.0,2.0
+2509,vid00250,amazing content,6.0,2.0
+2510,vid00251,watching from Colombia,15.0,1.0
+2511,vid00251,this is awesome 🔥,0.0,2.0
+2512,vid00251,subscribed!,3.0,2.0
+2513,vid00251,perfect timing,11.0,2.0
+2514,vid00251,this is boring,12.0,0.0
+2515,vid00251,love this,0.0,2.0
+2516,vid00251,great video,26.0,2.0
+2517,vid00251,learned a lot today,2.0,2.0
+2518,vid00251,minute 3:20,7.0,1.0
+2519,vid00251,subscribed!,2.0,2.0
+2520,vid00252,subscribed!,1.0,2.0
+2521,vid00252,part 2?,10.0,1.0
+2522,vid00252,interesting,16.0,1.0
+2523,vid00252,anyone else?,6.0,1.0
+2524,vid00252,too long 👎,14.0,0.0
+2525,vid00252,this is awesome 🔥,6.0,2.0
+2526,vid00252,watching from Colombia,5.0,1.0
+2527,vid00252,interesting,2.0,1.0
+2528,vid00252,part 2?,7.0,1.0
+2529,vid00252,interesting,13.0,1.0
+2530,vid00253,perfect timing,8.0,2.0
+2531,vid00253,great video,95.0,2.0
+2532,vid00253,learned a lot today,7.0,2.0
+2533,vid00253,excelente explicación ❤️,2.0,2.0
+2534,vid00253,excelente explicación ❤️,13.0,2.0
+2535,vid00253,amazing content,1.0,2.0
+2536,vid00253,genial video,1.0,2.0
+2537,vid00253,perfect timing,9.0,2.0
+2538,vid00253,best tutorial ever,16.0,2.0
+2539,vid00253,part 2?,3.0,1.0
+2540,vid00254,amazing content,3.0,2.0
+2541,vid00254,excelente explicación ❤️,7.0,2.0
+2542,vid00254,so helpful,7.0,2.0
+2543,vid00254,can you review the new model?,66.0,1.0
+2544,vid00254,waste of time,4.0,0.0
+2545,vid00254,best tutorial ever,1.0,2.0
+2546,vid00254,what camera do you use?,6.0,1.0
+2547,vid00254,love this,94.0,2.0
+2548,vid00254,who is here in 2024,2.0,1.0
+2549,vid00254,learned a lot today,12.0,2.0
+2550,vid00255,amazing content,9.0,2.0
+2551,vid00255,amazing content,14.0,2.0
+2552,vid00255,excelente explicación ❤️,2.0,2.0
+2553,vid00255,so helpful,0.0,2.0
+2554,vid00255,subscribed!,0.0,2.0
+2555,vid00255,perfect timing,5.0,2.0
+2556,vid00255,subscribed!,0.0,2.0
+2557,vid00255,amazing content,8.0,2.0
+2558,vid00255,who is here in 2024,6.0,1.0
+2559,vid00255,thanks for sharing,2.0,2.0
+2560,vid00256,great video,2.0,2.0
+2561,vid00256,thanks for sharing,5.0,2.0
+2562,vid00256,amazing content,2.0,2.0
+2563,vid00256,interesting,0.0,1.0
+2564,vid00256,best tutorial ever,72.0,2.0
+2565,vid00256,great video,32.0,2.0
+2566,vid00256,this is awesome 🔥,0.0,2.0
+2567,vid00256,fake,6.0,0.0
+2568,vid00256,part 2?,17.0,1.0
+2569,vid00256,watching from Colombia,4.0,1.0
+2570,vid00257,anyone else?,19.0,1.0
+2571,vid00257,who is here in 2024,2.0,1.0
+2572,vid00257,great video,2.0,2.0
+2573,vid00257,no me gustó,2.0,0.0
+2574,vid00257,what camera do you use?,6.0,1.0
+2575,vid00257,fake,35.0,0.0
+2576,vid00257,what camera do you use?,0.0,1.0
+2577,vid00257,subscribed!,1.0,2.0
+2578,vid00257,watching from Colombia,2.0,1.0
+2579,vid00257,what camera do you use?,0.0,1.0
+2580,vid00258,part 2?,10.0,1.0
+2581,vid00258,waste of time,4.0,0.0
+2582,vid00258,who is here in 2024,1.0,1.0
+2583,vid00258,part 2?,16.0,1.0
+2584,vid00258,watching from Colombia,1.0,1.0
+2585,vid00258,excelente explicación ❤️,2.0,2.0
+2586,vid00258,perfect timing,40.0,2.0
+2587,vid00258,love this,7.0,2.0
+2588,vid00258,ok,4.0,1.0
+2589,vid00258,anyone else?,19.0,1.0
+2590,vid00259,genial video,1.0,2.0
+2591,vid00259,amazing content,1.0,2.0
+2592,vid00259,audio is terrible,2.0,0.0
+2593,vid00259,learned a lot today,4.0,2.0
+2594,vid00259,great video,11.0,2.0
+2595,vid00259,perfect timing,2.0,2.0
+2596,vid00259,genial video,9.0,2.0
+2597,vid00259,love this,0.0,2.0
+2598,vid00259,great video,3.0,2.0
+2599,vid00259,learned a lot today,7.0,2.0
+2600,vid00260,too long 👎,30.0,0.0
+2601,vid00260,this is awesome 🔥,16.0,2.0
+2602,vid00260,love this,36.0,2.0
+2603,vid00260,amazing content,1.0,2.0
+2604,vid00260,great video,21.0,2.0
+2605,vid00260,can you review the new model?,1.0,1.0
+2606,vid00260,love this,1.0,2.0
+2607,vid00260,what camera do you use?,2.0,1.0
+2608,vid00260,wrong information,31.0,0.0
+2609,vid00260,watching from Colombia,2.0,1.0
+2610,vid00261,excelente explicación ❤️,9.0,2.0
+2611,vid00261,anyone else?,4.0,1.0
+2612,vid00261,subscribed!,16.0,2.0
+2613,vid00261,amazing content,5.0,2.0
+2614,vid00261,this is awesome 🔥,0.0,2.0
+2615,vid00261,watching from Colombia,3.0,1.0
+2616,vid00261,who is here in 2024,0.0,1.0
+2617,vid00261,so helpful,11.0,2.0
+2618,vid00261,genial video,0.0,2.0
+2619,vid00261,genial video,1.0,2.0
+2620,vid00262,this is boring,5.0,0.0
+2621,vid00262,who is here in 2024,21.0,1.0
+2622,vid00262,genial video,11.0,2.0
+2623,vid00262,part 2?,1.0,1.0
+2624,vid00262,genial video,3.0,2.0
+2625,vid00262,excelente explicación ❤️,3.0,2.0
+2626,vid00262,excelente explicación ❤️,4.0,2.0
+2627,vid00262,anyone else?,2.0,1.0
+2628,vid00262,interesting,8.0,1.0
+2629,vid00262,minute 3:20,126.0,1.0
+2630,vid00263,ok,0.0,1.0
+2631,vid00263,genial video,3.0,2.0
+2632,vid00263,subscribed!,16.0,2.0
+2633,vid00263,minute 3:20,14.0,1.0
+2634,vid00263,best tutorial ever,4.0,2.0
+2635,vid00263,interesting,5.0,1.0
+2636,vid00263,love this,2.0,2.0
+2637,vid00263,love this,0.0,2.0
+2638,vid00263,genial video,14.0,2.0
+2639,vid00263,what camera do you use?,2.0,1.0
+2640,vid00264,interesting,4.0,1.0
+2641,vid00264,wrong information,8.0,0.0
+2642,vid00264,thanks for sharing,3.0,2.0
+2643,vid00264,waste of time,2.0,0.0
+2644,vid00264,genial video,0.0,2.0
+2645,vid00264,can you review the new model?,3.0,1.0
+2646,vid00264,what camera do you use?,4.0,1.0
+2647,vid00264,fake,6.0,0.0
+2648,vid00264,first time watching,20.0,1.0
+2649,vid00264,who is here in 2024,24.0,1.0
+2650,vid00265,thanks for sharing,3.0,2.0
+2651,vid00265,genial video,1.0,2.0
+2652,vid00265,can you review the new model?,5.0,1.0
+2653,vid00265,genial video,5.0,2.0
+2654,vid00265,subscribed!,10.0,2.0
+2655,vid00265,interesting,10.0,1.0
+2656,vid00265,waste of time,9.0,0.0
+2657,vid00265,this is awesome 🔥,2.0,2.0
+2658,vid00265,can you review the new model?,7.0,1.0
+2659,vid00265,who is here in 2024,3.0,1.0
+2660,vid00266,genial video,2.0,2.0
+2661,vid00266,subscribed!,6.0,2.0
+2662,vid00266,learned a lot today,2.0,2.0
+2663,vid00266,subscribed!,8.0,2.0
+2664,vid00266,learned a lot today,5.0,2.0
+2665,vid00266,subscribed!,1.0,2.0
+2666,vid00266,love this,5.0,2.0
+2667,vid00266,perfect timing,0.0,2.0
+2668,vid00266,excelente explicación ❤️,7.0,2.0
+2669,vid00266,watching from Colombia,4.0,1.0
+2670,vid00267,subscribed!,10.0,2.0
+2671,vid00267,waste of time,5.0,0.0
+2672,vid00267,so helpful,5.0,2.0
+2673,vid00267,best tutorial ever,4.0,2.0
+2674,vid00267,subscribed!,3.0,2.0
+2675,vid00267,love this,11.0,2.0
+2676,vid00267,minute 3:20,1.0,1.0
+2677,vid00267,anyone else?,8.0,1.0
+2678,vid00267,interesting,1.0,1.0
+2679,vid00267,watching from Colombia,0.0,1.0
+2680,vid00268,excelente explicación ❤️,0.0,2.0
+2681,vid00268,so helpful,2.0,2.0
+2682,vid00268,excelente explicación ❤️,20.0,2.0
+2683,vid00268,love this,3.0,2.0
+2684,vid00268,great video,0.0,2.0
+2685,vid00268,best tutorial ever,18.0,2.0
+2686,vid00268,this is awesome 🔥,4.0,2.0
+2687,vid00268,part 2?,30.0,1.0
+2688,vid00268,thanks for sharing,18.0,2.0
+2689,vid00268,wrong information,0.0,0.0
+2690,vid00269,no me gustó,0.0,0.0
+2691,vid00269,perfect timing,2.0,2.0
+2692,vid00269,watching from Colombia,7.0,1.0
+2693,vid00269,genial video,6.0,2.0
+2694,vid00269,fake,6.0,0.0
+2695,vid00269,love this,1.0,2.0
+2696,vid00269,subscribed!,1.0,2.0
+2697,vid00269,part 2?,1.0,1.0
+2698,vid00269,excelente explicación ❤️,8.0,2.0
+2699,vid00269,subscribed!,28.0,2.0
+2700,vid00270,excelente explicación ❤️,7.0,2.0
+2701,vid00270,best tutorial ever,2.0,2.0
+2702,vid00270,first time watching,5.0,1.0
+2703,vid00270,anyone else?,45.0,1.0
+2704,vid00270,waste of time,0.0,0.0
+2705,vid00270,minute 3:20,1.0,1.0
+2706,vid00270,minute 3:20,8.0,1.0
+2707,vid00270,first time watching,4.0,1.0
+2708,vid00270,perfect timing,1.0,2.0
+2709,vid00270,first time watching,30.0,1.0
+2710,vid00271,thanks for sharing,2.0,2.0
+2711,vid00271,who is here in 2024,1.0,1.0
+2712,vid00271,interesting,19.0,1.0
+2713,vid00271,genial video,2.0,2.0
+2714,vid00271,anyone else?,17.0,1.0
+2715,vid00271,interesting,4.0,1.0
+2716,vid00271,fake,1.0,0.0
+2717,vid00271,perfect timing,6.0,2.0
+2718,vid00271,who is here in 2024,9.0,1.0
+2719,vid00271,minute 3:20,43.0,1.0
+2720,vid00272,dislike,0.0,0.0
+2721,vid00272,anyone else?,2.0,1.0
+2722,vid00272,minute 3:20,8.0,1.0
+2723,vid00272,love this,21.0,2.0
+2724,vid00272,who is here in 2024,3.0,1.0
+2725,vid00272,anyone else?,2.0,1.0
+2726,vid00272,dislike,2.0,0.0
+2727,vid00272,interesting,0.0,1.0
+2728,vid00272,can you review the new model?,5.0,1.0
+2729,vid00272,love this,1.0,2.0
+2730,vid00273,thanks for sharing,5.0,2.0
+2731,vid00273,first time watching,7.0,1.0
+2732,vid00273,what camera do you use?,7.0,1.0
+2733,vid00273,minute 3:20,17.0,1.0
+2734,vid00273,first time watching,2.0,1.0
+2735,vid00273,amazing content,13.0,2.0
+2736,vid00273,ok,1.0,1.0
+2737,vid00273,what camera do you use?,4.0,1.0
+2738,vid00273,perfect timing,1.0,2.0
+2739,vid00273,minute 3:20,7.0,1.0
+2740,vid00274,great video,12.0,2.0
+2741,vid00274,what camera do you use?,16.0,1.0
+2742,vid00274,watching from Colombia,1.0,1.0
+2743,vid00274,best tutorial ever,5.0,2.0
+2744,vid00274,best tutorial ever,4.0,2.0
+2745,vid00274,minute 3:20,6.0,1.0
+2746,vid00274,watching from Colombia,67.0,1.0
+2747,vid00274,thanks for sharing,2.0,2.0
+2748,vid00274,what camera do you use?,1.0,1.0
+2749,vid00274,amazing content,2.0,2.0
+2750,vid00275,minute 3:20,10.0,1.0
+2751,vid00275,wrong information,1.0,0.0
+2752,vid00275,watching from Colombia,4.0,1.0
+2753,vid00275,who is here in 2024,3.0,1.0
+2754,vid00275,first time watching,1.0,1.0
+2755,vid00275,waste of time,12.0,0.0
+2756,vid00275,amazing content,0.0,2.0
+2757,vid00275,subscribed!,4.0,2.0
+2758,vid00275,thanks for sharing,10.0,2.0
+2759,vid00275,dislike,1.0,0.0
+2760,vid00276,can you review the new model?,1.0,1.0
+2761,vid00276,who is here in 2024,4.0,1.0
+2762,vid00276,thanks for sharing,7.0,2.0
+2763,vid00276,watching from Colombia,24.0,1.0
+2764,vid00276,ok,8.0,1.0
+2765,vid00276,watching from Colombia,4.0,1.0
+2766,vid00276,best tutorial ever,11.0,2.0
+2767,vid00276,fake,31.0,0.0
+2768,vid00276,perfect timing,3.0,2.0
+2769,vid00276,who is here in 2024,30.0,1.0
+2770,vid00277,best tutorial ever,4.0,2.0
+2771,vid00277,minute 3:20,11.0,1.0
+2772,vid00277,thanks for sharing,1.0,2.0
+2773,vid00277,excelente explicación ❤️,3.0,2.0
+2774,vid00277,thanks for sharing,0.0,2.0
+2775,vid00277,excelente explicación ❤️,4.0,2.0
+2776,vid00277,interesting,0.0,1.0
+2777,vid00277,interesting,1.0,1.0
+2778,vid00277,too long 👎,2.0,0.0
+2779,vid00277,excelente explicación ❤️,4.0,2.0
+2780,vid00278,watching from Colombia,3.0,1.0
+2781,vid00278,can you review the new model?,7.0,1.0
+2782,vid00278,wrong information,2.0,0.0
+2783,vid00278,anyone else?,15.0,1.0
+2784,vid00278,wrong information,2.0,0.0
+2785,vid00278,too long 👎,2.0,0.0
+2786,vid00278,learned a lot today,3.0,2.0
+2787,vid00278,first time watching,1.0,1.0
+2788,vid00278,who is here in 2024,5.0,1.0
+2789,vid00278,best tutorial ever,0.0,2.0
+2790,vid00279,minute 3:20,4.0,1.0
+2791,vid00279,learned a lot today,5.0,2.0
+2792,vid00279,this is awesome 🔥,14.0,2.0
+2793,vid00279,best tutorial ever,7.0,2.0
+2794,vid00279,can you review the new model?,11.0,1.0
+2795,vid00279,waste of time,1.0,0.0
+2796,vid00279,genial video,0.0,2.0
+2797,vid00279,anyone else?,0.0,1.0
+2798,vid00279,ok,4.0,1.0
+2799,vid00279,so helpful,1.0,2.0
+2800,vid00280,can you review the new model?,22.0,1.0
+2801,vid00280,love this,8.0,2.0
+2802,vid00280,love this,3.0,2.0
+2803,vid00280,perfect timing,0.0,2.0
+2804,vid00280,genial video,3.0,2.0
+2805,vid00280,thanks for sharing,38.0,2.0
+2806,vid00280,love this,4.0,2.0
+2807,vid00280,love this,2.0,2.0
+2808,vid00280,amazing content,5.0,2.0
+2809,vid00280,minute 3:20,14.0,1.0
+2810,vid00281,wrong information,3.0,0.0
+2811,vid00281,perfect timing,42.0,2.0
+2812,vid00281,first time watching,87.0,1.0
+2813,vid00281,watching from Colombia,40.0,1.0
+2814,vid00281,love this,3.0,2.0
+2815,vid00281,watching from Colombia,8.0,1.0
+2816,vid00281,anyone else?,12.0,1.0
+2817,vid00281,interesting,0.0,1.0
+2818,vid00281,love this,2.0,2.0
+2819,vid00281,too long 👎,2.0,0.0
+2820,vid00282,thanks for sharing,4.0,2.0
+2821,vid00282,anyone else?,2.0,1.0
+2822,vid00282,best tutorial ever,1.0,2.0
+2823,vid00282,anyone else?,15.0,1.0
+2824,vid00282,minute 3:20,12.0,1.0
+2825,vid00282,thanks for sharing,19.0,2.0
+2826,vid00282,this is awesome 🔥,6.0,2.0
+2827,vid00282,learned a lot today,27.0,2.0
+2828,vid00282,first time watching,4.0,1.0
+2829,vid00282,so helpful,4.0,2.0
+2830,vid00283,part 2?,2.0,1.0
+2831,vid00283,subscribed!,11.0,2.0
+2832,vid00283,this is boring,0.0,0.0
+2833,vid00283,perfect timing,11.0,2.0
+2834,vid00283,what camera do you use?,6.0,1.0
+2835,vid00283,part 2?,12.0,1.0
+2836,vid00283,who is here in 2024,0.0,1.0
+2837,vid00283,first time watching,34.0,1.0
+2838,vid00283,learned a lot today,29.0,2.0
+2839,vid00283,this is awesome 🔥,1.0,2.0
+2840,vid00284,minute 3:20,1.0,1.0
+2841,vid00284,anyone else?,3.0,1.0
+2842,vid00284,thanks for sharing,11.0,2.0
+2843,vid00284,first time watching,12.0,1.0
+2844,vid00284,thanks for sharing,2.0,2.0
+2845,vid00284,perfect timing,2.0,2.0
+2846,vid00284,waste of time,6.0,0.0
+2847,vid00284,amazing content,6.0,2.0
+2848,vid00284,anyone else?,9.0,1.0
+2849,vid00284,excelente explicación ❤️,30.0,2.0
+2850,vid00285,this is awesome 🔥,6.0,2.0
+2851,vid00285,love this,4.0,2.0
+2852,vid00285,what camera do you use?,34.0,1.0
+2853,vid00285,watching from Colombia,1.0,1.0
+2854,vid00285,worst video,4.0,0.0
+2855,vid00285,best tutorial ever,6.0,2.0
+2856,vid00285,subscribed!,4.0,2.0
+2857,vid00285,subscribed!,0.0,2.0
+2858,vid00285,amazing content,33.0,2.0
+2859,vid00285,watching from Colombia,9.0,1.0
+2860,vid00286,learned a lot today,1.0,2.0
+2861,vid00286,subscribed!,3.0,2.0
+2862,vid00286,anyone else?,14.0,1.0
+2863,vid00286,this is awesome 🔥,2.0,2.0
+2864,vid00286,so helpful,2.0,2.0
+2865,vid00286,who is here in 2024,20.0,1.0
+2866,vid00286,minute 3:20,10.0,1.0
+2867,vid00286,anyone else?,6.0,1.0
+2868,vid00286,can you review the new model?,14.0,1.0
+2869,vid00286,anyone else?,1.0,1.0
+2870,vid00287,genial video,1.0,2.0
+2871,vid00287,great video,7.0,2.0
+2872,vid00287,thanks for sharing,1.0,2.0
+2873,vid00287,learned a lot today,3.0,2.0
+2874,vid00287,thanks for sharing,2.0,2.0
+2875,vid00287,excelente explicación ❤️,12.0,2.0
+2876,vid00287,love this,2.0,2.0
+2877,vid00287,thanks for sharing,6.0,2.0
+2878,vid00287,so helpful,6.0,2.0
+2879,vid00287,first time watching,2.0,1.0
+2880,vid00288,watching from Colombia,9.0,1.0
+2881,vid00288,can you review the new model?,1.0,1.0
+2882,vid00288,what camera do you use?,7.0,1.0
+2883,vid00288,anyone else?,28.0,1.0
+2884,vid00288,clickbait,6.0,0.0
+2885,vid00288,wrong information,1.0,0.0
+2886,vid00288,so helpful,6.0,2.0
+2887,vid00288,watching from Colombia,3.0,1.0
+2888,vid00288,no me gustó,7.0,0.0
+2889,vid00288,minute 3:20,0.0,1.0
+2890,vid00289,part 2?,0.0,1.0
+2891,vid00289,excelente explicación ❤️,27.0,2.0
+2892,vid00289,no me gustó,4.0,0.0
+2893,vid00289,so helpful,6.0,2.0
+2894,vid00289,genial video,4.0,2.0
+2895,vid00289,thanks for sharing,31.0,2.0
+2896,vid00289,great video,4.0,2.0
+2897,vid00289,great video,0.0,2.0
+2898,vid00289,best tutorial ever,1.0,2.0
+2899,vid00289,best tutorial ever,4.0,2.0
+2900,vid00290,thanks for sharing,3.0,2.0
+2901,vid00290,ok,4.0,1.0
+2902,vid00290,ok,0.0,1.0
+2903,vid00290,perfect timing,4.0,2.0
+2904,vid00290,excelente explicación ❤️,9.0,2.0
+2905,vid00290,amazing content,2.0,2.0
+2906,vid00290,can you review the new model?,1.0,1.0
+2907,vid00290,what camera do you use?,0.0,1.0
+2908,vid00290,this is awesome 🔥,2.0,2.0
+2909,vid00290,perfect timing,1.0,2.0
+2910,vid00291,perfect timing,20.0,2.0
+2911,vid00291,best tutorial ever,2.0,2.0
+2912,vid00291,watching from Colombia,1.0,1.0
+2913,vid00291,wrong information,0.0,0.0
+2914,vid00291,genial video,3.0,2.0
+2915,vid00291,excelente explicación ❤️,28.0,2.0
+2916,vid00291,excelente explicación ❤️,11.0,2.0
+2917,vid00291,waste of time,1.0,0.0
+2918,vid00291,part 2?,6.0,1.0
+2919,vid00291,subscribed!,6.0,2.0
+2920,vid00292,learned a lot today,1.0,2.0
+2921,vid00292,learned a lot today,2.0,2.0
+2922,vid00292,learned a lot today,8.0,2.0
+2923,vid00292,love this,1.0,2.0
+2924,vid00292,perfect timing,10.0,2.0
+2925,vid00292,genial video,5.0,2.0
+2926,vid00292,genial video,2.0,2.0
+2927,vid00292,this is awesome 🔥,3.0,2.0
+2928,vid00292,subscribed!,4.0,2.0
+2929,vid00292,interesting,1.0,1.0
+2930,vid00293,ok,22.0,1.0
+2931,vid00293,so helpful,3.0,2.0
+2932,vid00293,subscribed!,3.0,2.0
+2933,vid00293,so helpful,3.0,2.0
+2934,vid00293,this is awesome 🔥,0.0,2.0
+2935,vid00293,great video,1.0,2.0
+2936,vid00293,love this,54.0,2.0
+2937,vid00293,best tutorial ever,1.0,2.0
+2938,vid00293,best tutorial ever,35.0,2.0
+2939,vid00293,thanks for sharing,9.0,2.0
+2940,vid00294,so helpful,9.0,2.0
+2941,vid00294,amazing content,5.0,2.0
+2942,vid00294,this is awesome 🔥,6.0,2.0
+2943,vid00294,amazing content,83.0,2.0
+2944,vid00294,great video,0.0,2.0
+2945,vid00294,minute 3:20,33.0,1.0
+2946,vid00294,love this,5.0,2.0
+2947,vid00294,perfect timing,2.0,2.0
+2948,vid00294,amazing content,11.0,2.0
+2949,vid00294,perfect timing,7.0,2.0
+2950,vid00295,first time watching,4.0,1.0
+2951,vid00295,subscribed!,2.0,2.0
+2952,vid00295,part 2?,3.0,1.0
+2953,vid00295,can you review the new model?,1.0,1.0
+2954,vid00295,subscribed!,33.0,2.0
+2955,vid00295,great video,5.0,2.0
+2956,vid00295,anyone else?,3.0,1.0
+2957,vid00295,perfect timing,29.0,2.0
+2958,vid00295,love this,1.0,2.0
+2959,vid00295,excelente explicación ❤️,46.0,2.0
+2960,vid00296,what camera do you use?,16.0,1.0
+2961,vid00296,what camera do you use?,9.0,1.0
+2962,vid00296,what camera do you use?,1.0,1.0
+2963,vid00296,clickbait,1.0,0.0
+2964,vid00296,clickbait,4.0,0.0
+2965,vid00296,amazing content,16.0,2.0
+2966,vid00296,can you review the new model?,4.0,1.0
+2967,vid00296,this is boring,9.0,0.0
+2968,vid00296,perfect timing,7.0,2.0
+2969,vid00296,first time watching,3.0,1.0
+2970,vid00297,perfect timing,0.0,2.0
+2971,vid00297,who is here in 2024,3.0,1.0
+2972,vid00297,subscribed!,3.0,2.0
+2973,vid00297,subscribed!,13.0,2.0
+2974,vid00297,genial video,2.0,2.0
+2975,vid00297,can you review the new model?,0.0,1.0
+2976,vid00297,ok,1.0,1.0
+2977,vid00297,minute 3:20,31.0,1.0
+2978,vid00297,genial video,3.0,2.0
+2979,vid00297,learned a lot today,1.0,2.0
+2980,vid00298,best tutorial ever,0.0,2.0
+2981,vid00298,learned a lot today,5.0,2.0
+2982,vid00298,genial video,4.0,2.0
+2983,vid00298,so helpful,6.0,2.0
+2984,vid00298,amazing content,1.0,2.0
+2985,vid00298,best tutorial ever,2.0,2.0
+2986,vid00298,learned a lot today,1.0,2.0
+2987,vid00298,this is awesome 🔥,6.0,2.0
+2988,vid00298,amazing content,6.0,2.0
+2989,vid00298,genial video,15.0,2.0
+2990,vid00299,perfect timing,5.0,2.0
+2991,vid00299,ok,18.0,1.0
+2992,vid00299,what camera do you use?,47.0,1.0
+2993,vid00299,thanks for sharing,7.0,2.0
+2994,vid00299,great video,9.0,2.0
+2995,vid00299,great video,7.0,2.0
+2996,vid00299,so helpful,19.0,2.0
+2997,vid00299,so helpful,10.0,2.0
+2998,vid00299,excelente explicación ❤️,14.0,2.0
+2999,vid00299,perfect timing,5.0,2.0
+3000,huerfano01,comment without video,1.0,1.0
+3001,vid00000,invalid sentiment,0.0,5.0

@@ -1,0 +1,37 @@
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  sample: data/sample
+  reports: reports
+
+kaggle:
+  dataset: advaypatil/youtube-statistics
+  videos_file: videos-stats.csv
+  comments_file: comments.csv
+
+api:
+  max_comments_per_video: 100   # commentThreads.list devuelve hasta 100 por página
+  order: relevance              # relevance | time
+  batch_size: 50                # videos.list acepta hasta 50 IDs por llamada
+  daily_quota: 10000
+
+cleaning:
+  min_comment_tokens: 1
+  drop_duplicate_comments: true
+  demojize: true                # convierte emojis a texto en lugar de borrarlos
+
+# Variable objetivo: engagement | log_views | log_likes | perf_class
+target: engagement
+perf_class_quantiles: [0.33, 0.66]
+min_views_for_engagement: 100   # evita ratios inestables en videos con pocas vistas
+
+model:
+  test_size: 0.2
+  random_state: 42
+  learning_curve_fractions: [0.1, 0.25, 0.5, 0.75, 1.0]
+
+stats:
+  bootstrap_iterations: 2000
+  alpha: 0.05
+  top_k_words: 20

@@ -1,0 +1,24 @@
+# Pipeline reproducible con DVC: `dvc repro`
+# Inicializar: dvc init && dvc remote add -d storage gs://<bucket>/dvc  (o s3://, azure://)
+stages:
+  download:
+    cmd: python -c "from ytnlp.data.kaggle_source import download; download()"
+    outs:
+      - data/raw/kaggle
+  pipeline:
+    cmd: python -m ytnlp.pipeline --source kaggle
+    deps:
+      - data/raw/kaggle
+      - src/ytnlp
+      - configs/config.yaml
+    outs:
+      - data/interim
+      - data/processed
+    metrics:
+      - reports/quality_report.json:
+          cache: false
+      - reports/baseline_report.json:
+          cache: false
+    plots:
+      - reports/monitoring_history.csv:
+          cache: false
