@@ -1,0 +1,6 @@
+# Paquetes que Google Colab NO trae preinstalados.
+# Colab ya incluye pandas, numpy, scipy, scikit-learn, matplotlib, pyarrow, pyyaml,
+# requests y kaggle; reinstalarlos puede obligar a reiniciar el entorno de ejecución.
+pandera>=0.20
+emoji>=2.10
+python-dotenv>=1.0

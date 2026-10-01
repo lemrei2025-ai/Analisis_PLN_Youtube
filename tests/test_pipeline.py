@@ -64,9 +64,19 @@ def test_features_have_no_leakage(sample):
 
 
 def test_pipeline_end_to_end():
+    from ytnlp.config import path
     from ytnlp.pipeline import run
 
     out = run("sample")
     assert out["videos"] > 0
     for f in ("quality_report.md", "stats_report.md", "baseline_report.md"):
-        assert (ROOT / "reports" / f).exists()
+        assert (path("reports") / f).exists()
+
+
+def test_storage_env_redirects_data(tmp_path, monkeypatch):
+    from ytnlp.config import ROOT, path
+
+    monkeypatch.setenv("YTNLP_STORAGE", str(tmp_path))
+    assert path("reports").is_relative_to(tmp_path)
+    assert path("raw").is_relative_to(tmp_path)
+    assert path("sample").is_relative_to(ROOT)

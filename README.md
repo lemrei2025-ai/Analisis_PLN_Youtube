@@ -22,6 +22,7 @@ Proyecto 1 del curso de Procesamiento de Lenguaje Natural. El objetivo final es 
 │   └── sample/                  # muestra sintética pequeña para CI y pruebas
 ├── src/ytnlp/
 │   ├── config.py
+│   ├── colab.py                 # Drive, secretos y git push desde Colab
 │   ├── pipeline.py              # orquesta todas las etapas
 │   ├── data/
 │   │   ├── kaggle_source.py     # descarga y normaliza el dataset de Kaggle
@@ -32,8 +33,12 @@ Proyecto 1 del curso de Procesamiento de Lenguaje Natural. El objetivo final es 
 │   ├── analysis/stats.py        # análisis estadísticos no triviales
 │   └── models/baseline.py       # baselines + curva de aprendizaje
 ├── scripts/make_sample_data.py
-├── notebooks/01_eda.ipynb
+├── notebooks/
+│   ├── 00_colab_inicio.ipynb    # punto de entrada en Google Colab
+│   └── 01_eda.ipynb             # diccionario de datos, calidad y distribuciones
 ├── tests/
+├── requirements.txt             # entorno local / CI
+├── requirements-colab.txt       # solo lo que Colab no trae preinstalado
 ├── dvc.yaml                     # pipeline reproducible con DVC
 ├── .github/workflows/
 │   ├── ci.yml                   # pruebas + pipeline sobre la muestra
@@ -41,7 +46,32 @@ Proyecto 1 del curso de Procesamiento de Lenguaje Natural. El objetivo final es 
 └── docs/taller_semana7.md
 ```
 
-## Inicio rápido
+## Entorno de desarrollo: Google Colab + GitHub + Google Drive
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<usuario>/youtube-stats-nlp/blob/main/notebooks/00_colab_inicio.ipynb)
+
+El proyecto se desarrolla en **Google Colab**: nadie necesita instalar nada en su computador. Como una sesión de Colab es temporal (el disco se borra al desconectarse), cada pieza vive donde no se pierde:
+
+| Componente | Herramienta | Qué guarda o hace |
+| --- | --- | --- |
+| Cómputo y notebooks | Google Colab (CPU basta en esta etapa) | Ejecuta el pipeline, el EDA y los análisis |
+| Código | GitHub | Versiona `src/`, configuración y notebooks; corre la CI y la extracción diaria (GitHub Actions) |
+| Datos y reportes | Google Drive (`MyDrive/ytnlp-proyecto/`) | `data/raw`, `data/interim`, `data/processed`, `reports/` persisten entre sesiones |
+| Credenciales | Secretos de Colab (🔑) y GitHub Secrets | `KAGGLE_USERNAME`, `KAGGLE_KEY`, `YOUTUBE_API_KEY`, `GITHUB_TOKEN`; nunca en el código |
+| Despliegue (etapas siguientes) | Nube (ej. Cloud Run, Hugging Face Spaces) | API o interfaz del modelo y su monitoreo |
+
+**Flujo de trabajo en Colab**
+
+1. Subir este repositorio a GitHub (una vez) y reemplazar `<usuario>` en los enlaces y en la celda 1 de los notebooks.
+2. Abrir `notebooks/00_colab_inicio.ipynb` con el botón *Abrir en Colab*.
+3. Crear los secretos en el panel 🔑 de Colab y activar *Acceso del notebook*.
+4. Ejecutar las celdas 1 y 2: clonan el repo en `/content`, instalan solo lo que falta (`requirements-colab.txt`), montan Drive y cargan los secretos.
+5. Ejecutar el pipeline con la muestra, luego con Kaggle y luego con la API. Los reportes quedan en Drive.
+6. Si cambió código, subirlo con la celda 7 (`git_push`) o con *Archivo → Guardar una copia en GitHub* para notebooks.
+
+Al volver otro día solo se repiten las celdas 1 y 2. La variable de entorno `YTNLP_STORAGE` (la fija `ytnlp.colab.setup()`) indica dónde guardar datos y reportes; si no existe, se usan carpetas dentro del repositorio, por lo que todo también funciona en un computador local.
+
+## Inicio rápido en un computador local (opcional)
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
