@@ -126,7 +126,7 @@ Esta parte se realiza una sola vez. Cada integrante necesita una cuenta de Googl
 
 ### 2.1 Abrir el notebook de inicio y guardar una copia
 
-1. Abrir el enlace del notebook de inicio entregado por el docente. Tiene la forma `https://colab.research.google.com/github/USUARIO/REPOSITORIO/blob/main/notebooks/00_colab_inicio.ipynb` y abre el notebook directamente en Colab.
+1. Abrir el enlace del notebook de inicio (está en el README del taller, sección *Enlaces del taller*). Se abre directamente en Google Colab.
 2. Iniciar sesión con la cuenta de Google si Colab lo solicita.
 3. **Antes de ejecutar nada:** *Archivo → Guardar una copia en Drive*. Colab crea la copia en la carpeta *Colab Notebooks* de Drive y la abre en una pestaña nueva.
 4. Trabajar siempre sobre esa copia. Conviene renombrarla con el nombre del equipo (clic en el título, arriba a la izquierda) y moverla a la carpeta `ytnlp-proyecto` desde Google Drive.

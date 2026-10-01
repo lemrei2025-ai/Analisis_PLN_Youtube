@@ -4,7 +4,7 @@ Relación entre las preguntas del taller y lo que produce el notebook. El enunci
 
 ## Entorno de trabajo
 
-Todo el taller se hace en **Google Colab**, abriendo el enlace del notebook de inicio entregado por el docente y guardando una copia en Google Drive. No se necesita cuenta de GitHub. Los datos, los reportes y la configuración del equipo quedan en Google Drive y las credenciales en los Secretos de Colab. El paso a paso completo, con explicaciones y lecturas, está en [`guia_paso_a_paso.md`](guia_paso_a_paso.md).
+Todo el taller se hace en **Google Colab**, abriendo el enlace del notebook de inicio (README, sección *Enlaces del taller*) y guardando una copia en Google Drive. No se necesita cuenta de GitHub. Los datos, los reportes y la configuración del equipo quedan en Google Drive y las credenciales en los Secretos de Colab. El paso a paso completo, con explicaciones y lecturas, está en [`guia_paso_a_paso.md`](guia_paso_a_paso.md).
 
 Lista de verificación del equipo antes de la sesión:
 

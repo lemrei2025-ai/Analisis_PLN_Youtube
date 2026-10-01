@@ -127,15 +127,3 @@ def test_team_overrides_live_in_storage(tmp_path, monkeypatch):
     assert config.load_config()["target"] == "engagement"
     monkeypatch.delenv("YTNLP_STORAGE")
     config.reload()
-
-
-def test_configurar_repo_script(tmp_path):
-    import importlib.util
-
-    spec = importlib.util.spec_from_file_location("cfg_repo", ROOT / "scripts/configurar_repo.py")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    assert mod.parse("docente/taller-pln") == "docente/taller-pln"
-    assert mod.parse("https://github.com/docente/taller-pln.git") == "docente/taller-pln"
-    with pytest.raises(SystemExit):
-        mod.parse("no es una url")
