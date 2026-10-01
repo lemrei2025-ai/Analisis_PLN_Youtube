@@ -15,6 +15,7 @@ El proyecto busca construir un modelo de PLN que prediga el desempeño de un vid
 | Documento | Para qué sirve |
 | --- | --- |
 | Este README | Paso a paso resumido, de principio a fin |
+| Notebooks `00_colab_inicio` y `01_eda` | Antes de cada celda de código explican qué hace, qué librerías y funciones usa, el valor de cada parámetro, la documentación oficial y qué cambiar para experimentar |
 | [Guía paso a paso](docs/guia_paso_a_paso.md) | Explicación detallada de cada paso, cómo interpretar los resultados, ejercicios y lecturas de consulta |
 | [Preguntas del taller](docs/taller_semana7.md) | Relación entre cada pregunta del taller y el reporte que la responde; matriz de mejoras para el informe |
 
@@ -163,7 +164,7 @@ Comparar el reporte de calidad de Kaggle con el de la API es la evidencia para r
 1. Abrir el enlace del **notebook de EDA** y guardar una copia en Drive (igual que en el paso 4).
 2. Ejecutar las celdas 1 y 2.
 3. En el formulario, cambiar `SOURCE` a `kaggle` (o `api`) y ejecutar el resto de celdas.
-4. El notebook genera el **diccionario de datos** (tipo, porcentaje de nulos, valores únicos y un ejemplo por columna) y las distribuciones de vistas, engagement y sentimiento.
+4. El notebook recorre el pipeline **etapa por etapa**: ingesta, diccionario de datos, validación, limpieza del texto, features por video, distribuciones, análisis estadísticos y modelos de referencia.
 5. Escribir las conclusiones del equipo en la última celda.
 
 ### Paso 13. Interpretar los resultados y mejorar los datos
