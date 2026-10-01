@@ -57,7 +57,9 @@ def _score(y_true, y_pred, clf: bool) -> dict:
     if clf:
         return {"accuracy": round(accuracy_score(y_true, y_pred), 4),
                 "f1_macro": round(f1_score(y_true, y_pred, average="macro"), 4)}
-    rho = stats.spearmanr(y_true, y_pred)[0] if np.std(y_pred) > 0 else 0.0
+    y_pred = np.asarray(y_pred, dtype=float)
+    constant = np.allclose(y_pred, y_pred[0])  # el dummy predice un valor constante
+    rho = 0.0 if constant else stats.spearmanr(y_true, y_pred)[0]
     return {"MAE": round(mean_absolute_error(y_true, y_pred), 4),
             "R2": round(r2_score(y_true, y_pred), 4),
             "spearman": round(float(rho), 4)}

@@ -107,3 +107,35 @@ def test_kaggle_credentials_detection(monkeypatch, tmp_path):
     assert not has_credentials()
     monkeypatch.setenv("KAGGLE_API_TOKEN", "x")
     assert has_credentials()
+
+
+def test_team_overrides_live_in_storage(tmp_path, monkeypatch):
+    from ytnlp import config
+
+    monkeypatch.setenv("YTNLP_STORAGE", str(tmp_path))
+    config.reload()
+    assert config.load_config()["target"] == "engagement"
+    saved = config.set_overrides(target="perf_class", api__max_comments_per_video=300)
+    assert saved == tmp_path / "config_equipo.yaml"
+    cfg = config.load_config()
+    assert cfg["target"] == "perf_class"
+    assert cfg["api"]["max_comments_per_video"] == 300
+    assert cfg["api"]["batch_size"] == 50  # el resto de la sección se conserva
+    with pytest.raises(KeyError):
+        config.set_overrides(no_existe=1)
+    config.reset_overrides()
+    assert config.load_config()["target"] == "engagement"
+    monkeypatch.delenv("YTNLP_STORAGE")
+    config.reload()
+
+
+def test_configurar_repo_script(tmp_path):
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location("cfg_repo", ROOT / "scripts/configurar_repo.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    assert mod.parse("docente/taller-pln") == "docente/taller-pln"
+    assert mod.parse("https://github.com/docente/taller-pln.git") == "docente/taller-pln"
+    with pytest.raises(SystemExit):
+        mod.parse("no es una url")

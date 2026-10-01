@@ -1,6 +1,9 @@
 """Utilidades para trabajar el proyecto desde Google Colab.
 
-Uso en la primera celda de cualquier notebook (después de clonar el repo):
+El código del taller se descarga en modo solo lectura; lo que produce cada equipo (datos,
+reportes y configuración) se guarda en Google Drive.
+
+Uso en la segunda celda de cualquier notebook (después de descargar el código):
 
     from ytnlp.colab import setup
     setup()                       # monta Drive, carga secretos, muestra el entorno
@@ -11,15 +14,14 @@ y no montan Drive, así que los notebooks corren igual en ambos entornos.
 
 from __future__ import annotations
 
-import base64
 import os
 import platform
 import subprocess
 from pathlib import Path
 
-from ytnlp.config import ROOT
+from ytnlp.config import ROOT, load_config, overrides_path, reload
 
-SECRETS = ("KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY", "YOUTUBE_API_KEY", "GITHUB_TOKEN")
+SECRETS = ("KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY", "YOUTUBE_API_KEY")
 DEFAULT_DRIVE_FOLDER = "MyDrive/ytnlp-proyecto"
 
 
@@ -98,44 +100,21 @@ def environment_summary() -> dict[str, str]:
 
 def setup(use_drive: bool = True, drive_folder: str = DEFAULT_DRIVE_FOLDER) -> dict:
     storage = mount_drive(drive_folder) if use_drive else None
+    reload()  # la configuración del equipo depende de la carpeta de Drive
     secrets = load_secrets()
     info = environment_summary()
     print("Entorno")
     for k, v in info.items():
         print(f"  {k:<17} {v}")
+    cfg = load_config()
+    origen = "config_equipo.yaml" if overrides_path().exists() else "base del taller"
+    print("Configuración")
+    print(f"  {'origen':<17} {origen}")
+    print(f"  {'target':<17} {cfg['target']}")
+    print(f"  {'comentarios/video':<17} {cfg['api']['max_comments_per_video']}")
     print("Secretos")
     for k, ok in secrets.items():
         print(f"  {k:<17} {'OK' if ok else 'falta'}")
     if use_drive and storage is None and in_colab():
         print("Aviso: Drive no se montó; los datos se perderán al cerrar la sesión.")
     return {"storage": storage, "secrets": secrets, **info}
-
-
-def git_push(message: str, branch: str = "main", name: str | None = None,
-             email: str | None = None) -> None:
-    """Hace commit y push al repositorio usando GITHUB_TOKEN sin guardarlo en disco.
-
-    El token debe ser un fine-grained token con permiso "Contents: Read and write"
-    sobre este repositorio. Solo se versiona código: los datos están en .gitignore.
-    """
-    token = os.getenv("GITHUB_TOKEN")
-    if not token:
-        raise RuntimeError("Falta el secreto GITHUB_TOKEN")
-    git = ["git", "-C", str(ROOT)]
-    if name:
-        subprocess.run([*git, "config", "user.name", name], check=True)
-    if email:
-        subprocess.run([*git, "config", "user.email", email], check=True)
-    subprocess.run([*git, "add", "-A"], check=True)
-    status = subprocess.run([*git, "status", "--porcelain"], capture_output=True, text=True)
-    if status.stdout.strip():
-        subprocess.run([*git, "commit", "-m", message], check=True)
-    auth = base64.b64encode(f"x-access-token:{token}".encode()).decode()
-    result = subprocess.run(
-        [*git, "-c", f"http.extraHeader=Authorization: Basic {auth}", "push", "origin", branch],
-        capture_output=True, text=True,
-    )
-    # Nunca imprimir el comando completo: contiene el token.
-    print(result.stdout or result.stderr.replace(token, "***"))
-    if result.returncode != 0:
-        raise RuntimeError("git push falló; revisar permisos del token y la rama")
